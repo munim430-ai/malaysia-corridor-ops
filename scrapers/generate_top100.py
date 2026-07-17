@@ -2,6 +2,7 @@
 """Generate TOP_100_TARGETS.md from companies database"""
 
 import sqlite3
+from datetime import datetime
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -57,7 +58,7 @@ def main():
     
     with open(OUTPUT, "w", encoding="utf-8") as f:
         f.write("# TOP 100 TARGET EMPLOYERS — Malaysia Corridor\n")
-        f.write("**Generated:** 2026-07-17 | **Source:** companies.db (203 companies)\n\n")
+        f.write(f"**Generated:** {datetime.now().strftime('%Y-%m-%d')} | **Source:** companies.db ({len(companies)} companies)\n\n")
         f.write("> **Priority Formula:** Sector fit (0-25) + Active demand (0-25) + Compliance pressure (0-20) + Scale (0-15) + Contactability (0-15)\n\n")
         
         # Tier 1
