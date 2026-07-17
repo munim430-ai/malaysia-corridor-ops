@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://malaysia-corridor-ops.github.io/malaysia-corridor-ops/sitemap.xml

@@ -1,0 +1,70 @@
+# Deploy to GitHub Pages
+name: Deploy Site & Run Scrapers
+
+on:
+  push:
+    branches: [main, master]
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly Sunday midnight
+  workflow_dispatch:  # Manual trigger
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  # Build and deploy the static site
+  deploy-site:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # Run scrapers weekly to update employer database
+  run-scrapers:
+    needs: deploy-site
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 lxml pandas
+      
+      - name: Run scraper
+        run: python scrapers/scraper_runner.py
+      
+      - name: Commit updated database
+        run: |
+          git config --global user.name 'Corridor Bot'
+          git config --global user.email 'bot@malaysia-corridor-ops'
+          git add data/companies.db data/companies.csv
+          git diff --staged --quiet || git commit -m "chore: weekly scraper update"
+          git push

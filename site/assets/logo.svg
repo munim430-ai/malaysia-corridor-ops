@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <rect width="200" height="60" rx="8" fill="#1a365d"/>
+  <text x="12" y="26" font-family="Arial, sans-serif" font-weight="700" font-size="14" fill="#d97706">MALAYSIA</text>
+  <text x="12" y="46" font-family="Arial, sans-serif" font-weight="700" font-size="14" fill="#ffffff">CORRIDOR</text>
+  <text x="12" y="56" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">OPS</text>
+  <circle cx="180" cy="18" r="10" fill="none" stroke="#d97706" stroke-width="2"/>
+  <path d="M176 18 L180 14 L184 18 L180 22Z" fill="#d97706"/>
+  <path d="M176 18 Q170 10 162 18" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.7"/>
+  <path d="M184 18 Q190 10 198 18" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.7"/>
+</svg>
