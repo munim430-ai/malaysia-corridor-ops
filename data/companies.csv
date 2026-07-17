@@ -1,506 +1,506 @@
-id,company_name,ssm_no,sector,subsector,state,city,address,website,phone,email,hr_contact,linkedin_url,employees_est,demand_signal,quota_signal,compliance_pressure,levy_tier,source_url,source_date,priority_score,notes,created_at
-1,Inari Amertron Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.inari-amertron.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46
-2,Unisem (M) Bhd,,Electrical & Electronics,,Perak,Ipoh,,https://www.unisemgroup.com,019-03-13,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46
-3,VS Industry Bhd,,Electrical & Electronics,,Johor,Senai,,https://www.vs-i.com,07259736-1,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46
-4,SKP Resources Bhd,,Electrical & Electronics,,Johor,Johor Bahru,,https://www.skp.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46
-5,Greatech Technology Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.greatech.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46
-6,Pentamaster Corp Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.pentamaster.com.my,089042565100,penta-online@pentamaster.com.my,penta-online@pentamaster.com.my,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46
-7,PIE Industrial Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.pieindustrial.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46
-8,KESM Industries Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.kesm.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47
-9,Globetronics Technology Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.globetronics.com.my,+604-6444906,corporate@globetronics.com.my,corporate@globetronics.com.my,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47
-10,Frontken Corp Bhd,,Electrical & Electronics,,Selangor,Shah Alam,,https://www.frontken.com,+60 3 7625 1381,ir@frontken.com,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47
-11,Top Glove Corp Bhd,,Rubber,,Selangor,Shah Alam,,https://www.topglove.com,+603-3362 3098,hr@topglove.com,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47
-12,Hartalega Holdings Bhd,,Rubber,,Selangor,Sepang,,https://www.hartalega.com.my,+603-3326 8668,career@hartalega.com.my,human.resource@hartalega.com.my,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47
-13,Kossan Rubber Industries Bhd,,Rubber,,Selangor,Klang,,https://www.kossan.com.my,+603-3321 2888,hr@kossan.com.my,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47
-14,Supermax Corp Bhd,,Rubber,,Selangor,Kuala Selangor,,https://www.supermax.com.my,+603-3342 8688,hr@supermax.com.my,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47
-15,Rubberex Corp Bhd,,Rubber,,Selangor,Petaling Jaya,,https://www.rubberex.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47
-16,Gamuda Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.gamuda.com.my,+603-2096 6000,hr@gamuda.com.my,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47
-17,IJM Corp Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.ijm.com,+603-7985 8888,career@ijm.com,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47
-18,Sunway Construction Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.sunwayconstruction.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47
-19,MRCB,,Construction,,Kuala Lumpur,KL,,https://www.mrcb.com,+603-2614 8000,career@mrcb.com,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47
-20,WCT Holdings Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.wct.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47
-21,Kimlun Corp Bhd,,Construction,,Johor,Johor Bahru,,https://www.kimlun.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47
-22,Hock Seng Lee Bhd,,Construction,,Sarawak,Kuching,,https://www.hsl.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47
-23,FGV Holdings Bhd,,Plantation,,Kuala Lumpur,KL,,https://www.fgv.com.my,+603-2789 0000,hr@fgv.com.my,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47
-24,Sime Darby Plantation Bhd,,Plantation,,Selangor,Petaling Jaya,,https://www.simedarbyplantation.com,+603-2087 7000,hr@simedarbyplantation.com,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47
-25,IOI Corp Bhd,,Plantation,,Putrajaya,Putrajaya,,https://www.ioigroup.com,+603-8947 8888,career@ioigroup.com,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47
-26,KL Kepong Bhd,,Plantation,,Selangor,Petaling Jaya,,https://www.klk.com.my,+603-7806 8000,hr@klk.com.my,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47
-27,Genting Plantations Bhd,,Plantation,,Kuala Lumpur,KL,,https://www.gentingplantations.com,+603-2333 1888,hr@gentingplantations.com,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47
-28,TSH Resources Bhd,,Plantation,,Selangor,Petaling Jaya,,https://www.tsh.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47
-29,Lii Hen Industries Bhd,,Furniture,,Melaka,Alor Gajah,,https://www.liihen.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47
-30,Latitude Tree Holdings Bhd,,Furniture,,Selangor,Rawang,,https://www.latitudetree.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47
-31,Homeritz Corp Bhd,,Furniture,,Johor,Muar,,https://www.homeritz.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47
-32,Poh Huat Resources Holdings Bhd,,Furniture,,Kedah,Kulim,,https://www.pohhuat.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47
-33,QL Resources Bhd,,Agriculture,,Penang,Bagan Serai,,https://www.ql.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Agriculture sector. Foreign worker likely.,2026-07-17 00:53:47
-34,CAB Cakaran Corp Bhd,,Agriculture,,Penang,Perai,,https://www.cabcakaran.com,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Agriculture sector. Foreign worker likely.,2026-07-17 00:53:47
-35,AEON (M) Bhd,,Retail,,Kuala Lumpur,KL,,https://www.aeonretail.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Retail sector. Foreign worker likely.,2026-07-17 00:53:47
-36,MR D.I.Y. Group (M) Bhd,,Retail,,Selangor,Kajang,,https://www.mrdiy.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Retail sector. Foreign worker likely.,2026-07-17 00:53:47
-37,99 Speed Mart Retail Holdings Bhd,,Retail,,Selangor,Klang,,https://www.99speedmart.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Retail sector. Foreign worker likely.,2026-07-17 00:53:47
-38,Mydin Mohamed Holdings Bhd,,Retail,,Kuala Lumpur,KL,,https://www.mydin.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Retail sector. Foreign worker likely.,2026-07-17 00:53:47
-39,Genting Malaysia Bhd,,Hospitality,,Kuala Lumpur,KL,,https://www.gentingmalaysia.com,+603-2718 1118,career@gentingmalaysia.com,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Hospitality sector. Foreign worker likely.,2026-07-17 00:53:47
-40,Berjaya Corp Bhd,,Hospitality,,Kuala Lumpur,KL,,https://www.berjaya.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Hospitality sector. Foreign worker likely.,2026-07-17 00:53:47
-41,D&O Green Technologies Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.dngreen.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47
-42,ATA IMS Bhd,,Electrical & Electronics,,Johor,Johor Bahru,,https://www.ata-ims.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47
-43,Uchi Technologies Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.uchi.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47
-44,Bosch Malaysia,,Electrical & Electronics,,Selangor,Shah Alam,,https://www.bosch.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47
-45,Micron Technology Malaysia,,Electrical & Electronics,,Penang,Batu Kawan,,https://www.micron.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47
-46,Careplus Group Bhd,,Rubber,,Negeri Sembilan,Seremban,,https://www.careplusgroup.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47
-47,Hap Seng Plantations Bhd,,Plantation,,Sabah,Tawau,,https://www.hapsengplantations.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47
-48,United Plantations Bhd,,Plantation,,Perak,Teluk Intan,,https://www.unitedplantations.com,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47
-49,Ta Ann Holdings Bhd,,Plantation,,Sarawak,Sibu,,https://www.taann.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47
-50,Sarawak Oil Palms Bhd,,Plantation,,Sarawak,Miri,,https://www.sop.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47
-51,Eurospan Holdings Bhd,,Furniture,,Johor,Muar,,https://www.eurospan.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47
-52,Jaycorp Bhd,,Furniture,,Johor,Muar,,https://www.jaycorp.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47
-53,Ekovest Bhd,,Construction,,Kuala Lumpur,KL,,https://www.ekovest.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47
-54,Kerjaya Prospek Group Bhd,,Construction,,Penang,Bayan Lepas,,https://www.kerjaya.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47
-55,TAHPS Group Bhd (formerly TA Global),,Construction,,Kuala Lumpur,KL,,https://www.tahps.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47
-56,Brahim's Holdings Bhd,,Agriculture,,Selangor,Shah Alam,,https://www.brahims.com,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Agriculture sector. Foreign worker likely.,2026-07-17 00:53:47
-57,Kim Loong Resources Bhd,,Plantation,,Johor,Muar,,https://www.kimloong.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47
-60,WRP Asia Pacific Sdn Bhd,,Manufacturing,,Selangor,,,,,,,,,,,CBP: Finding,RM1850,https://www.cbp.gov/trade/forced-labor/withhold-release-orders-and-findings,2026-07-17,100.0,US CBP enforcement action. High compliance pressure.,2026-07-17 00:53:52
-61,Palm oil sector - multiple companies,,Plantation,,Various,,,,,,,,,,,CBP: Multiple CBP forced labor findings,RM640,https://www.cbp.gov/trade/forced-labor/withhold-release-orders-and-findings,2026-07-17,100.0,US CBP enforcement action. High compliance pressure.,2026-07-17 00:53:52
-62,VS Industry Bhd,,Manufacturing,,Johor,,,,,,,,12000,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (12000+ est).,2026-07-17 00:53:52
-63,Inari Amertron Bhd,,E&E,,Penang,,,,,,,,8000,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (8000+ est).,2026-07-17 00:53:52
-64,Unisem (M) Bhd,,E&E,,Perak,,,,,,,,5000,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (5000+ est).,2026-07-17 00:53:52
-65,FGV Holdings Bhd,,Plantation,,KL,,,,+603-2789 0000,hr@fgv.com.my,,,20000,,,,RM640,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (20000+ est).,2026-07-17 00:53:52
-73,Genting Malaysia Bhd,,Hospitality,,KL,,,,+603-2718 1118,career@gentingmalaysia.com,,,10000,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (10000+ est).,2026-07-17 00:53:52
-75,AEON (M) Bhd,,Retail,,KL,,,,,,,,6000,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (6000+ est).,2026-07-17 00:53:52
-79,Genting Plantations Bhd,,Plantation,,KL,,,,+603-2333 1888,hr@gentingplantations.com,,,8000,,,,RM640,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (8000+ est).,2026-07-17 00:53:52
-80,PIE Industrial Bhd,,E&E,,Penang,,,,,,,,4000,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (4000+ est).,2026-07-17 00:53:52
-81,SKP Resources Bhd,,Manufacturing,,Johor,,,,,,,,5000,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (5000+ est).,2026-07-17 00:53:52
-82,AIC Semiconductor Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.aicsemi.com,0260617113147,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-83,Acutronic Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.acutronic.com,011-2020,aus@acutronic.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-84,Align Technology Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.aligntech.com,087-9574-76935,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-85,BE Semiconductor Malaysia Sdn Bhd,,E&E,,Penang,Batu Kawan,,https://www.besi.com,012866412-,info@proudnerds.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-86,Bose Systems Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.bose.com,0897226,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-87,Bruker Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.bruker.com,0520904242,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-88,Clover Electronics Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.clover.com.my,,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-89,Dell Global Business Center Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.dell.com,013 6 6 1,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-90,Dyson Manufacturing Sdn Bhd,,E&E,,Johor,Senai,,https://www.dyson.com,05478349583,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-91,Flextronics Technology (M) Sdn Bhd,,E&E,,Johor,Johor Bahru,,https://www.flextronics.com,026-07-09,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-92,Hewlett Packard (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.hp.com,07-2026 08,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-93,Hitachi Global Storage Technologies,,E&E,,Selangor,Petaling Jaya,,https://www.hitachi.com,025-03-04,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-94,Hong Leong Group,,Manufacturing,,Kuala Lumpur,KL,,https://www.hongleong.com,024-08-26,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-95,Intel Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.intel.com,,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52
-96,Jabil Circuit Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.jabil.com,04277 196,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-97,Keysight Technologies Malaysia,,E&E,,Penang,Bayan Lepas,,https://www.keysight.com,071960064,usa_orders@keysight.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-98,Lam Research Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.lamresearch.com,025-11-04,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-99,Lattice Semiconductor Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.latticesemi.com,08767481924,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-100,Mitsumi Electric Sdn Bhd,,E&E,,Selangor,Shah Alam,,https://www.mitsumi.com,,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-101,NXP Semiconductor Sdn Bhd,,E&E,,Selangor,Petaling Jaya,,https://www.nxp.com,,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-102,Olympus Electronic Components Sdn Bhd,,E&E,,Sarawak,Kuching,,https://www.olympus.com,0241028,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-103,ON Semiconductor Malaysia Sdn Bhd,,E&E,,Selangor,Petaling Jaya,,https://www.onsemi.com,,contactsupport@onsemi.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-104,Osram Opto Semiconductors (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.osram.com,078603491,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-105,Plexus Manufacturing Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.plexus.com,025-12-17,roger.davidson@americaneagle.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-106,Renesas Semiconductor KL Sdn Bhd,,E&E,,Kuala Lumpur,KL,,https://www.renesas.com,07749-075,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-107,Robert Bosch Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.bosch.com.my,012-4856-4,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-108,Seagate Technology Malaysia,,E&E,,Penang,Bayan Lepas,,https://www.seagate.com,0354627 18,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-109,Siliconware Precision Industries (M),,E&E,,Penang,Bayan Lepas,,https://www.spil.com.my,,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-110,Texas Instruments Malaysia Sdn Bhd,,E&E,,Selangor,Petaling Jaya,,https://www.ti.com,026-06-30 09,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-111,Western Digital (M) Sdn Bhd,,E&E,,Selangor,Petaling Jaya,,https://www.westerndigital.com,026-05-14-,PDL-Web-IT-Monitoring@wdc.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-112,Venture Electronics Services (M),,E&E,,Penang,Bayan Lepas,,https://www.venture.com.sg,,contact-us@venture.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53
-124,Boustead Plantations Bhd,,Plantation,,Kuala Lumpur,KL,,https://www.bousteadplantations.com,,,,,6000,,,CBP forced labor scrutiny on palm oil,RM640/yr,https://www.mpob.gov.my/,2026-07-17,95.0,Plantation - large foreign workforce (~6000). RM640 levy tier.,2026-07-17 00:53:53
-125,Kulim (M) Bhd,,Plantation,,Johor,Johor Bahru,,https://www.kulim.com.my,062316894531,info@kulim.com.my,info@kulim.com.my,,4000,,,CBP forced labor scrutiny on palm oil,RM640/yr,https://www.mpob.gov.my/,2026-07-17,95.0,Plantation - large foreign workforce (~4000). RM640 levy tier.,2026-07-17 00:53:53
-126,IJM Plantations Bhd,,Plantation,,Selangor,Petaling Jaya,,https://www.ijmplantations.com.my,,,,,3000,,,CBP forced labor scrutiny on palm oil,RM640/yr,https://www.mpob.gov.my/,2026-07-17,95.0,Plantation - large foreign workforce (~3000). RM640 levy tier.,2026-07-17 00:53:53
-127,TH Plantations Bhd,,Plantation,,Kuala Lumpur,KL,,https://www.thplantations.com.my,,,,,3000,,,CBP forced labor scrutiny on palm oil,RM640/yr,https://www.mpob.gov.my/,2026-07-17,95.0,Plantation - large foreign workforce (~3000). RM640 levy tier.,2026-07-17 00:53:53
-137,TAHPS Group Bhd,,Construction,,Kuala Lumpur,KL,,https://www.tahps.com,,,,,1000,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-138,MTD Group,,Construction,,Kuala Lumpur,KL,,https://www.mtdgroup.com,,,,,2000,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-139,Mahanagroup,,Construction,,Kuala Lumpur,KL,,https://www.mahanagroup.com,,,,,1000,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-140,UEM Group Bhd,,Construction,,Kuala Lumpur,KL,,https://www.uem.com.my,,,,,3000,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-141,Pembinaan Kuantiti Sdn Bhd,,Construction,,Selangor,Shah Alam,,,,,,,500,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-142,Pembinaan Yap Sin Sdn Bhd,,Construction,,Selangor,Klang,,,,,,,500,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-143,Bina Puri Holdings Bhd,,Construction,,Kuala Lumpur,KL,,https://www.binapuri.com,,,,,1000,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-144,Hock Heng Seng Construction,,Construction,,Johor,Johor Bahru,,,,,,,500,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-145,Loh & Loh Construction Bhd,,Construction,,Kuala Lumpur,KL,,https://www.lohloh.com,,,,,1000,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-146,Muhibbah Engineering (M) Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.muhibbah.com,,,,,1000,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-147,HSL Engineering,,Construction,,Sarawak,Kuching,,,,,,,500,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-148,Pintaras Jaya Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.pintaras.com.my,,,,,800,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-149,GDB Holdings Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.gdb.com.my,,,,,800,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-150,AZRB Bhd,,Construction,,Kuala Lumpur,KL,,https://www.azrb.com.my,,,,,500,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-151,TRC Synergy Bhd,,Construction,,Kuala Lumpur,KL,,https://www.trc.com.my,,,,,500,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-152,Perak Transit Bhd,,Construction,,Perak,Ipoh,,https://www.peraktransit.com,,,,,300,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54
-159,The Store Corp Bhd,,Retail,,Selangor,Shah Alam,,,,,,,2000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-160,Parkson Holdings Bhd,,Retail,,Kuala Lumpur,KL,,https://www.parkson.com.my,,,,,3000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-161,Padini Holdings Bhd,,Retail,,Selangor,Petaling Jaya,,https://www.padini.com,,,,,2000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-162,B.I.G. (Ben's Independent Grocer),,Retail,,Selangor,Petaling Jaya,,https://www.big.com.my,,,,,1000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-163,Lotus's Malaysia (formerly Tesco),,Retail,,Selangor,Petaling Jaya,,https://www.lotusstores.my,,,,,5000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-164,Econsave Cash & Carry Sdn Bhd,,Retail,,Selangor,Klang,,https://www.econsave.com.my,,,,,2000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-165,KK Supermart & Superstore Sdn Bhd,,Retail,,Kuala Lumpur,KL,,https://www.kksupermart.com,,,,,3000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-166,Resorts World Langkawi,,Hospitality,,Kedah,Langkawi,,https://www.rwlangkawi.com,,,,,1000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Hospitality. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-167,Hilton Malaysia,,Hospitality,,Various,Various,,https://www.hilton.com,,,,,2000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Hospitality. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-168,Marriott International Malaysia,,Hospitality,,Various,Various,,https://www.marriott.com,,,,,2000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Hospitality. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-169,Cleaning Service Management Sdn Bhd,,Services,,Selangor,Petaling Jaya,,,,,,,3000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Services. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-170,UCS Cleaning Services,,Services,,Selangor,Shah Alam,,,,,,,2000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Services. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-171,Securiforce Sdn Bhd,,Security,,Kuala Lumpur,KL,,,,,,,2000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Security. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-172,Securexpert Sdn Bhd,,Security,,Selangor,Petaling Jaya,,,,,,,1500,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Security. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-173,ADT Securitas,,Security,,Selangor,Petaling Jaya,,,,,,,1000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Security. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-174,Gardaworld Malaysia,,Security,,Selangor,Petaling Jaya,,https://www.garda.com,,,,,2000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Security. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-175,Mah Sing Group (Platinum Sentral),,Property,,Kuala Lumpur,KL,,https://www.mahsing.com,,,,,500,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Property. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-176,Sp Setia Bhd,,Property,,Selangor,Shah Alam,,https://www.spsetia.com,,,,,1000,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Property. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-177,Eco World Development Group,,Property,,Selangor,Petaling Jaya,,https://www.ecoworld.com.my,,,,,500,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Property. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54
-178,Advanced Interconnect Technologies Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-179,Advanced Micro Devices (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-180,Agilent Technologies Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-181,Altera Corp (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-182,Avago Technologies (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-183,Bosch Global Software Technologies,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-184,Broadcom Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-185,Clare Electronics Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-186,Cypress Semiconductor Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-187,Fairchild Semiconductor Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-188,Flexronics Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-189,Infineon Technologies (Kulim),,E&E,,Kedah,Kulim,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-190,Intel Microelectronics (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-191,JinkoSolar Technology Sdn Bhd,,E&E,,Kedah,Kulim,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-192,KLA-Tencor (Malaysia) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-193,Lumentum Operations Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-194,Marvell Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-195,Motorola Solutions Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-196,National Instruments Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-197,Nidec Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-198,Nordson Electronics Solutions,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-199,Paramit Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-200,Rohm-Wako Electronics (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-201,Sanken Electric (M) Sdn Bhd,,E&E,,Selangor,Shah Alam,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-202,Shinko Electric Industries (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-203,TDK Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-204,Teradyne (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-205,Universal Instruments (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-206,Vitrox Corp Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-207,X-FAB Semiconductor Foundries,,E&E,,Sarawak,Kuching,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54
-208,Celestica Malaysia Sdn Bhd,,E&E,,Johor,Senai,,,,,,,,,,,"RM1,850/yr",Johor industrial zones,2026-07-17,75.0,E&E in Johor industrial zone.,2026-07-17 00:53:54
-210,Sanmina Malaysia Sdn Bhd,,E&E,,Johor,Johor Bahru,,,,,,,,,,,"RM1,850/yr",Johor industrial zones,2026-07-17,75.0,E&E in Johor industrial zone.,2026-07-17 00:53:54
-211,Kitacon Group Bhd,,Construction,,Johor,Johor Bahru,,,,,,,,,,,"RM1,850/yr",Johor industrial zones,2026-07-17,75.0,Construction in Johor industrial zone.,2026-07-17 00:53:54
-213,Liemy Corp Bhd,,Construction,,Johor,Johor Bahru,,,,,,,,,,,"RM1,850/yr",Johor industrial zones,2026-07-17,75.0,Construction in Johor industrial zone.,2026-07-17 00:53:54
-214,PCB Factory (various),,Manufacturing,,Johor,Pasir Gudang,,,,,,,,,,,"RM1,850/yr",Johor industrial zones,2026-07-17,75.0,Manufacturing in Johor industrial zone.,2026-07-17 00:53:54
-215,Prestige Pillar Industries Sdn Bhd,,Manufacturing,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54
-216,Eonmetall Group Bhd,,Manufacturing,,Kedah,Kulim,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54
-217,YNH Property Bhd,,Construction,,Kuala Lumpur,KL,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Construction. Likely uses foreign workers.,2026-07-17 00:53:54
-218,Talam Transform Bhd,,Construction,,Kuala Lumpur,KL,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Construction. Likely uses foreign workers.,2026-07-17 00:53:54
-219,Java Corp Bhd,,Manufacturing,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54
-220,Ho Wah Genting Bhd,,Manufacturing,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54
-221,POH Packaging (M) Sdn Bhd,,Manufacturing,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54
-222,Kian Joo Can Factory Bhd,,Manufacturing,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54
-223,Malayan Flour Mills Bhd,,Agriculture,,Selangor,Petaling Jaya,,,,,,,,,,,RM640/yr,SME Corp / SSM directory,2026-07-17,50.0,SME - Agriculture. Likely uses foreign workers.,2026-07-17 00:53:54
-224,PLB Engineering Bhd,,Construction,,Penang,Butterworth,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Construction. Likely uses foreign workers.,2026-07-17 00:53:54
-225,Minply Holdings (M) Sdn Bhd,,Furniture,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54
-226,Choo Bee Metal Industries Bhd,,Manufacturing,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54
-227,Mieco Chipboard Bhd,,Furniture,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54
-228,Evergreen Fibreboard Bhd,,Furniture,,Johor,Batu Pahat,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54
-229,Daibochi Plastic & Packaging,,Manufacturing,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54
-230,Kossan Precision Components,,Manufacturing,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54
-231,Leong Hup International Bhd,,Agriculture,,Selangor,Petaling Jaya,,,,,,,,,,,RM640/yr,SME Corp / SSM directory,2026-07-17,50.0,SME - Agriculture. Likely uses foreign workers.,2026-07-17 00:53:54
-232,Teo Guan Lee Corp Bhd,,Manufacturing,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54
-233,Tiong Nam Logistics Holdings Bhd,,Services,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Services. Likely uses foreign workers.,2026-07-17 00:53:54
-234,CSC Steel Holdings Bhd,,Manufacturing,,Selangor,Petaling Jaya,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54
-235,LBS Bina Group Bhd,,Construction,,Selangor,Petaling Jaya,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Construction. Likely uses foreign workers.,2026-07-17 00:53:54
-236,Lingkaran Trans Kota Holdings Bhd,,Services,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Services. Likely uses foreign workers.,2026-07-17 00:53:54
-237,Amaya Made Sdn Bhd,,Furniture,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54
-238,Sin Kee Furniture Sdn Bhd,,Furniture,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54
-239,Hock Tong Furniture Sdn Bhd,,Furniture,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54
-240,Quality Furniture (M) Sdn Bhd,,Furniture,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54
-241,Shin Yang Furniture Sdn Bhd,,Furniture,,Sarawak,Kuching,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54
-242,Maju Furniture Industries Sdn Bhd,,Furniture,,Selangor,Seremban,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54
-243,Thessa Furniture Sdn Bhd,,Furniture,,Johor,Batu Pahat,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54
-244,Kian Furniture Industries Sdn Bhd,,Furniture,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54
-245,Pos Malaysia Bhd,,Services,logistics,KL,,,www.pos.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:04
-246,Tiong Nam Logistics Holdings,,Services,logistics,Selangor,,,www.tiongnam.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-247,GD Express (GDEX) Bhd,,Services,logistics,Selangor,,,www.gdexpress.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-248,CJ Century Logistics Holdings,,Services,logistics,Selangor,,,www.cjcentury.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-249,Tasco Bhd,,Services,logistics,KL,,,www.tasco.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-250,FM Global Logistics,,Services,logistics,KL,,,www.fmglobal.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-251,ITL Bhd,,Services,logistics,KL,,,www.itl.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-252,MMC Port Holdings,,Services,logistics,KL,,,www.mmcport.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-253,Northport (M) Bhd,,Services,logistics,Selangor,,,www.northport.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-254,Westports Holdings Bhd,,Services,logistics,Selangor,,,www.westports.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-255,Bintulu Port Holdings,,Services,logistics,Sarawak,,,www.bintuluport.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-256,Suria KLCC,,Services,property,KL,,,www.suriaklcc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-257,KLCC Holdings,,Services,property,KL,,,www.klcc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-258,Shangri-La Hotels (M) Sdn Bhd,,Hospitality,hotels,KL,,,www.shangri-la.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-259,InterContinental KL,,Hospitality,hotels,KL,,,www.ihg.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-260,The Ritz-Carlton KL,,Hospitality,hotels,KL,,,www.ritzcarlton.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-261,Berjaya Hotels & Resorts,,Hospitality,resorts,KL,,,www.berjayahotel.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-262,YTL Hotels & Properties,,Hospitality,resorts,KL,,,www.ytlhotels.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-263,Tanjung Aru Development,,Hospitality,resorts,Sabah,,,www.tanjungaru.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-264,Resorts World Genting,,Hospitality,resorts,Pahang,,,www.rwgenting.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-265,UEM Edgenta Bhd,,Services,facilities,KL,,,www.uemedgenta.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-266,Radicare (M) Sdn Bhd,,Services,cleaning,KL,,,www.radicare.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-267,Sedafiat Sdn Bhd,,Services,cleaning,KL,,,www.sedafiat.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-268,Tunas Manja Sdn Bhd,,Services,cleaning,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-269,ILBS Sdn Bhd,,Services,facilities,KL,,,www.ilbs.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05
-270,Securexcel Sdn Bhd,,Security,guard,Selangor,,,www.securexcel.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:12:05
-271,Guardforce Malaysia,,Security,guard,KL,,,www.guardforce.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:12:05
-272,7 Days Security Sdn Bhd,,Security,guard,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:12:05
-273,Wan SH Sam Security,,Security,guard,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:12:05
-274,Bengkel Sekuriti Sdn Bhd,,Security,guard,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:12:05
-275,Malaysian Pacific Industries,,Manufacturing,semiconductor,Penang,,,www.mpi.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:05
-276,Carlo Rino Group Bhd,,Manufacturing,fashion,KL,,,www.carlorino.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:05
-277,Hup Seng Industries Bhd,,Manufacturing,food,Johor,,,www.hupseng.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:05
-278,Tradewinds Plantation Bhd,,Plantation,palm_oil,Selangor,,,www.tradewinds.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:05
-279,Chin Teck Plantations Bhd,,Plantation,palm_oil,Perak,,,www.chinteck.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:05
-280,Teck Guan Perdana Bhd,,Plantation,palm_oil,Sabah,,,www.teckguan.com,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:05
-281,Kim Loong Construction,,Construction,building,Penang,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05
-282,Setia Awan Jihad Sdn Bhd,,Construction,infrastructure,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05
-283,KHG (M) Bhd,,Agriculture,aquaculture,Penang,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05
-284,Leong Hup International,,Agriculture,poultry,Selangor,,,www.leonghup.com,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05
-285,Teo Seng Capital Bhd,,Agriculture,poultry,Perak,,,www.teoseng.com.my,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05
-286,Fima Corp Bhd,,Agriculture,plantation,KL,,,www.fima.com.my,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05
-287,AEMulus Holdings Bhd,,Manufacturing,electronics,Penang,,,www.aemulus.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-288,K. Seng Seng Corp Bhd,,Manufacturing,metal,Johor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-289,Luster Industries Bhd,,Manufacturing,plastics,Selangor,,,www.luster.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-290,Dufu Technology Corp Bhd,,Manufacturing,precision,Penang,,,www.dufu.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-291,P.A. Resources Bhd,,Manufacturing,metal,Johor,,,www.paresources.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-292,Suiwah Corp Bhd,,Manufacturing,furniture,Johor,,,www.suiwah.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-293,Poh Huat Resources Bhd,,Manufacturing,furniture,Johor,,,www.pohhuat.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-294,Poh Kong Holdings Bhd,,Manufacturing,jewellery,Selangor,,,www.pohkong.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-295,Tomei Consolidated Bhd,,Manufacturing,jewellery,KL,,,www.tomei.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-296,Bonia Corp Bhd,,Manufacturing,fashion,KL,,,www.bonia.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-297,Magna Prima Bhd,,Manufacturing,fashion,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-298,Comfort Gloves Bhd,,Rubber,gloves,Perak,,,www.comfortgloves.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:12:59
-299,Guan Chong Bhd,,Manufacturing,food,Johor,,,www.guanchong.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-300,Oriental Food Industries,,Manufacturing,food,Johor,,,www.ofi.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-301,Kawan Food Bhd,,Manufacturing,food,Selangor,,,www.kawanfood.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-302,Ajinomoto (M) Bhd,,Manufacturing,food,KL,,,www.ajinomoto.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-303,Nestle (M) Bhd,,Manufacturing,food,Selangor,,,www.nestle.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-304,F&N Holdings Bhd,,Manufacturing,beverages,KL,,,www.fn.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-305,Carlsberg Brewery M'sia,,Manufacturing,beverages,Selangor,,,www.carlsberg.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-306,Heineken Malaysia Bhd,,Manufacturing,beverages,Selangor,,,www.heinekenmalaysia.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-307,Dutch Lady Milk Industries,,Manufacturing,dairy,Selangor,,,www.dutchlady.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-308,Fraser & Neave Holdings,,Manufacturing,beverages,KL,,,www.fn.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-309,Spritzer Bhd,,Manufacturing,beverages,Perak,,,www.spritzer.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-310,Power Root Bhd,,Manufacturing,beverages,Johor,,,www.powerroot.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-311,AHB Holdings Bhd,,Manufacturing,furniture,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-312,Lingui Developments Bhd,,Manufacturing,wood,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-313,WTK Holdings Bhd,,Manufacturing,wood,Sarawak,,,www.wtk.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-314,Subur Tiasa Holdings Bhd,,Manufacturing,wood,Sarawak,,,www.suburtiasa.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-315,Jaya Tiasa Holdings Bhd,,Manufacturing,wood,Sarawak,,,www.jayatiasa.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-316,Mudajaya Group Bhd,,Construction,building,Selangor,,,www.mudajaya.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-317,MTD ACPI Engineering Bhd,,Construction,infrastructure,KL,,,www.mtdacpi.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-318,Gadang Holdings Bhd,,Construction,building,KL,,,www.gadang.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-319,Mitrajaya Holdings Bhd,,Construction,building,KL,,,www.mitrajaya.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-320,Zelan Bhd,,Construction,infrastructure,KL,,,www.zelan.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-321,Naim Holdings Bhd,,Construction,building,Sarawak,,,www.naim.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-322,Sarawak Consolidated,,Construction,building,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-323,Petronas Chemicals Group,,Manufacturing,chemicals,KL,,,www.petronas.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-324,Lotte Chemical Titan,,Manufacturing,chemicals,Johor,,,www.lottechem.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-325,Press Metal Aluminium,,Manufacturing,metal,Sarawak,,,www.pressmetal.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-326,Southern Steel Bhd,,Manufacturing,metal,Penang,,,www.southernsteel.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-327,Malaysia Steel Works,,Manufacturing,metal,Selangor,,,www.masteel.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-328,Ann Joo Resources Bhd,,Manufacturing,metal,Penang,,,www.annjoo.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-329,Choo Bee Metal Industries,,Manufacturing,metal,Selangor,,,www.choobee.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-330,Lion Industries Corp,,Manufacturing,metal,KL,,,www.lionind.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-331,CSC Steel Holdings,,Manufacturing,metal,Selangor,,,www.cscsteel.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-332,Sri Neringa Sdn Bhd,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59
-333,Sawit Kinabalu Sdn Bhd,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59
-334,Kretam Holdings Bhd,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59
-335,Global Palm Resources,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59
-336,Able Global Bhd,,Plantation,palm_oil,Perak,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59
-337,Menggatal Plantation S/B,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59
-338,Rimbunan Sawit Bhd,,Plantation,palm_oil,Sarawak,,,www.rimbunan.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59
-339,Boustead Holdings Bhd,,Retail,trading,KL,,,www.boustead.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:12:59
-340,Hap Seng Consolidated,,Retail,trading,KL,,,www.hapseng.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:12:59
-341,MCT Bhd,,Retail,property,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:12:59
-342,Eco World Development,,Construction,property,KL,,,www.ecoworld.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-343,Mah Sing Group Bhd,,Construction,property,KL,,,www.mahsing.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-344,UEM Sunrise Bhd,,Construction,property,KL,,,www.uemsunrise.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-345,SP Setia Bhd,,Construction,property,KL,,,www.spsetia.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-346,IOI Properties Group,,Construction,property,Selangor,,,www.ioiproperties.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-347,Sunway Bhd,,Construction,property,Selangor,,,www.sunway.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-348,Dorsett Hospitality International,,Hospitality,hotels,KL,,,www.dorsett.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-349,KSL Holdings Bhd,,Hospitality,resorts,Johor,,,www.ksl.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-350,Magnum Bhd,,Hospitality,leisure,KL,,,www.magnum.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-351,Landmarks Bhd,,Hospitality,resorts,KL,,,www.landmarks.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-352,Talisman Hospitality,,Hospitality,hotels,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-353,Thong Guan Industries,,Manufacturing,plastics,Penang,,,www.thongguan.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-354,SCGM Bhd,,Manufacturing,packaging,Johor,,,www.scgm.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-355,BP Plastics Holding Bhd,,Manufacturing,packaging,Johor,,,www.bppplastics.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-356,Mega First Corp Bhd,,Manufacturing,packaging,Selangor,,,www.megafirst.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-357,Kian Joo Can Factory,,Manufacturing,packaging,Selangor,,,www.kianjoo.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-358,UWC Bhd,,E&E,precision,Penang,,,www.uwc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:12:59
-359,Econpile Holdings Bhd,,Construction,foundation,KL,,,www.econpile.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59
-360,Sam Engineering & Equipment,,Manufacturing,aerospace,Penang,,,www.sammee.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-361,Engtex Group Bhd,,Manufacturing,metal,Selangor,,,www.engtex.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-362,HSS Engineers Bhd,,Services,engineering,KL,,,www.hsseng.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-363,IJM Land Bhd,,Services,property,Selangor,,,www.ijmland.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-364,Karex Bhd,,Manufacturing,healthcare,Selangor,,,www.karex.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-365,Dayang Enterprise Holdings,,Services,oil_gas,Sarawak,,,www.dayang.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-366,Deleum Bhd,,Services,oil_gas,Sarawak,,,www.deleum.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-367,Carimin Petroleum Bhd,,Services,oil_gas,KL,,,www.carimin.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-368,Barakah Offshore Petroleum,,Services,oil_gas,KL,,,www.barakah.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-369,Sapura Energy Bhd,,Services,oil_gas,KL,,,www.sapuraenergy.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-370,Velesto Energy Bhd,,Services,oil_gas,KL,,,www.velesto.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-371,Dialog Group Bhd,,Services,oil_gas,KL,,,www.dialogasia.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-372,Serba Dinamik Holdings,,Services,oil_gas,Selangor,,,www.serbadinamik.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59
-373,OldTown White Coffee,,Manufacturing,food,Perak,,,www.oldtown.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-374,Tealive / Loob Holdings,,Manufacturing,beverages,Selangor,,,www.tealive.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-375,ZUS Coffee,,Manufacturing,beverages,Selangor,,,www.zuscoffee.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-376,Secret Recipe Cakes & Cafe,,Manufacturing,food,Selangor,,,www.secretrecipe.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-377,Mamee-Double Decker Bhd,,Manufacturing,food,Malacca,,,www.mamee.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-378,Apollo Food Holdings Bhd,,Manufacturing,food,Johor,,,www.apollo.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-379,Khee San Bhd,,Manufacturing,food,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-380,Edaran Bhd,,Manufacturing,food,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59
-381,UMW Holdings Bhd,,Manufacturing,automotive,Selangor,,,www.umw.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-382,MBM Resources Bhd,,Manufacturing,automotive,KL,,,www.mbmr.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-383,APM Automotive Holdings,,Manufacturing,automotive,Selangor,,,www.apm.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-384,Thong Guan Industries Bhd,,Manufacturing,packaging,Penang,,,www.thongguan.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-385,GSDL Logistics Sdn Bhd,,Services,logistics,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-386,Swift Haulage Bhd,,Services,logistics,Selangor,,,www.swift-haulage.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-387,Warisan TC Holdings Bhd,,Manufacturing,industrial,KL,,,www.warisantc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-388,Lingkaran Trans Kota Holdings,,Services,infrastructure,KL,,,www.litrak.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-389,Puncak Niaga Holdings Bhd,,Services,utilities,Selangor,,,www.puncakniaga.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-390,Salcon Bhd,,Services,utilities,KL,,,www.salcon.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-391,Taliworks Corp Bhd,,Services,utilities,KL,,,www.taliworks.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-392,YTL Corp Bhd,,Services,utilities,KL,,,www.ytl.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-393,Tenaga Nasional Bhd,,Services,utilities,KL,,,www.tnb.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-394,Malakoff Corp Bhd,,Services,utilities,KL,,,www.malakoff.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-395,Kimly Construction Sdn Bhd,,Construction,building,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-396,Citra Nusa Holdings Bhd,,Manufacturing,industrial,Johor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-397,Metronic Global Bhd,,Manufacturing,electronics,KL,,,www.metronic.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-398,Haily Group Bhd,,Construction,building,Johor,,,www.haily.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-399,ILB Group Bhd,,Manufacturing,industrial,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-400,Bina Darulaman Bhd,,Construction,infrastructure,Kedah,,,www.bdb.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-401,Kumpulan Perangsang Selangor,,Services,holding,Selangor,,,www.kps.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-402,JAKS Resources Bhd,,Construction,infrastructure,KL,,,www.jaks.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-403,Pestech International Bhd,,Services,engineering,Selangor,,,www.pestech.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-404,KNM Group Bhd,,Manufacturing,industrial,Selangor,,,www.knm.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-405,RGB International Bhd,,Manufacturing,electronics,KL,,,www.rgbint.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-406,Mycron Steel Bhd,,Manufacturing,metal,Selangor,,,www.mycronsteel.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-407,Sinergia Perdana Bhd,,Manufacturing,plastics,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-408,Flowerbase Hospitality,,Hospitality,hotels,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-409,Philea Resort Sdn Bhd,,Hospitality,resorts,Malacca,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-410,A'Famosa Resort Sdn Bhd,,Hospitality,resorts,Malacca,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-411,Avillion Hotel Group,,Hospitality,hotels,Selangor,,,www.avillion.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-412,Hotel Equatorial Malaysia,,Hospitality,hotels,KL,,,www.equatorial.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-413,The Andaman Resort,,Hospitality,resorts,Kedah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-414,Datai Bay Resort,,Hospitality,resorts,Kedah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-415,Four Seasons Resort Langkawi,,Hospitality,resorts,Kedah,,,www.fourseasons.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-416,St Regis KL,,Hospitality,hotels,KL,,,www.marriott.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-417,TDM Bhd,,Plantation,palm_oil,Terengganu,,,www.tdm.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36
-418,NPC Resources Bhd,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36
-419,Willowglen MSC Bhd,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36
-420,Lim Plantation Sdn Bhd,,Plantation,palm_oil,Selangor,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36
-421,Bukit Katil Estate S/B,,Plantation,palm_oil,Malacca,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36
-422,Pertama Plantation Sdn Bhd,,Plantation,palm_oil,Perak,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36
-423,Mukah Plantation Sdn Bhd,,Plantation,palm_oil,Sarawak,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36
-424,Borneo Pulp & Paper S/B,,Manufacturing,paper,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-425,KUB Malaysia Bhd,,Services,agribusiness,KL,,,www.kub.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-426,Saliran Group Bhd,,Construction,infrastructure,Sabah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-427,Hock Hin Bros Sdn Bhd,,Construction,building,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-428,Wee Hur Construction S/B,,Construction,building,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-429,Sri Aman Construction,,Construction,building,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-430,WCT Land Sdn Bhd,,Construction,property,Sabah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-431,Sime Darby Animal Nutrition,,Agriculture,feed,Selangor,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-432,Dinding Poultry Farm S/B,,Agriculture,poultry,Perak,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-433,Tenaga Berjaya Sdn Bhd,,Agriculture,aquaculture,Selangor,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-434,Sea Horse Fish Farm S/B,,Agriculture,aquaculture,Johor,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-435,Green World Genetics S/B,,Agriculture,seeds,Kedah,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-436,AYS Ventures Bhd,,Construction,materials,KL,,,www.ays.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36
-437,Hiap Teck Venture Bhd,,Manufacturing,metal,Penang,,,www.hiaptek.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-438,Leader Steel Holdings Bhd,,Manufacturing,metal,Penang,,,www.leadersteel.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-439,Kim Hin Industry Bhd,,Manufacturing,ceramics,Sarawak,,,www.kimhin.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-440,Guocera Bhd,,Manufacturing,ceramics,Selangor,,,www.guocera.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-441,Chin Well Holdings Bhd,,Manufacturing,fasteners,Penang,,,www.chinwell.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-442,SYF Resources Bhd,,Manufacturing,furniture,Perak,,,www.syf.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-443,PGF Capital Bhd,,Manufacturing,insulation,Selangor,,,www.pgf.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36
-444,TF Value-Mart Sdn Bhd,,Retail,hypermarket,Johor,,,www.tfvaluemart.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36
-445,Lotus's Malaysia,,Retail,hypermarket,KL,,,www.lotuss.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36
-446,Village Grocer,,Retail,supermarket,Selangor,,,www.villagegrocer.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36
-447,Jaya Grocer,,Retail,supermarket,Selangor,,,www.jayagrocer.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36
-448,Hero Market Sdn Bhd,,Retail,supermarket,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36
-449,Pasaraya OTK Sdn Bhd,,Retail,supermarket,Perak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36
-450,Billion Supermarket S/B,,Retail,supermarket,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36
-451,Hock Lee Supermarket,,Retail,supermarket,Sabah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36
-452,Servay Hypermarket,,Retail,hypermarket,Sabah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36
-453,Panasonic Manufacturing M'sia,,E&E,electronics,Selangor,,,www.panasonic.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36
-454,Samsung Malaysia Electronics,,E&E,electronics,Selangor,,,www.samsung.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36
-455,Sharp Electronics Malaysia,,E&E,electronics,Selangor,,,www.sharp.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36
-456,Daikin Malaysia Sdn Bhd,,E&E,ac,Selangor,,,www.daikin.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36
-457,Panasonic Air-Con M'sia,,E&E,ac,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36
-458,Gree Electric Malaysia,,E&E,ac,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36
-459,LG Electronics Malaysia,,E&E,electronics,Selangor,,,www.lg.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36
-460,Sony Malaysia Sdn Bhd,,E&E,electronics,Selangor,,,www.sony.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36
-461,Bidar Security Sdn Bhd,,Security,guard,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:13:36
-462,Pertama Security Sdn Bhd,,Security,guard,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:13:36
-463,Matahari Security Sdn Bhd,,Security,guard,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:13:36
-464,Global Security Services,,Security,guard,Penang,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:13:36
-465,Elite Security Services,,Security,guard,Johor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:13:36
-466,U-Right Maintenance S/B,,Services,cleaning,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-467,Prestige Facilities S/B,,Services,facilities,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-468,Sustain Solutions Sdn Bhd,,Services,facilities,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-469,Best Facilities Sdn Bhd,,Services,facilities,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-470,Landasan Mewah Sdn Bhd,,Services,cleaning,Penang,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-471,Pembersihan Mewah S/B,,Services,cleaning,Johor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36
-472,Gamuda Land Sdn Bhd,,Property,development,Selangor,,,www.gamudaland.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11
-473,Selangor Dredging Bhd,,Property,development,KL,,,www.sdb.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11
-474,Bukit Kiara Properties,,Property,development,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11
-475,Eastern & Oriental Bhd,,Property,development,Penang,,,www.eo.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11
-476,Plenitude Bhd,,Property,development,KL,,,www.plenitude.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11
-477,Tropicana Corp Bhd,,Property,development,Selangor,,,www.tropicana.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11
-478,MKH Bhd,,Property,development,Selangor,,,www.mkh.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11
-479,Hoe Leong Corp Bhd,,Property,investment,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11
-480,Amcorp Properties Bhd,,Property,investment,KL,,,www.amcorpproperties.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11
-481,IGB Corp Bhd,,Property,commercial,KL,,,www.igb.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11
-482,KLCC Property Holdings,,Property,commercial,KL,,,www.klcc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11
-483,Lion Industries Corp Bhd,,Manufacturing,metal,KL,,,www.lionind.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11
-484,Malaysia Steel Works Bhd,,Manufacturing,metal,Selangor,,,www.masteel.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11
-485,Press Metal Bhd,,Manufacturing,metal,Sarawak,,,www.pressmetal.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11
-486,Lotte Chemical Titan Bhd,,Manufacturing,chemicals,Johor,,,www.lottechem.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11
-487,Hengyuan Refining Co Bhd,,Manufacturing,oil_gas,Selangor,,,www.hengyuan.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11
-488,Petron Malaysia Bhd,,Manufacturing,oil_gas,KL,,,www.petron.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11
-489,Shell Malaysia Trading,,Manufacturing,oil_gas,KL,,,www.shell.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11
-490,Chevron Malaysia Sdn Bhd,,Manufacturing,oil_gas,KL,,,www.chevron.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11
-491,KPJ Healthcare Bhd,,Services,healthcare,KL,,,www.kpjhealth.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11
-492,IHH Healthcare Bhd,,Services,healthcare,KL,,,www.ihhhealthcare.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11
-493,TMC Life Sciences Bhd,,Services,healthcare,Selangor,,,www.tmc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11
-494,Island Hospital Sdn Bhd,,Services,healthcare,Penang,,,www.islandhospital.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11
-495,Loh Guan Lye Specialist,,Services,healthcare,Penang,,,www.lgl.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11
-496,Gleneagles Penang Sdn Bhd,,Services,healthcare,Penang,,,www.gleneagles.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11
-497,Pantai Hospital KL Sdn Bhd,,Services,healthcare,KL,,,www.pantai.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11
-498,Sunway Medical Centre,,Services,healthcare,Selangor,,,www.sunwaymedical.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11
-499,Subang Jaya Medical Centre,,Services,healthcare,Selangor,,,www.sjmc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11
-500,Penang Adventist Hospital,,Services,healthcare,Penang,,,www.pah.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11
-501,Sabah Softwood Sdn Bhd,,Plantation,timber,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11
-502,Borneo Wood Products S/B,,Plantation,timber,Sarawak,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11
-503,Samling Global Sdn Bhd,,Plantation,timber,Sarawak,,,www.samling.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11
-504,KTS Plantation Sdn Bhd,,Plantation,palm_oil,Sarawak,,,www.kts.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11
-505,Shin Yang Plantation S/B,,Plantation,palm_oil,Sarawak,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11
-506,Pulau Burung Plantation,,Plantation,palm_oil,Penang,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11
-507,Sungai Koyan Plantation,,Plantation,palm_oil,Pahang,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11
-508,PWF Corp Bhd,,Agriculture,poultry,Johor,,,www.pwf.com.my,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:14:11
-509,Marine Harvest Malaysia,,Agriculture,aquaculture,Johor,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:14:11
-510,Aqua-Farm Sdn Bhd,,Agriculture,aquaculture,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:14:11
-511,Blue Archipelago Bhd,,Agriculture,aquaculture,Terengganu,,,www.bluearchipelago.com,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:14:11
-512,Fertilisers Malaysia S/B,,Agriculture,fertilizer,Selangor,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:14:11
-513,Poh Leong Holdings Sdn Bhd,,Manufacturing,furniture,Johor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33
-514,Syarikat Sebani Sdn Bhd,,Manufacturing,industrial,Kedah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33
-515,Malaysian Mosaics Sdn Bhd,,Manufacturing,ceramics,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33
-516,White Horse Bhd,,Manufacturing,ceramics,Perak,,,www.whitehorse.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33
-517,Kotra Industries Bhd,,Manufacturing,pharma,Penang,,,www.kotra.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33
-518,YSP Southeast Asia Bhd,,Manufacturing,pharma,Selangor,,,www.ysp.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33
-519,Hovid Bhd,,Manufacturing,pharma,Perak,,,www.hovid.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33
-520,Bioalpha Holdings Bhd,,Manufacturing,pharma,Selangor,,,www.bioalpha.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33
-521,Hai-O Enterprise Bhd,,Manufacturing,fashion,KL,,,www.hai-o.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33
-522,Eco World International,,Property,development,KL,,,www.ecoworldinternational.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-523,Matrix Concepts Holdings,,Property,development,Negeri Sembilan,,,www.matrixconcepts.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-524,Tambun Indah Land Bhd,,Property,development,Penang,,,www.tambunindah.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-525,Hunza Properties Bhd,,Property,development,Penang,,,www.hunzaproperties.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-526,Paramount Corp Bhd,,Property,development,Selangor,,,www.paramount.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-527,Titijaya Land Bhd,,Property,development,KL,,,www.titijaya.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-528,Hap Seng Land Sdn Bhd,,Property,commercial,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-529,GuocoLand Malaysia,,Property,development,KL,,,www.guocoland.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-530,UOA Development Bhd,,Property,development,KL,,,www.uoa.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-531,Pavilion REIT,,Property,commercial,KL,,,www.pavilion-reit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-532,Sunway REIT,,Property,commercial,Selangor,,,www.sunwayreit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-533,KLCC REIT,,Property,commercial,KL,,,www.klcc-reit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-534,IGB REIT,,Property,commercial,KL,,,www.igbreit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-535,YTL Hospitality REIT,,Property,commercial,KL,,,www.ytlhospitalityreit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-536,Axis REIT,,Property,industrial,KL,,,www.axis-reit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-537,LBS REIT,,Property,commercial,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33
-538,DKSH Malaysia Sdn Bhd,,Services,distribution,KL,,,www.dksh.com.my,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07
-539,IGB Bhd,,Property,commercial,KL,,,www.igb.com.my,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07
-540,KIP REIT,,Property,commercial,KL,,,,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07
-541,AmanahRaya REIT,,Property,commercial,KL,,,,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07
-542,DNeX Bhd,,Services,technology,KL,,,www.dnex.com.my,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07
-543,MyEG Services Bhd,,Services,technology,KL,,,www.myeg.com.my,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07
-544,Cuscapi Bhd,,Services,technology,Selangor,,,www.cuscapi.com,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07
-545,Silver Ridge Holdings,,Services,technology,KL,,,,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07
-546,HeiTech Padu Bhd,,Services,technology,KL,,,www.heitechpadu.com,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07
+id,company_name,ssm_no,sector,subsector,state,city,address,website,phone,email,hr_contact,linkedin_url,employees_est,demand_signal,quota_signal,compliance_pressure,levy_tier,source_url,source_date,priority_score,notes,created_at,pipeline_stage,last_contacted,outreach_channel
+60,WRP Asia Pacific Sdn Bhd,,Manufacturing,,Selangor,,,,,,,,,,,CBP: Finding,RM1850,https://www.cbp.gov/trade/forced-labor/withhold-release-orders-and-findings,2026-07-17,100.0,US CBP enforcement action. High compliance pressure.,2026-07-17 00:53:52,not_contacted,,
+61,Palm oil sector - multiple companies,,Plantation,,Various,,,,,,,,,,,CBP: Multiple CBP forced labor findings,RM640,https://www.cbp.gov/trade/forced-labor/withhold-release-orders-and-findings,2026-07-17,100.0,US CBP enforcement action. High compliance pressure.,2026-07-17 00:53:52,not_contacted,,
+124,Boustead Plantations Bhd,,Plantation,,Kuala Lumpur,KL,,https://www.bousteadplantations.com,,,,,6000.0,,,CBP forced labor scrutiny on palm oil,RM640/yr,https://www.mpob.gov.my/,2026-07-17,95.0,Plantation - large foreign workforce (~6000). RM640 levy tier.,2026-07-17 00:53:53,not_contacted,,
+125,Kulim (M) Bhd,,Plantation,,Johor,Johor Bahru,,https://www.kulim.com.my,062316894531,info@kulim.com.my,info@kulim.com.my,,4000.0,,,CBP forced labor scrutiny on palm oil,RM640/yr,https://www.mpob.gov.my/,2026-07-17,95.0,Plantation - large foreign workforce (~4000). RM640 levy tier.,2026-07-17 00:53:53,not_contacted,,
+126,IJM Plantations Bhd,,Plantation,,Selangor,Petaling Jaya,,https://www.ijmplantations.com.my,,,,,3000.0,,,CBP forced labor scrutiny on palm oil,RM640/yr,https://www.mpob.gov.my/,2026-07-17,95.0,Plantation - large foreign workforce (~3000). RM640 levy tier.,2026-07-17 00:53:53,not_contacted,,
+127,TH Plantations Bhd,,Plantation,,Kuala Lumpur,KL,,https://www.thplantations.com.my,,,,,3000.0,,,CBP forced labor scrutiny on palm oil,RM640/yr,https://www.mpob.gov.my/,2026-07-17,95.0,Plantation - large foreign workforce (~3000). RM640 levy tier.,2026-07-17 00:53:53,not_contacted,,
+62,VS Industry Bhd,,Manufacturing,,Johor,,,,,,,,12000.0,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (12000+ est).,2026-07-17 00:53:52,not_contacted,,
+63,Inari Amertron Bhd,,E&E,,Penang,,,,,,,,8000.0,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (8000+ est).,2026-07-17 00:53:52,not_contacted,,
+64,Unisem (M) Bhd,,E&E,,Perak,,,,,,,,5000.0,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (5000+ est).,2026-07-17 00:53:52,not_contacted,,
+65,FGV Holdings Bhd,,Plantation,,KL,,,,+603-2789 0000,hr@fgv.com.my,,,20000.0,,,,RM640,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (20000+ est).,2026-07-17 00:53:52,not_contacted,,
+73,Genting Malaysia Bhd,,Hospitality,,KL,,,,+603-2718 1118,career@gentingmalaysia.com,,,10000.0,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (10000+ est).,2026-07-17 00:53:52,not_contacted,,
+75,AEON (M) Bhd,,Retail,,KL,,,,,,,,6000.0,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (6000+ est).,2026-07-17 00:53:52,not_contacted,,
+79,Genting Plantations Bhd,,Plantation,,KL,,,,+603-2333 1888,hr@gentingplantations.com,,,8000.0,,,,RM640,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (8000+ est).,2026-07-17 00:53:52,not_contacted,,
+80,PIE Industrial Bhd,,E&E,,Penang,,,,,,,,4000.0,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (4000+ est).,2026-07-17 00:53:52,not_contacted,,
+81,SKP Resources Bhd,,Manufacturing,,Johor,,,,,,,,5000.0,,,,RM1850,https://www.bursamalaysia.com/market_information/announcements/company_announcement,2026-07-17,85.0,Publicly listed. Large foreign workforce (5000+ est).,2026-07-17 00:53:52,not_contacted,,
+82,AIC Semiconductor Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.aicsemi.com,0260617113147,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+83,Acutronic Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.acutronic.com,011-2020,aus@acutronic.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+84,Align Technology Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.aligntech.com,087-9574-76935,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+85,BE Semiconductor Malaysia Sdn Bhd,,E&E,,Penang,Batu Kawan,,https://www.besi.com,012866412-,info@proudnerds.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+86,Bose Systems Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.bose.com,0897226,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+87,Bruker Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.bruker.com,0520904242,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+88,Clover Electronics Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.clover.com.my,,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+89,Dell Global Business Center Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.dell.com,013 6 6 1,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+90,Dyson Manufacturing Sdn Bhd,,E&E,,Johor,Senai,,https://www.dyson.com,05478349583,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+91,Flextronics Technology (M) Sdn Bhd,,E&E,,Johor,Johor Bahru,,https://www.flextronics.com,026-07-09,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+92,Hewlett Packard (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.hp.com,07-2026 08,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+93,Hitachi Global Storage Technologies,,E&E,,Selangor,Petaling Jaya,,https://www.hitachi.com,025-03-04,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+94,Hong Leong Group,,Manufacturing,,Kuala Lumpur,KL,,https://www.hongleong.com,024-08-26,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+95,Intel Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.intel.com,,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:52,not_contacted,,
+96,Jabil Circuit Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.jabil.com,04277 196,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+97,Keysight Technologies Malaysia,,E&E,,Penang,Bayan Lepas,,https://www.keysight.com,071960064,usa_orders@keysight.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+98,Lam Research Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.lamresearch.com,025-11-04,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+99,Lattice Semiconductor Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.latticesemi.com,08767481924,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+100,Mitsumi Electric Sdn Bhd,,E&E,,Selangor,Shah Alam,,https://www.mitsumi.com,,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+101,NXP Semiconductor Sdn Bhd,,E&E,,Selangor,Petaling Jaya,,https://www.nxp.com,,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+102,Olympus Electronic Components Sdn Bhd,,E&E,,Sarawak,Kuching,,https://www.olympus.com,0241028,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+103,ON Semiconductor Malaysia Sdn Bhd,,E&E,,Selangor,Petaling Jaya,,https://www.onsemi.com,,contactsupport@onsemi.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+104,Osram Opto Semiconductors (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.osram.com,078603491,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+105,Plexus Manufacturing Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.plexus.com,025-12-17,roger.davidson@americaneagle.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+106,Renesas Semiconductor KL Sdn Bhd,,E&E,,Kuala Lumpur,KL,,https://www.renesas.com,07749-075,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+107,Robert Bosch Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,https://www.bosch.com.my,012-4856-4,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+108,Seagate Technology Malaysia,,E&E,,Penang,Bayan Lepas,,https://www.seagate.com,0354627 18,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+109,Siliconware Precision Industries (M),,E&E,,Penang,Bayan Lepas,,https://www.spil.com.my,,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+110,Texas Instruments Malaysia Sdn Bhd,,E&E,,Selangor,Petaling Jaya,,https://www.ti.com,026-06-30 09,,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+111,Western Digital (M) Sdn Bhd,,E&E,,Selangor,Petaling Jaya,,https://www.westerndigital.com,026-05-14-,PDL-Web-IT-Monitoring@wdc.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+112,Venture Electronics Services (M),,E&E,,Penang,Bayan Lepas,,https://www.venture.com.sg,,contact-us@venture.com,,,,,,Export-driven - RBA/CBP pressure likely,"RM1,850/yr",https://www.matrade.gov.my/en/directory,2026-07-17,85.0,MATRADE listed exporter. Foreign worker likely.,2026-07-17 00:53:53,not_contacted,,
+278,Tradewinds Plantation Bhd,,Plantation,palm_oil,Selangor,,,www.tradewinds.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:05,not_contacted,,
+279,Chin Teck Plantations Bhd,,Plantation,palm_oil,Perak,,,www.chinteck.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:05,not_contacted,,
+280,Teck Guan Perdana Bhd,,Plantation,palm_oil,Sabah,,,www.teckguan.com,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:05,not_contacted,,
+332,Sri Neringa Sdn Bhd,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59,not_contacted,,
+333,Sawit Kinabalu Sdn Bhd,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59,not_contacted,,
+334,Kretam Holdings Bhd,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59,not_contacted,,
+335,Global Palm Resources,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59,not_contacted,,
+336,Able Global Bhd,,Plantation,palm_oil,Perak,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59,not_contacted,,
+337,Menggatal Plantation S/B,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59,not_contacted,,
+338,Rimbunan Sawit Bhd,,Plantation,palm_oil,Sarawak,,,www.rimbunan.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:12:59,not_contacted,,
+417,TDM Bhd,,Plantation,palm_oil,Terengganu,,,www.tdm.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36,not_contacted,,
+418,NPC Resources Bhd,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36,not_contacted,,
+419,Willowglen MSC Bhd,,Plantation,palm_oil,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36,not_contacted,,
+420,Lim Plantation Sdn Bhd,,Plantation,palm_oil,Selangor,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36,not_contacted,,
+421,Bukit Katil Estate S/B,,Plantation,palm_oil,Malacca,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36,not_contacted,,
+422,Pertama Plantation Sdn Bhd,,Plantation,palm_oil,Perak,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36,not_contacted,,
+423,Mukah Plantation Sdn Bhd,,Plantation,palm_oil,Sarawak,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:13:36,not_contacted,,
+501,Sabah Softwood Sdn Bhd,,Plantation,timber,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11,not_contacted,,
+502,Borneo Wood Products S/B,,Plantation,timber,Sarawak,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11,not_contacted,,
+503,Samling Global Sdn Bhd,,Plantation,timber,Sarawak,,,www.samling.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11,not_contacted,,
+504,KTS Plantation Sdn Bhd,,Plantation,palm_oil,Sarawak,,,www.kts.com.my,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11,not_contacted,,
+505,Shin Yang Plantation S/B,,Plantation,palm_oil,Sarawak,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11,not_contacted,,
+506,Pulau Burung Plantation,,Plantation,palm_oil,Penang,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11,not_contacted,,
+507,Sungai Koyan Plantation,,Plantation,palm_oil,Pahang,,,,,,,,,,,,RM640,manual_add,2026-07-17,85.0,,2026-07-17 02:14:11,not_contacted,,
+1,Inari Amertron Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.inari-amertron.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46,not_contacted,,
+2,Unisem (M) Bhd,,Electrical & Electronics,,Perak,Ipoh,,https://www.unisemgroup.com,019-03-13,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46,not_contacted,,
+3,VS Industry Bhd,,Electrical & Electronics,,Johor,Senai,,https://www.vs-i.com,07259736-1,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46,not_contacted,,
+4,SKP Resources Bhd,,Electrical & Electronics,,Johor,Johor Bahru,,https://www.skp.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46,not_contacted,,
+5,Greatech Technology Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.greatech.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46,not_contacted,,
+6,Pentamaster Corp Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.pentamaster.com.my,089042565100,penta-online@pentamaster.com.my,penta-online@pentamaster.com.my,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46,not_contacted,,
+7,PIE Industrial Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.pieindustrial.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:46,not_contacted,,
+8,KESM Industries Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.kesm.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+9,Globetronics Technology Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.globetronics.com.my,+604-6444906,corporate@globetronics.com.my,corporate@globetronics.com.my,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+10,Frontken Corp Bhd,,Electrical & Electronics,,Selangor,Shah Alam,,https://www.frontken.com,+60 3 7625 1381,ir@frontken.com,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+11,Top Glove Corp Bhd,,Rubber,,Selangor,Shah Alam,,https://www.topglove.com,+603-3362 3098,hr@topglove.com,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+12,Hartalega Holdings Bhd,,Rubber,,Selangor,Sepang,,https://www.hartalega.com.my,+603-3326 8668,career@hartalega.com.my,human.resource@hartalega.com.my,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+13,Kossan Rubber Industries Bhd,,Rubber,,Selangor,Klang,,https://www.kossan.com.my,+603-3321 2888,hr@kossan.com.my,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+14,Supermax Corp Bhd,,Rubber,,Selangor,Kuala Selangor,,https://www.supermax.com.my,+603-3342 8688,hr@supermax.com.my,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+15,Rubberex Corp Bhd,,Rubber,,Selangor,Petaling Jaya,,https://www.rubberex.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+23,FGV Holdings Bhd,,Plantation,,Kuala Lumpur,KL,,https://www.fgv.com.my,+603-2789 0000,hr@fgv.com.my,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+24,Sime Darby Plantation Bhd,,Plantation,,Selangor,Petaling Jaya,,https://www.simedarbyplantation.com,+603-2087 7000,hr@simedarbyplantation.com,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+25,IOI Corp Bhd,,Plantation,,Putrajaya,Putrajaya,,https://www.ioigroup.com,+603-8947 8888,career@ioigroup.com,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+26,KL Kepong Bhd,,Plantation,,Selangor,Petaling Jaya,,https://www.klk.com.my,+603-7806 8000,hr@klk.com.my,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+27,Genting Plantations Bhd,,Plantation,,Kuala Lumpur,KL,,https://www.gentingplantations.com,+603-2333 1888,hr@gentingplantations.com,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+28,TSH Resources Bhd,,Plantation,,Selangor,Petaling Jaya,,https://www.tsh.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+41,D&O Green Technologies Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.dngreen.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+42,ATA IMS Bhd,,Electrical & Electronics,,Johor,Johor Bahru,,https://www.ata-ims.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+43,Uchi Technologies Bhd,,Electrical & Electronics,,Penang,Bayan Lepas,,https://www.uchi.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+44,Bosch Malaysia,,Electrical & Electronics,,Selangor,Shah Alam,,https://www.bosch.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+45,Micron Technology Malaysia,,Electrical & Electronics,,Penang,Batu Kawan,,https://www.micron.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Electrical & Electronics sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+46,Careplus Group Bhd,,Rubber,,Negeri Sembilan,Seremban,,https://www.careplusgroup.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Rubber sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+47,Hap Seng Plantations Bhd,,Plantation,,Sabah,Tawau,,https://www.hapsengplantations.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+48,United Plantations Bhd,,Plantation,,Perak,Teluk Intan,,https://www.unitedplantations.com,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+49,Ta Ann Holdings Bhd,,Plantation,,Sarawak,Sibu,,https://www.taann.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+50,Sarawak Oil Palms Bhd,,Plantation,,Sarawak,Miri,,https://www.sop.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+57,Kim Loong Resources Bhd,,Plantation,,Johor,Muar,,https://www.kimloong.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,80.0,FMM member - Plantation sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+178,Advanced Interconnect Technologies Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+179,Advanced Micro Devices (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+180,Agilent Technologies Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+181,Altera Corp (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+182,Avago Technologies (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+183,Bosch Global Software Technologies,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+184,Broadcom Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+185,Clare Electronics Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+186,Cypress Semiconductor Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+187,Fairchild Semiconductor Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+188,Flexronics Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+189,Infineon Technologies (Kulim),,E&E,,Kedah,Kulim,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+190,Intel Microelectronics (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+191,JinkoSolar Technology Sdn Bhd,,E&E,,Kedah,Kulim,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+192,KLA-Tencor (Malaysia) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+193,Lumentum Operations Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+194,Marvell Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+195,Motorola Solutions Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+196,National Instruments Malaysia,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+197,Nidec Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+198,Nordson Electronics Solutions,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+199,Paramit Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+200,Rohm-Wako Electronics (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+201,Sanken Electric (M) Sdn Bhd,,E&E,,Selangor,Shah Alam,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+202,Shinko Electric Industries (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+203,TDK Malaysia Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+204,Teradyne (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+205,Universal Instruments (M) Sdn Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+206,Vitrox Corp Bhd,,E&E,,Penang,Bayan Lepas,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+207,X-FAB Semiconductor Foundries,,E&E,,Sarawak,Kuching,,,,,,,,,,MNC - strict RBA/CBP compliance likely,"RM1,850/yr",Penang Free Industrial Zone,2026-07-17,80.0,E&E MNC in industrial zone. Foreign worker demand likely.,2026-07-17 00:53:54,not_contacted,,
+358,UWC Bhd,,E&E,precision,Penang,,,www.uwc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:12:59,not_contacted,,
+453,Panasonic Manufacturing M'sia,,E&E,electronics,Selangor,,,www.panasonic.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36,not_contacted,,
+454,Samsung Malaysia Electronics,,E&E,electronics,Selangor,,,www.samsung.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36,not_contacted,,
+455,Sharp Electronics Malaysia,,E&E,electronics,Selangor,,,www.sharp.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36,not_contacted,,
+456,Daikin Malaysia Sdn Bhd,,E&E,ac,Selangor,,,www.daikin.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36,not_contacted,,
+457,Panasonic Air-Con M'sia,,E&E,ac,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36,not_contacted,,
+458,Gree Electric Malaysia,,E&E,ac,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36,not_contacted,,
+459,LG Electronics Malaysia,,E&E,electronics,Selangor,,,www.lg.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36,not_contacted,,
+460,Sony Malaysia Sdn Bhd,,E&E,electronics,Selangor,,,www.sony.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,80.0,,2026-07-17 02:13:36,not_contacted,,
+137,TAHPS Group Bhd,,Construction,,Kuala Lumpur,KL,,https://www.tahps.com,,,,,1000.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+138,MTD Group,,Construction,,Kuala Lumpur,KL,,https://www.mtdgroup.com,,,,,2000.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+139,Mahanagroup,,Construction,,Kuala Lumpur,KL,,https://www.mahanagroup.com,,,,,1000.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+140,UEM Group Bhd,,Construction,,Kuala Lumpur,KL,,https://www.uem.com.my,,,,,3000.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+141,Pembinaan Kuantiti Sdn Bhd,,Construction,,Selangor,Shah Alam,,,,,,,500.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+142,Pembinaan Yap Sin Sdn Bhd,,Construction,,Selangor,Klang,,,,,,,500.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+143,Bina Puri Holdings Bhd,,Construction,,Kuala Lumpur,KL,,https://www.binapuri.com,,,,,1000.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+144,Hock Heng Seng Construction,,Construction,,Johor,Johor Bahru,,,,,,,500.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+145,Loh & Loh Construction Bhd,,Construction,,Kuala Lumpur,KL,,https://www.lohloh.com,,,,,1000.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+146,Muhibbah Engineering (M) Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.muhibbah.com,,,,,1000.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+147,HSL Engineering,,Construction,,Sarawak,Kuching,,,,,,,500.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+148,Pintaras Jaya Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.pintaras.com.my,,,,,800.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+149,GDB Holdings Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.gdb.com.my,,,,,800.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+150,AZRB Bhd,,Construction,,Kuala Lumpur,KL,,https://www.azrb.com.my,,,,,500.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+151,TRC Synergy Bhd,,Construction,,Kuala Lumpur,KL,,https://www.trc.com.my,,,,,500.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+152,Perak Transit Bhd,,Construction,,Perak,Ipoh,,https://www.peraktransit.com,,,,,300.0,,,Govt projects - strict compliance required,"RM1,850/yr",https://www.cidb.gov.my/,2026-07-17,75.0,Construction - govt project contractor. Foreign workers for infrastructure.,2026-07-17 00:53:54,not_contacted,,
+208,Celestica Malaysia Sdn Bhd,,E&E,,Johor,Senai,,,,,,,,,,,"RM1,850/yr",Johor industrial zones,2026-07-17,75.0,E&E in Johor industrial zone.,2026-07-17 00:53:54,not_contacted,,
+210,Sanmina Malaysia Sdn Bhd,,E&E,,Johor,Johor Bahru,,,,,,,,,,,"RM1,850/yr",Johor industrial zones,2026-07-17,75.0,E&E in Johor industrial zone.,2026-07-17 00:53:54,not_contacted,,
+211,Kitacon Group Bhd,,Construction,,Johor,Johor Bahru,,,,,,,,,,,"RM1,850/yr",Johor industrial zones,2026-07-17,75.0,Construction in Johor industrial zone.,2026-07-17 00:53:54,not_contacted,,
+213,Liemy Corp Bhd,,Construction,,Johor,Johor Bahru,,,,,,,,,,,"RM1,850/yr",Johor industrial zones,2026-07-17,75.0,Construction in Johor industrial zone.,2026-07-17 00:53:54,not_contacted,,
+214,PCB Factory (various),,Manufacturing,,Johor,Pasir Gudang,,,,,,,,,,,"RM1,850/yr",Johor industrial zones,2026-07-17,75.0,Manufacturing in Johor industrial zone.,2026-07-17 00:53:54,not_contacted,,
+275,Malaysian Pacific Industries,,Manufacturing,semiconductor,Penang,,,www.mpi.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:05,not_contacted,,
+276,Carlo Rino Group Bhd,,Manufacturing,fashion,KL,,,www.carlorino.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:05,not_contacted,,
+277,Hup Seng Industries Bhd,,Manufacturing,food,Johor,,,www.hupseng.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:05,not_contacted,,
+287,AEMulus Holdings Bhd,,Manufacturing,electronics,Penang,,,www.aemulus.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+288,K. Seng Seng Corp Bhd,,Manufacturing,metal,Johor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+289,Luster Industries Bhd,,Manufacturing,plastics,Selangor,,,www.luster.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+290,Dufu Technology Corp Bhd,,Manufacturing,precision,Penang,,,www.dufu.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+291,P.A. Resources Bhd,,Manufacturing,metal,Johor,,,www.paresources.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+292,Suiwah Corp Bhd,,Manufacturing,furniture,Johor,,,www.suiwah.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+293,Poh Huat Resources Bhd,,Manufacturing,furniture,Johor,,,www.pohhuat.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+294,Poh Kong Holdings Bhd,,Manufacturing,jewellery,Selangor,,,www.pohkong.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+295,Tomei Consolidated Bhd,,Manufacturing,jewellery,KL,,,www.tomei.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+296,Bonia Corp Bhd,,Manufacturing,fashion,KL,,,www.bonia.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+297,Magna Prima Bhd,,Manufacturing,fashion,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+299,Guan Chong Bhd,,Manufacturing,food,Johor,,,www.guanchong.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+300,Oriental Food Industries,,Manufacturing,food,Johor,,,www.ofi.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+301,Kawan Food Bhd,,Manufacturing,food,Selangor,,,www.kawanfood.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+302,Ajinomoto (M) Bhd,,Manufacturing,food,KL,,,www.ajinomoto.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+303,Nestle (M) Bhd,,Manufacturing,food,Selangor,,,www.nestle.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+304,F&N Holdings Bhd,,Manufacturing,beverages,KL,,,www.fn.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+305,Carlsberg Brewery M'sia,,Manufacturing,beverages,Selangor,,,www.carlsberg.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+306,Heineken Malaysia Bhd,,Manufacturing,beverages,Selangor,,,www.heinekenmalaysia.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+307,Dutch Lady Milk Industries,,Manufacturing,dairy,Selangor,,,www.dutchlady.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+308,Fraser & Neave Holdings,,Manufacturing,beverages,KL,,,www.fn.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+309,Spritzer Bhd,,Manufacturing,beverages,Perak,,,www.spritzer.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+310,Power Root Bhd,,Manufacturing,beverages,Johor,,,www.powerroot.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+311,AHB Holdings Bhd,,Manufacturing,furniture,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+312,Lingui Developments Bhd,,Manufacturing,wood,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+313,WTK Holdings Bhd,,Manufacturing,wood,Sarawak,,,www.wtk.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+314,Subur Tiasa Holdings Bhd,,Manufacturing,wood,Sarawak,,,www.suburtiasa.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+315,Jaya Tiasa Holdings Bhd,,Manufacturing,wood,Sarawak,,,www.jayatiasa.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+323,Petronas Chemicals Group,,Manufacturing,chemicals,KL,,,www.petronas.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+324,Lotte Chemical Titan,,Manufacturing,chemicals,Johor,,,www.lottechem.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+325,Press Metal Aluminium,,Manufacturing,metal,Sarawak,,,www.pressmetal.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+326,Southern Steel Bhd,,Manufacturing,metal,Penang,,,www.southernsteel.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+327,Malaysia Steel Works,,Manufacturing,metal,Selangor,,,www.masteel.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+328,Ann Joo Resources Bhd,,Manufacturing,metal,Penang,,,www.annjoo.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+329,Choo Bee Metal Industries,,Manufacturing,metal,Selangor,,,www.choobee.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+330,Lion Industries Corp,,Manufacturing,metal,KL,,,www.lionind.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+331,CSC Steel Holdings,,Manufacturing,metal,Selangor,,,www.cscsteel.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+353,Thong Guan Industries,,Manufacturing,plastics,Penang,,,www.thongguan.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+354,SCGM Bhd,,Manufacturing,packaging,Johor,,,www.scgm.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+355,BP Plastics Holding Bhd,,Manufacturing,packaging,Johor,,,www.bppplastics.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+356,Mega First Corp Bhd,,Manufacturing,packaging,Selangor,,,www.megafirst.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+357,Kian Joo Can Factory,,Manufacturing,packaging,Selangor,,,www.kianjoo.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+360,Sam Engineering & Equipment,,Manufacturing,aerospace,Penang,,,www.sammee.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+361,Engtex Group Bhd,,Manufacturing,metal,Selangor,,,www.engtex.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+364,Karex Bhd,,Manufacturing,healthcare,Selangor,,,www.karex.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+373,OldTown White Coffee,,Manufacturing,food,Perak,,,www.oldtown.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+374,Tealive / Loob Holdings,,Manufacturing,beverages,Selangor,,,www.tealive.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+375,ZUS Coffee,,Manufacturing,beverages,Selangor,,,www.zuscoffee.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+376,Secret Recipe Cakes & Cafe,,Manufacturing,food,Selangor,,,www.secretrecipe.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+377,Mamee-Double Decker Bhd,,Manufacturing,food,Malacca,,,www.mamee.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+378,Apollo Food Holdings Bhd,,Manufacturing,food,Johor,,,www.apollo.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+379,Khee San Bhd,,Manufacturing,food,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+380,Edaran Bhd,,Manufacturing,food,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:12:59,not_contacted,,
+381,UMW Holdings Bhd,,Manufacturing,automotive,Selangor,,,www.umw.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+382,MBM Resources Bhd,,Manufacturing,automotive,KL,,,www.mbmr.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+383,APM Automotive Holdings,,Manufacturing,automotive,Selangor,,,www.apm.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+384,Thong Guan Industries Bhd,,Manufacturing,packaging,Penang,,,www.thongguan.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+387,Warisan TC Holdings Bhd,,Manufacturing,industrial,KL,,,www.warisantc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+396,Citra Nusa Holdings Bhd,,Manufacturing,industrial,Johor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+397,Metronic Global Bhd,,Manufacturing,electronics,KL,,,www.metronic.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+399,ILB Group Bhd,,Manufacturing,industrial,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+404,KNM Group Bhd,,Manufacturing,industrial,Selangor,,,www.knm.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+405,RGB International Bhd,,Manufacturing,electronics,KL,,,www.rgbint.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+406,Mycron Steel Bhd,,Manufacturing,metal,Selangor,,,www.mycronsteel.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+407,Sinergia Perdana Bhd,,Manufacturing,plastics,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+424,Borneo Pulp & Paper S/B,,Manufacturing,paper,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+437,Hiap Teck Venture Bhd,,Manufacturing,metal,Penang,,,www.hiaptek.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+438,Leader Steel Holdings Bhd,,Manufacturing,metal,Penang,,,www.leadersteel.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+439,Kim Hin Industry Bhd,,Manufacturing,ceramics,Sarawak,,,www.kimhin.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+440,Guocera Bhd,,Manufacturing,ceramics,Selangor,,,www.guocera.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+441,Chin Well Holdings Bhd,,Manufacturing,fasteners,Penang,,,www.chinwell.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+442,SYF Resources Bhd,,Manufacturing,furniture,Perak,,,www.syf.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+443,PGF Capital Bhd,,Manufacturing,insulation,Selangor,,,www.pgf.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:13:36,not_contacted,,
+483,Lion Industries Corp Bhd,,Manufacturing,metal,KL,,,www.lionind.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11,not_contacted,,
+484,Malaysia Steel Works Bhd,,Manufacturing,metal,Selangor,,,www.masteel.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11,not_contacted,,
+485,Press Metal Bhd,,Manufacturing,metal,Sarawak,,,www.pressmetal.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11,not_contacted,,
+486,Lotte Chemical Titan Bhd,,Manufacturing,chemicals,Johor,,,www.lottechem.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11,not_contacted,,
+487,Hengyuan Refining Co Bhd,,Manufacturing,oil_gas,Selangor,,,www.hengyuan.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11,not_contacted,,
+488,Petron Malaysia Bhd,,Manufacturing,oil_gas,KL,,,www.petron.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11,not_contacted,,
+489,Shell Malaysia Trading,,Manufacturing,oil_gas,KL,,,www.shell.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11,not_contacted,,
+490,Chevron Malaysia Sdn Bhd,,Manufacturing,oil_gas,KL,,,www.chevron.com,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:11,not_contacted,,
+513,Poh Leong Holdings Sdn Bhd,,Manufacturing,furniture,Johor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33,not_contacted,,
+514,Syarikat Sebani Sdn Bhd,,Manufacturing,industrial,Kedah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33,not_contacted,,
+515,Malaysian Mosaics Sdn Bhd,,Manufacturing,ceramics,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33,not_contacted,,
+516,White Horse Bhd,,Manufacturing,ceramics,Perak,,,www.whitehorse.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33,not_contacted,,
+517,Kotra Industries Bhd,,Manufacturing,pharma,Penang,,,www.kotra.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33,not_contacted,,
+518,YSP Southeast Asia Bhd,,Manufacturing,pharma,Selangor,,,www.ysp.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33,not_contacted,,
+519,Hovid Bhd,,Manufacturing,pharma,Perak,,,www.hovid.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33,not_contacted,,
+520,Bioalpha Holdings Bhd,,Manufacturing,pharma,Selangor,,,www.bioalpha.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33,not_contacted,,
+521,Hai-O Enterprise Bhd,,Manufacturing,fashion,KL,,,www.hai-o.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,75.0,,2026-07-17 02:14:33,not_contacted,,
+16,Gamuda Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.gamuda.com.my,+603-2096 6000,hr@gamuda.com.my,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+17,IJM Corp Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.ijm.com,+603-7985 8888,career@ijm.com,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+18,Sunway Construction Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.sunwayconstruction.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+19,MRCB,,Construction,,Kuala Lumpur,KL,,https://www.mrcb.com,+603-2614 8000,career@mrcb.com,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+20,WCT Holdings Bhd,,Construction,,Selangor,Petaling Jaya,,https://www.wct.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+21,Kimlun Corp Bhd,,Construction,,Johor,Johor Bahru,,https://www.kimlun.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+22,Hock Seng Lee Bhd,,Construction,,Sarawak,Kuching,,https://www.hsl.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+29,Lii Hen Industries Bhd,,Furniture,,Melaka,Alor Gajah,,https://www.liihen.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+30,Latitude Tree Holdings Bhd,,Furniture,,Selangor,Rawang,,https://www.latitudetree.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+31,Homeritz Corp Bhd,,Furniture,,Johor,Muar,,https://www.homeritz.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+32,Poh Huat Resources Holdings Bhd,,Furniture,,Kedah,Kulim,,https://www.pohhuat.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+33,QL Resources Bhd,,Agriculture,,Penang,Bagan Serai,,https://www.ql.com.my,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Agriculture sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+34,CAB Cakaran Corp Bhd,,Agriculture,,Penang,Perai,,https://www.cabcakaran.com,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Agriculture sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+35,AEON (M) Bhd,,Retail,,Kuala Lumpur,KL,,https://www.aeonretail.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Retail sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+36,MR D.I.Y. Group (M) Bhd,,Retail,,Selangor,Kajang,,https://www.mrdiy.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Retail sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+37,99 Speed Mart Retail Holdings Bhd,,Retail,,Selangor,Klang,,https://www.99speedmart.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Retail sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+38,Mydin Mohamed Holdings Bhd,,Retail,,Kuala Lumpur,KL,,https://www.mydin.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Retail sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+39,Genting Malaysia Bhd,,Hospitality,,Kuala Lumpur,KL,,https://www.gentingmalaysia.com,+603-2718 1118,career@gentingmalaysia.com,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Hospitality sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+40,Berjaya Corp Bhd,,Hospitality,,Kuala Lumpur,KL,,https://www.berjaya.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Hospitality sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+51,Eurospan Holdings Bhd,,Furniture,,Johor,Muar,,https://www.eurospan.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+52,Jaycorp Bhd,,Furniture,,Johor,Muar,,https://www.jaycorp.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Furniture sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+53,Ekovest Bhd,,Construction,,Kuala Lumpur,KL,,https://www.ekovest.com.my,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+54,Kerjaya Prospek Group Bhd,,Construction,,Penang,Bayan Lepas,,https://www.kerjaya.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+55,TAHPS Group Bhd (formerly TA Global),,Construction,,Kuala Lumpur,KL,,https://www.tahps.com,,,,,,,,,"RM1,850/yr",https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Construction sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+56,Brahim's Holdings Bhd,,Agriculture,,Selangor,Shah Alam,,https://www.brahims.com,,,,,,,,,RM640/yr,https://www.fmm.org.my/members-directory,2026-07-17,70.0,FMM member - Agriculture sector. Foreign worker likely.,2026-07-17 00:53:47,not_contacted,,
+281,Kim Loong Construction,,Construction,building,Penang,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05,not_contacted,,
+282,Setia Awan Jihad Sdn Bhd,,Construction,infrastructure,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05,not_contacted,,
+283,KHG (M) Bhd,,Agriculture,aquaculture,Penang,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05,not_contacted,,
+284,Leong Hup International,,Agriculture,poultry,Selangor,,,www.leonghup.com,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05,not_contacted,,
+285,Teo Seng Capital Bhd,,Agriculture,poultry,Perak,,,www.teoseng.com.my,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05,not_contacted,,
+286,Fima Corp Bhd,,Agriculture,plantation,KL,,,www.fima.com.my,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:12:05,not_contacted,,
+316,Mudajaya Group Bhd,,Construction,building,Selangor,,,www.mudajaya.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+317,MTD ACPI Engineering Bhd,,Construction,infrastructure,KL,,,www.mtdacpi.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+318,Gadang Holdings Bhd,,Construction,building,KL,,,www.gadang.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+319,Mitrajaya Holdings Bhd,,Construction,building,KL,,,www.mitrajaya.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+320,Zelan Bhd,,Construction,infrastructure,KL,,,www.zelan.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+321,Naim Holdings Bhd,,Construction,building,Sarawak,,,www.naim.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+322,Sarawak Consolidated,,Construction,building,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+342,Eco World Development,,Construction,property,KL,,,www.ecoworld.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+343,Mah Sing Group Bhd,,Construction,property,KL,,,www.mahsing.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+344,UEM Sunrise Bhd,,Construction,property,KL,,,www.uemsunrise.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+345,SP Setia Bhd,,Construction,property,KL,,,www.spsetia.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+346,IOI Properties Group,,Construction,property,Selangor,,,www.ioiproperties.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+347,Sunway Bhd,,Construction,property,Selangor,,,www.sunway.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+359,Econpile Holdings Bhd,,Construction,foundation,KL,,,www.econpile.com,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:12:59,not_contacted,,
+395,Kimly Construction Sdn Bhd,,Construction,building,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+398,Haily Group Bhd,,Construction,building,Johor,,,www.haily.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+400,Bina Darulaman Bhd,,Construction,infrastructure,Kedah,,,www.bdb.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+402,JAKS Resources Bhd,,Construction,infrastructure,KL,,,www.jaks.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+426,Saliran Group Bhd,,Construction,infrastructure,Sabah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+427,Hock Hin Bros Sdn Bhd,,Construction,building,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+428,Wee Hur Construction S/B,,Construction,building,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+429,Sri Aman Construction,,Construction,building,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+430,WCT Land Sdn Bhd,,Construction,property,Sabah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+431,Sime Darby Animal Nutrition,,Agriculture,feed,Selangor,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+432,Dinding Poultry Farm S/B,,Agriculture,poultry,Perak,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+433,Tenaga Berjaya Sdn Bhd,,Agriculture,aquaculture,Selangor,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+434,Sea Horse Fish Farm S/B,,Agriculture,aquaculture,Johor,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+435,Green World Genetics S/B,,Agriculture,seeds,Kedah,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+436,AYS Ventures Bhd,,Construction,materials,KL,,,www.ays.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,70.0,,2026-07-17 02:13:36,not_contacted,,
+508,PWF Corp Bhd,,Agriculture,poultry,Johor,,,www.pwf.com.my,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:14:11,not_contacted,,
+509,Marine Harvest Malaysia,,Agriculture,aquaculture,Johor,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:14:11,not_contacted,,
+510,Aqua-Farm Sdn Bhd,,Agriculture,aquaculture,Sabah,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:14:11,not_contacted,,
+511,Blue Archipelago Bhd,,Agriculture,aquaculture,Terengganu,,,www.bluearchipelago.com,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:14:11,not_contacted,,
+512,Fertilisers Malaysia S/B,,Agriculture,fertilizer,Selangor,,,,,,,,,,,,RM640,manual_add,2026-07-17,70.0,,2026-07-17 02:14:11,not_contacted,,
+245,Pos Malaysia Bhd,,Services,logistics,KL,,,www.pos.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:04,not_contacted,,
+246,Tiong Nam Logistics Holdings,,Services,logistics,Selangor,,,www.tiongnam.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+247,GD Express (GDEX) Bhd,,Services,logistics,Selangor,,,www.gdexpress.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+248,CJ Century Logistics Holdings,,Services,logistics,Selangor,,,www.cjcentury.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+249,Tasco Bhd,,Services,logistics,KL,,,www.tasco.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+250,FM Global Logistics,,Services,logistics,KL,,,www.fmglobal.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+251,ITL Bhd,,Services,logistics,KL,,,www.itl.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+252,MMC Port Holdings,,Services,logistics,KL,,,www.mmcport.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+253,Northport (M) Bhd,,Services,logistics,Selangor,,,www.northport.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+254,Westports Holdings Bhd,,Services,logistics,Selangor,,,www.westports.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+255,Bintulu Port Holdings,,Services,logistics,Sarawak,,,www.bintuluport.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+256,Suria KLCC,,Services,property,KL,,,www.suriaklcc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+257,KLCC Holdings,,Services,property,KL,,,www.klcc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+258,Shangri-La Hotels (M) Sdn Bhd,,Hospitality,hotels,KL,,,www.shangri-la.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+259,InterContinental KL,,Hospitality,hotels,KL,,,www.ihg.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+260,The Ritz-Carlton KL,,Hospitality,hotels,KL,,,www.ritzcarlton.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+261,Berjaya Hotels & Resorts,,Hospitality,resorts,KL,,,www.berjayahotel.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+262,YTL Hotels & Properties,,Hospitality,resorts,KL,,,www.ytlhotels.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+263,Tanjung Aru Development,,Hospitality,resorts,Sabah,,,www.tanjungaru.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+264,Resorts World Genting,,Hospitality,resorts,Pahang,,,www.rwgenting.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+265,UEM Edgenta Bhd,,Services,facilities,KL,,,www.uemedgenta.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+266,Radicare (M) Sdn Bhd,,Services,cleaning,KL,,,www.radicare.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+267,Sedafiat Sdn Bhd,,Services,cleaning,KL,,,www.sedafiat.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+268,Tunas Manja Sdn Bhd,,Services,cleaning,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+269,ILBS Sdn Bhd,,Services,facilities,KL,,,www.ilbs.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:05,not_contacted,,
+348,Dorsett Hospitality International,,Hospitality,hotels,KL,,,www.dorsett.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+349,KSL Holdings Bhd,,Hospitality,resorts,Johor,,,www.ksl.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+350,Magnum Bhd,,Hospitality,leisure,KL,,,www.magnum.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+351,Landmarks Bhd,,Hospitality,resorts,KL,,,www.landmarks.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+352,Talisman Hospitality,,Hospitality,hotels,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+362,HSS Engineers Bhd,,Services,engineering,KL,,,www.hsseng.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+363,IJM Land Bhd,,Services,property,Selangor,,,www.ijmland.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+365,Dayang Enterprise Holdings,,Services,oil_gas,Sarawak,,,www.dayang.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+366,Deleum Bhd,,Services,oil_gas,Sarawak,,,www.deleum.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+367,Carimin Petroleum Bhd,,Services,oil_gas,KL,,,www.carimin.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+368,Barakah Offshore Petroleum,,Services,oil_gas,KL,,,www.barakah.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+369,Sapura Energy Bhd,,Services,oil_gas,KL,,,www.sapuraenergy.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+370,Velesto Energy Bhd,,Services,oil_gas,KL,,,www.velesto.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+371,Dialog Group Bhd,,Services,oil_gas,KL,,,www.dialogasia.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+372,Serba Dinamik Holdings,,Services,oil_gas,Selangor,,,www.serbadinamik.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:12:59,not_contacted,,
+385,GSDL Logistics Sdn Bhd,,Services,logistics,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+386,Swift Haulage Bhd,,Services,logistics,Selangor,,,www.swift-haulage.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+388,Lingkaran Trans Kota Holdings,,Services,infrastructure,KL,,,www.litrak.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+389,Puncak Niaga Holdings Bhd,,Services,utilities,Selangor,,,www.puncakniaga.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+390,Salcon Bhd,,Services,utilities,KL,,,www.salcon.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+391,Taliworks Corp Bhd,,Services,utilities,KL,,,www.taliworks.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+392,YTL Corp Bhd,,Services,utilities,KL,,,www.ytl.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+393,Tenaga Nasional Bhd,,Services,utilities,KL,,,www.tnb.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+394,Malakoff Corp Bhd,,Services,utilities,KL,,,www.malakoff.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+401,Kumpulan Perangsang Selangor,,Services,holding,Selangor,,,www.kps.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+403,Pestech International Bhd,,Services,engineering,Selangor,,,www.pestech.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+408,Flowerbase Hospitality,,Hospitality,hotels,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+409,Philea Resort Sdn Bhd,,Hospitality,resorts,Malacca,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+410,A'Famosa Resort Sdn Bhd,,Hospitality,resorts,Malacca,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+411,Avillion Hotel Group,,Hospitality,hotels,Selangor,,,www.avillion.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+412,Hotel Equatorial Malaysia,,Hospitality,hotels,KL,,,www.equatorial.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+413,The Andaman Resort,,Hospitality,resorts,Kedah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+414,Datai Bay Resort,,Hospitality,resorts,Kedah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+415,Four Seasons Resort Langkawi,,Hospitality,resorts,Kedah,,,www.fourseasons.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+416,St Regis KL,,Hospitality,hotels,KL,,,www.marriott.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+425,KUB Malaysia Bhd,,Services,agribusiness,KL,,,www.kub.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+466,U-Right Maintenance S/B,,Services,cleaning,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+467,Prestige Facilities S/B,,Services,facilities,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+468,Sustain Solutions Sdn Bhd,,Services,facilities,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+469,Best Facilities Sdn Bhd,,Services,facilities,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+470,Landasan Mewah Sdn Bhd,,Services,cleaning,Penang,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+471,Pembersihan Mewah S/B,,Services,cleaning,Johor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:13:36,not_contacted,,
+491,KPJ Healthcare Bhd,,Services,healthcare,KL,,,www.kpjhealth.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11,not_contacted,,
+492,IHH Healthcare Bhd,,Services,healthcare,KL,,,www.ihhhealthcare.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11,not_contacted,,
+493,TMC Life Sciences Bhd,,Services,healthcare,Selangor,,,www.tmc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11,not_contacted,,
+494,Island Hospital Sdn Bhd,,Services,healthcare,Penang,,,www.islandhospital.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11,not_contacted,,
+495,Loh Guan Lye Specialist,,Services,healthcare,Penang,,,www.lgl.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11,not_contacted,,
+496,Gleneagles Penang Sdn Bhd,,Services,healthcare,Penang,,,www.gleneagles.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11,not_contacted,,
+497,Pantai Hospital KL Sdn Bhd,,Services,healthcare,KL,,,www.pantai.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11,not_contacted,,
+498,Sunway Medical Centre,,Services,healthcare,Selangor,,,www.sunwaymedical.com,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11,not_contacted,,
+499,Subang Jaya Medical Centre,,Services,healthcare,Selangor,,,www.sjmc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11,not_contacted,,
+500,Penang Adventist Hospital,,Services,healthcare,Penang,,,www.pah.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,65.0,,2026-07-17 02:14:11,not_contacted,,
+159,The Store Corp Bhd,,Retail,,Selangor,Shah Alam,,,,,,,2000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+160,Parkson Holdings Bhd,,Retail,,Kuala Lumpur,KL,,https://www.parkson.com.my,,,,,3000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+161,Padini Holdings Bhd,,Retail,,Selangor,Petaling Jaya,,https://www.padini.com,,,,,2000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+162,B.I.G. (Ben's Independent Grocer),,Retail,,Selangor,Petaling Jaya,,https://www.big.com.my,,,,,1000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+163,Lotus's Malaysia (formerly Tesco),,Retail,,Selangor,Petaling Jaya,,https://www.lotusstores.my,,,,,5000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+164,Econsave Cash & Carry Sdn Bhd,,Retail,,Selangor,Klang,,https://www.econsave.com.my,,,,,2000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+165,KK Supermart & Superstore Sdn Bhd,,Retail,,Kuala Lumpur,KL,,https://www.kksupermart.com,,,,,3000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Retail. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+166,Resorts World Langkawi,,Hospitality,,Kedah,Langkawi,,https://www.rwlangkawi.com,,,,,1000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Hospitality. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+167,Hilton Malaysia,,Hospitality,,Various,Various,,https://www.hilton.com,,,,,2000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Hospitality. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+168,Marriott International Malaysia,,Hospitality,,Various,Various,,https://www.marriott.com,,,,,2000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Hospitality. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+169,Cleaning Service Management Sdn Bhd,,Services,,Selangor,Petaling Jaya,,,,,,,3000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Services. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+170,UCS Cleaning Services,,Services,,Selangor,Shah Alam,,,,,,,2000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Services. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+171,Securiforce Sdn Bhd,,Security,,Kuala Lumpur,KL,,,,,,,2000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Security. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+172,Securexpert Sdn Bhd,,Security,,Selangor,Petaling Jaya,,,,,,,1500.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Security. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+173,ADT Securitas,,Security,,Selangor,Petaling Jaya,,,,,,,1000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Security. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+174,Gardaworld Malaysia,,Security,,Selangor,Petaling Jaya,,https://www.garda.com,,,,,2000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Security. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+175,Mah Sing Group (Platinum Sentral),,Property,,Kuala Lumpur,KL,,https://www.mahsing.com,,,,,500.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Property. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+176,Sp Setia Bhd,,Property,,Selangor,Shah Alam,,https://www.spsetia.com,,,,,1000.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Property. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+177,Eco World Development Group,,Property,,Selangor,Petaling Jaya,,https://www.ecoworld.com.my,,,,,500.0,,,,"RM1,850/yr",Various - SSM/SME Corp,2026-07-17,60.0,Services sector - Property. Foreign workers for front-line/cleaning/security.,2026-07-17 00:53:54,not_contacted,,
+270,Securexcel Sdn Bhd,,Security,guard,Selangor,,,www.securexcel.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:12:05,not_contacted,,
+271,Guardforce Malaysia,,Security,guard,KL,,,www.guardforce.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:12:05,not_contacted,,
+272,7 Days Security Sdn Bhd,,Security,guard,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:12:05,not_contacted,,
+273,Wan SH Sam Security,,Security,guard,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:12:05,not_contacted,,
+274,Bengkel Sekuriti Sdn Bhd,,Security,guard,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:12:05,not_contacted,,
+461,Bidar Security Sdn Bhd,,Security,guard,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:13:36,not_contacted,,
+462,Pertama Security Sdn Bhd,,Security,guard,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:13:36,not_contacted,,
+463,Matahari Security Sdn Bhd,,Security,guard,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:13:36,not_contacted,,
+464,Global Security Services,,Security,guard,Penang,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:13:36,not_contacted,,
+465,Elite Security Services,,Security,guard,Johor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,55.0,,2026-07-17 02:13:36,not_contacted,,
+215,Prestige Pillar Industries Sdn Bhd,,Manufacturing,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+216,Eonmetall Group Bhd,,Manufacturing,,Kedah,Kulim,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+217,YNH Property Bhd,,Construction,,Kuala Lumpur,KL,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Construction. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+218,Talam Transform Bhd,,Construction,,Kuala Lumpur,KL,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Construction. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+219,Java Corp Bhd,,Manufacturing,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+220,Ho Wah Genting Bhd,,Manufacturing,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+221,POH Packaging (M) Sdn Bhd,,Manufacturing,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+222,Kian Joo Can Factory Bhd,,Manufacturing,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+223,Malayan Flour Mills Bhd,,Agriculture,,Selangor,Petaling Jaya,,,,,,,,,,,RM640/yr,SME Corp / SSM directory,2026-07-17,50.0,SME - Agriculture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+224,PLB Engineering Bhd,,Construction,,Penang,Butterworth,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Construction. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+225,Minply Holdings (M) Sdn Bhd,,Furniture,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+226,Choo Bee Metal Industries Bhd,,Manufacturing,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+227,Mieco Chipboard Bhd,,Furniture,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+228,Evergreen Fibreboard Bhd,,Furniture,,Johor,Batu Pahat,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+229,Daibochi Plastic & Packaging,,Manufacturing,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+230,Kossan Precision Components,,Manufacturing,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+231,Leong Hup International Bhd,,Agriculture,,Selangor,Petaling Jaya,,,,,,,,,,,RM640/yr,SME Corp / SSM directory,2026-07-17,50.0,SME - Agriculture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+232,Teo Guan Lee Corp Bhd,,Manufacturing,,Selangor,Klang,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+233,Tiong Nam Logistics Holdings Bhd,,Services,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Services. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+234,CSC Steel Holdings Bhd,,Manufacturing,,Selangor,Petaling Jaya,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Manufacturing. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+235,LBS Bina Group Bhd,,Construction,,Selangor,Petaling Jaya,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Construction. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+236,Lingkaran Trans Kota Holdings Bhd,,Services,,Selangor,Shah Alam,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Services. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+237,Amaya Made Sdn Bhd,,Furniture,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+238,Sin Kee Furniture Sdn Bhd,,Furniture,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+239,Hock Tong Furniture Sdn Bhd,,Furniture,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+240,Quality Furniture (M) Sdn Bhd,,Furniture,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+241,Shin Yang Furniture Sdn Bhd,,Furniture,,Sarawak,Kuching,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+242,Maju Furniture Industries Sdn Bhd,,Furniture,,Selangor,Seremban,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+243,Thessa Furniture Sdn Bhd,,Furniture,,Johor,Batu Pahat,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+244,Kian Furniture Industries Sdn Bhd,,Furniture,,Johor,Muar,,,,,,,,,,,"RM1,850/yr",SME Corp / SSM directory,2026-07-17,50.0,SME - Furniture. Likely uses foreign workers.,2026-07-17 00:53:54,not_contacted,,
+298,Comfort Gloves Bhd,,Rubber,gloves,Perak,,,www.comfortgloves.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:12:59,not_contacted,,
+339,Boustead Holdings Bhd,,Retail,trading,KL,,,www.boustead.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:12:59,not_contacted,,
+340,Hap Seng Consolidated,,Retail,trading,KL,,,www.hapseng.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:12:59,not_contacted,,
+341,MCT Bhd,,Retail,property,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:12:59,not_contacted,,
+444,TF Value-Mart Sdn Bhd,,Retail,hypermarket,Johor,,,www.tfvaluemart.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36,not_contacted,,
+445,Lotus's Malaysia,,Retail,hypermarket,KL,,,www.lotuss.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36,not_contacted,,
+446,Village Grocer,,Retail,supermarket,Selangor,,,www.villagegrocer.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36,not_contacted,,
+447,Jaya Grocer,,Retail,supermarket,Selangor,,,www.jayagrocer.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36,not_contacted,,
+448,Hero Market Sdn Bhd,,Retail,supermarket,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36,not_contacted,,
+449,Pasaraya OTK Sdn Bhd,,Retail,supermarket,Perak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36,not_contacted,,
+450,Billion Supermarket S/B,,Retail,supermarket,Sarawak,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36,not_contacted,,
+451,Hock Lee Supermarket,,Retail,supermarket,Sabah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36,not_contacted,,
+452,Servay Hypermarket,,Retail,hypermarket,Sabah,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:13:36,not_contacted,,
+472,Gamuda Land Sdn Bhd,,Property,development,Selangor,,,www.gamudaland.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11,not_contacted,,
+473,Selangor Dredging Bhd,,Property,development,KL,,,www.sdb.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11,not_contacted,,
+474,Bukit Kiara Properties,,Property,development,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11,not_contacted,,
+475,Eastern & Oriental Bhd,,Property,development,Penang,,,www.eo.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11,not_contacted,,
+476,Plenitude Bhd,,Property,development,KL,,,www.plenitude.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11,not_contacted,,
+477,Tropicana Corp Bhd,,Property,development,Selangor,,,www.tropicana.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11,not_contacted,,
+478,MKH Bhd,,Property,development,Selangor,,,www.mkh.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11,not_contacted,,
+479,Hoe Leong Corp Bhd,,Property,investment,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11,not_contacted,,
+480,Amcorp Properties Bhd,,Property,investment,KL,,,www.amcorpproperties.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11,not_contacted,,
+481,IGB Corp Bhd,,Property,commercial,KL,,,www.igb.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11,not_contacted,,
+482,KLCC Property Holdings,,Property,commercial,KL,,,www.klcc.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:11,not_contacted,,
+522,Eco World International,,Property,development,KL,,,www.ecoworldinternational.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+523,Matrix Concepts Holdings,,Property,development,Negeri Sembilan,,,www.matrixconcepts.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+524,Tambun Indah Land Bhd,,Property,development,Penang,,,www.tambunindah.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+525,Hunza Properties Bhd,,Property,development,Penang,,,www.hunzaproperties.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+526,Paramount Corp Bhd,,Property,development,Selangor,,,www.paramount.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+527,Titijaya Land Bhd,,Property,development,KL,,,www.titijaya.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+528,Hap Seng Land Sdn Bhd,,Property,commercial,KL,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+529,GuocoLand Malaysia,,Property,development,KL,,,www.guocoland.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+530,UOA Development Bhd,,Property,development,KL,,,www.uoa.com.my,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+531,Pavilion REIT,,Property,commercial,KL,,,www.pavilion-reit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+532,Sunway REIT,,Property,commercial,Selangor,,,www.sunwayreit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+533,KLCC REIT,,Property,commercial,KL,,,www.klcc-reit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+534,IGB REIT,,Property,commercial,KL,,,www.igbreit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+535,YTL Hospitality REIT,,Property,commercial,KL,,,www.ytlhospitalityreit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+536,Axis REIT,,Property,industrial,KL,,,www.axis-reit.com,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+537,LBS REIT,,Property,commercial,Selangor,,,,,,,,,,,,RM1850,manual_add,2026-07-17,50.0,,2026-07-17 02:14:33,not_contacted,,
+538,DKSH Malaysia Sdn Bhd,,Services,distribution,KL,,,www.dksh.com.my,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07,not_contacted,,
+539,IGB Bhd,,Property,commercial,KL,,,www.igb.com.my,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07,not_contacted,,
+540,KIP REIT,,Property,commercial,KL,,,,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07,not_contacted,,
+541,AmanahRaya REIT,,Property,commercial,KL,,,,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07,not_contacted,,
+542,DNeX Bhd,,Services,technology,KL,,,www.dnex.com.my,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07,not_contacted,,
+543,MyEG Services Bhd,,Services,technology,KL,,,www.myeg.com.my,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07,not_contacted,,
+544,Cuscapi Bhd,,Services,technology,Selangor,,,www.cuscapi.com,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07,not_contacted,,
+545,Silver Ridge Holdings,,Services,technology,KL,,,,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07,not_contacted,,
+546,HeiTech Padu Bhd,,Services,technology,KL,,,www.heitechpadu.com,,,,,,,,,,,2026-07-17,50.0,,2026-07-17 02:15:07,not_contacted,,
