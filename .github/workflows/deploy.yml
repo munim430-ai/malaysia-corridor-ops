@@ -60,11 +60,14 @@ jobs:
       
       - name: Run scraper
         run: python scrapers/scraper_runner.py
-      
+
+      - name: Generate outreach queue
+        run: python automation/generate_outreach.py
+
       - name: Commit updated database
         run: |
           git config --global user.name 'Corridor Bot'
           git config --global user.email 'bot@malaysia-corridor-ops'
-          git add data/companies.db data/companies.csv
-          git diff --staged --quiet || git commit -m "chore: weekly scraper update"
+          git add data/companies.db data/companies.csv outreach/outreach_queue.csv
+          git diff --staged --quiet || git commit -m "chore: weekly scraper + outreach queue update"
           git push

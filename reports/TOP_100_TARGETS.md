@@ -1,5 +1,5 @@
 # TOP 100 TARGET EMPLOYERS — Malaysia Corridor
-**Generated:** 2026-07-17 | **Source:** companies.db (203 companies)
+**Generated:** 2026-07-17 | **Source:** companies.db (505 companies)
 
 > **Priority Formula:** Sector fit (0-25) + Active demand (0-25) + Compliance pressure (0-20) + Scale (0-15) + Contactability (0-15)
 
@@ -7,7 +7,7 @@
 
 ## Tier 1: Critical Targets (Score 80-100)
 
-*108 companies — Large foreign workforce, high compliance pressure, active demand*
+*141 companies — Large foreign workforce, high compliance pressure, active demand*
 
 ### 1. WRP Asia Pacific Sdn Bhd
 
@@ -20,7 +20,7 @@
 | Email | N/A |
 | Priority Score | 100.0/100 |
 | Compliance | CBP: Finding |
-| Levy Tier | RM1,850/yr |
+| Levy Tier | RM1850 |
 
 **Why they're a target:** Manufacturing sector employer.
 
@@ -39,7 +39,7 @@
 | Email | N/A |
 | Priority Score | 100.0/100 |
 | Compliance | CBP: Multiple CBP forced labor findings |
-| Levy Tier | RM1,850/yr |
+| Levy Tier | RM640 |
 
 **Why they're a target:** Plantation companies have the largest foreign worker workforce in Malaysia. RM640/yr levy tier. CBP forced labor scrutiny on palm oil creates compliance pressure — our RBA-aligned model is a direct selling point.
 
@@ -54,7 +54,7 @@
 | Sector | Plantation |
 | Location | KL, Kuala Lumpur |
 | Website | https://www.bousteadplantations.com |
-| Phone | N/A |
+| Phone | +603-2613 2888 |
 | Email | N/A |
 | Est. Employees | ~6,000 |
 | Priority Score | 95.0/100 |
@@ -74,8 +74,8 @@
 | Sector | Plantation |
 | Location | Johor Bahru, Johor |
 | Website | https://www.kulim.com.my |
-| Phone | N/A |
-| Email | N/A |
+| Phone | 062316894531 |
+| Email | info@kulim.com.my |
 | Est. Employees | ~4,000 |
 | Priority Score | 95.0/100 |
 | Compliance | CBP forced labor scrutiny on palm oil |
@@ -94,7 +94,7 @@
 | Sector | Plantation |
 | Location | Petaling Jaya, Selangor |
 | Website | https://www.ijmplantations.com.my |
-| Phone | N/A |
+| Phone | +603-7985 8888 |
 | Email | N/A |
 | Est. Employees | ~3,000 |
 | Priority Score | 95.0/100 |
@@ -139,7 +139,7 @@
 | Est. Employees | ~12,000 |
 | Priority Score | 85.0/100 |
 | Compliance | None identified |
-| Levy Tier | RM1,850/yr |
+| Levy Tier | RM1850 |
 
 **Why they're a target:** Manufacturing sector employer.
 
@@ -159,7 +159,7 @@
 | Est. Employees | ~8,000 |
 | Priority Score | 85.0/100 |
 | Compliance | None identified |
-| Levy Tier | RM1,850/yr |
+| Levy Tier | RM1850 |
 
 **Why they're a target:** E&E sector employer.
 
@@ -179,7 +179,7 @@
 | Est. Employees | ~5,000 |
 | Priority Score | 85.0/100 |
 | Compliance | None identified |
-| Levy Tier | RM1,850/yr |
+| Levy Tier | RM1850 |
 
 **Why they're a target:** E&E sector employer.
 
@@ -194,12 +194,12 @@
 | Sector | Plantation |
 | Location | None, KL |
 | Website | N/A |
-| Phone | N/A |
-| Email | N/A |
+| Phone | +603-2789 0000 |
+| Email | hr@fgv.com.my |
 | Est. Employees | ~20,000 |
 | Priority Score | 85.0/100 |
 | Compliance | None identified |
-| Levy Tier | RM1,850/yr |
+| Levy Tier | RM640 |
 
 **Why they're a target:** Plantation companies have the largest foreign worker workforce in Malaysia. RM640/yr levy tier. CBP forced labor scrutiny on palm oil creates compliance pressure — our RBA-aligned model is a direct selling point.
 
@@ -214,12 +214,12 @@
 | Sector | Hospitality |
 | Location | None, KL |
 | Website | N/A |
-| Phone | N/A |
-| Email | N/A |
+| Phone | +603-2718 1118 |
+| Email | career@gentingmalaysia.com |
 | Est. Employees | ~10,000 |
 | Priority Score | 85.0/100 |
 | Compliance | None identified |
-| Levy Tier | RM1,850/yr |
+| Levy Tier | RM1850 |
 
 **Why they're a target:** Hospitality sector employer.
 
@@ -239,7 +239,7 @@
 | Est. Employees | ~6,000 |
 | Priority Score | 85.0/100 |
 | Compliance | None identified |
-| Levy Tier | RM1,850/yr |
+| Levy Tier | RM1850 |
 
 **Why they're a target:** Retail sector employer.
 
@@ -254,12 +254,12 @@
 | Sector | Plantation |
 | Location | None, KL |
 | Website | N/A |
-| Phone | N/A |
-| Email | N/A |
+| Phone | +603-2333 1888 |
+| Email | hr@gentingplantations.com |
 | Est. Employees | ~8,000 |
 | Priority Score | 85.0/100 |
 | Compliance | None identified |
-| Levy Tier | RM1,850/yr |
+| Levy Tier | RM640 |
 
 **Why they're a target:** Plantation companies have the largest foreign worker workforce in Malaysia. RM640/yr levy tier. CBP forced labor scrutiny on palm oil creates compliance pressure — our RBA-aligned model is a direct selling point.
 
@@ -279,7 +279,7 @@
 | Est. Employees | ~4,000 |
 | Priority Score | 85.0/100 |
 | Compliance | None identified |
-| Levy Tier | RM1,850/yr |
+| Levy Tier | RM1850 |
 
 **Why they're a target:** E&E sector employer.
 
@@ -299,7 +299,7 @@
 | Est. Employees | ~5,000 |
 | Priority Score | 85.0/100 |
 | Compliance | None identified |
-| Levy Tier | RM1,850/yr |
+| Levy Tier | RM1850 |
 
 **Why they're a target:** Manufacturing sector employer.
 
@@ -314,7 +314,7 @@
 | Sector | E&E |
 | Location | Bayan Lepas, Penang |
 | Website | https://www.aicsemi.com |
-| Phone | N/A |
+| Phone | 0260617113147 |
 | Email | N/A |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
@@ -333,8 +333,8 @@
 | Sector | E&E |
 | Location | Bayan Lepas, Penang |
 | Website | https://www.acutronic.com |
-| Phone | N/A |
-| Email | N/A |
+| Phone | 011-2020 |
+| Email | aus@acutronic.com |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
 | Levy Tier | RM1,850/yr |
@@ -352,7 +352,7 @@
 | Sector | E&E |
 | Location | Bayan Lepas, Penang |
 | Website | https://www.aligntech.com |
-| Phone | N/A |
+| Phone | 087-9574-76935 |
 | Email | N/A |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
@@ -371,8 +371,8 @@
 | Sector | E&E |
 | Location | Batu Kawan, Penang |
 | Website | https://www.besi.com |
-| Phone | N/A |
-| Email | N/A |
+| Phone | 012866412- |
+| Email | info@proudnerds.com |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
 | Levy Tier | RM1,850/yr |
@@ -390,7 +390,7 @@
 | Sector | E&E |
 | Location | Bayan Lepas, Penang |
 | Website | https://www.bose.com |
-| Phone | N/A |
+| Phone | 0897226 |
 | Email | N/A |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
@@ -409,7 +409,7 @@
 | Sector | E&E |
 | Location | Bayan Lepas, Penang |
 | Website | https://www.bruker.com |
-| Phone | N/A |
+| Phone | 0520904242 |
 | Email | N/A |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
@@ -447,7 +447,7 @@
 | Sector | E&E |
 | Location | Bayan Lepas, Penang |
 | Website | https://www.dell.com |
-| Phone | N/A |
+| Phone | 013 6 6 1 |
 | Email | N/A |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
@@ -466,7 +466,7 @@
 | Sector | E&E |
 | Location | Senai, Johor |
 | Website | https://www.dyson.com |
-| Phone | N/A |
+| Phone | 05478349583 |
 | Email | N/A |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
@@ -485,7 +485,7 @@
 | Sector | E&E |
 | Location | Johor Bahru, Johor |
 | Website | https://www.flextronics.com |
-| Phone | N/A |
+| Phone | 026-07-09 |
 | Email | N/A |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
@@ -504,7 +504,7 @@
 | Sector | E&E |
 | Location | Bayan Lepas, Penang |
 | Website | https://www.hp.com |
-| Phone | N/A |
+| Phone | 07-2026 08 |
 | Email | N/A |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
@@ -523,7 +523,7 @@
 | Sector | E&E |
 | Location | Petaling Jaya, Selangor |
 | Website | https://www.hitachi.com |
-| Phone | N/A |
+| Phone | 025-03-04 |
 | Email | N/A |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
@@ -542,7 +542,7 @@
 | Sector | Manufacturing |
 | Location | KL, Kuala Lumpur |
 | Website | https://www.hongleong.com |
-| Phone | N/A |
+| Phone | 024-08-26 |
 | Email | N/A |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
@@ -580,7 +580,7 @@
 | Sector | E&E |
 | Location | Bayan Lepas, Penang |
 | Website | https://www.jabil.com |
-| Phone | N/A |
+| Phone | 04277 196 |
 | Email | N/A |
 | Priority Score | 85.0/100 |
 | Compliance | Export-driven - RBA/CBP pressure likely |
@@ -594,7 +594,7 @@
 
 ## Tier 2: High Potential (Score 65-79)
 
-*46 companies — Solid targets with moderate foreign worker need*
+*256 companies — Solid targets with moderate foreign worker need*
 
 ### 31. TAHPS Group Bhd
 - **Sector:** Construction | **Location:** KL, Kuala Lumpur | **Score:** 75.0/100
@@ -743,100 +743,100 @@
 
 ---
 
-### 52. Gamuda Bhd
-- **Sector:** Construction | **Location:** Petaling Jaya, Selangor | **Score:** 70.0/100
-- **Why:** Construction employer 
-- **Approach:** Call procurement or HR. Pitch: 'We can supply documented workers for your infrastructure projects. JTKSM-compliant, FWCMS-ready.'
+### 52. Malaysian Pacific Industries
+- **Sector:** Manufacturing | **Location:** None, Penang | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 53. IJM Corp Bhd
-- **Sector:** Construction | **Location:** Petaling Jaya, Selangor | **Score:** 70.0/100
-- **Why:** Construction employer 
-- **Approach:** Call procurement or HR. Pitch: 'We can supply documented workers for your infrastructure projects. JTKSM-compliant, FWCMS-ready.'
+### 53. Carlo Rino Group Bhd
+- **Sector:** Manufacturing | **Location:** None, KL | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 54. Sunway Construction Bhd
-- **Sector:** Construction | **Location:** Petaling Jaya, Selangor | **Score:** 70.0/100
-- **Why:** Construction employer 
-- **Approach:** Call procurement or HR. Pitch: 'We can supply documented workers for your infrastructure projects. JTKSM-compliant, FWCMS-ready.'
+### 54. Hup Seng Industries Bhd
+- **Sector:** Manufacturing | **Location:** None, Johor | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 55. MRCB
-- **Sector:** Construction | **Location:** KL, Kuala Lumpur | **Score:** 70.0/100
-- **Why:** Construction employer 
-- **Approach:** Call procurement or HR. Pitch: 'We can supply documented workers for your infrastructure projects. JTKSM-compliant, FWCMS-ready.'
+### 55. AEMulus Holdings Bhd
+- **Sector:** Manufacturing | **Location:** None, Penang | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 56. WCT Holdings Bhd
-- **Sector:** Construction | **Location:** Petaling Jaya, Selangor | **Score:** 70.0/100
-- **Why:** Construction employer 
-- **Approach:** Call procurement or HR. Pitch: 'We can supply documented workers for your infrastructure projects. JTKSM-compliant, FWCMS-ready.'
+### 56. K. Seng Seng Corp Bhd
+- **Sector:** Manufacturing | **Location:** None, Johor | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 57. Kimlun Corp Bhd
-- **Sector:** Construction | **Location:** Johor Bahru, Johor | **Score:** 70.0/100
-- **Why:** Construction employer 
-- **Approach:** Call procurement or HR. Pitch: 'We can supply documented workers for your infrastructure projects. JTKSM-compliant, FWCMS-ready.'
+### 57. Luster Industries Bhd
+- **Sector:** Manufacturing | **Location:** None, Selangor | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 58. Hock Seng Lee Bhd
-- **Sector:** Construction | **Location:** Kuching, Sarawak | **Score:** 70.0/100
-- **Why:** Construction employer 
-- **Approach:** Call procurement or HR. Pitch: 'We can supply documented workers for your infrastructure projects. JTKSM-compliant, FWCMS-ready.'
+### 58. Dufu Technology Corp Bhd
+- **Sector:** Manufacturing | **Location:** None, Penang | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 59. Lii Hen Industries Bhd
-- **Sector:** Furniture | **Location:** Alor Gajah, Melaka | **Score:** 70.0/100
-- **Why:** Furniture employer 
-- **Approach:** Call factory directly. Ask for HR Manager. Pitch: 'We supply documented Bangladeshi workers for furniture manufacturing. Direct from source — no dalal markups.'
+### 59. P.A. Resources Bhd
+- **Sector:** Manufacturing | **Location:** None, Johor | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 60. Latitude Tree Holdings Bhd
-- **Sector:** Furniture | **Location:** Rawang, Selangor | **Score:** 70.0/100
-- **Why:** Furniture employer 
-- **Approach:** Call factory directly. Ask for HR Manager. Pitch: 'We supply documented Bangladeshi workers for furniture manufacturing. Direct from source — no dalal markups.'
+### 60. Suiwah Corp Bhd
+- **Sector:** Manufacturing | **Location:** None, Johor | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 61. Homeritz Corp Bhd
-- **Sector:** Furniture | **Location:** Muar, Johor | **Score:** 70.0/100
-- **Why:** Furniture employer 
-- **Approach:** Call factory directly. Ask for HR Manager. Pitch: 'We supply documented Bangladeshi workers for furniture manufacturing. Direct from source — no dalal markups.'
+### 61. Poh Huat Resources Bhd
+- **Sector:** Manufacturing | **Location:** None, Johor | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 62. Poh Huat Resources Holdings Bhd
-- **Sector:** Furniture | **Location:** Kulim, Kedah | **Score:** 70.0/100
-- **Why:** Furniture employer 
-- **Approach:** Call factory directly. Ask for HR Manager. Pitch: 'We supply documented Bangladeshi workers for furniture manufacturing. Direct from source — no dalal markups.'
+### 62. Poh Kong Holdings Bhd
+- **Sector:** Manufacturing | **Location:** None, Selangor | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 63. QL Resources Bhd
-- **Sector:** Agriculture | **Location:** Bagan Serai, Penang | **Score:** 70.0/100
-- **Why:** Agriculture employer 
-- **Approach:** Contact operations manager. Pitch: 'Reliable Bangladeshi workers for plantation/agriculture. RBA-aligned, lower cost than current agency channel.'
+### 63. Tomei Consolidated Bhd
+- **Sector:** Manufacturing | **Location:** None, KL | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 64. CAB Cakaran Corp Bhd
-- **Sector:** Agriculture | **Location:** Perai, Penang | **Score:** 70.0/100
-- **Why:** Agriculture employer 
-- **Approach:** Contact operations manager. Pitch: 'Reliable Bangladeshi workers for plantation/agriculture. RBA-aligned, lower cost than current agency channel.'
+### 64. Bonia Corp Bhd
+- **Sector:** Manufacturing | **Location:** None, KL | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
+- **Approach:** Cold outreach via LinkedIn/phone
 
 ---
 
-### 65. AEON (M) Bhd
-- **Sector:** Retail | **Location:** KL, Kuala Lumpur | **Score:** 70.0/100
-- **Why:** Retail employer 
+### 65. Magna Prima Bhd
+- **Sector:** Manufacturing | **Location:** None, KL | **Score:** 75.0/100
+- **Why:** Manufacturing employer 
 - **Approach:** Cold outreach via LinkedIn/phone
 
 ---
@@ -959,98 +959,98 @@
 
 ---
 
-### 85. Prestige Pillar Industries Sdn Bhd
+### 85. Securexcel Sdn Bhd
+- **Sector:** Security | **Location:** None, Selangor | **Score:** 55.0/100
+- **Notes:** Potential target
+
+---
+
+### 86. Guardforce Malaysia
+- **Sector:** Security | **Location:** None, KL | **Score:** 55.0/100
+- **Notes:** Potential target
+
+---
+
+### 87. 7 Days Security Sdn Bhd
+- **Sector:** Security | **Location:** None, KL | **Score:** 55.0/100
+- **Notes:** Potential target
+
+---
+
+### 88. Wan SH Sam Security
+- **Sector:** Security | **Location:** None, KL | **Score:** 55.0/100
+- **Notes:** Potential target
+
+---
+
+### 89. Bengkel Sekuriti Sdn Bhd
+- **Sector:** Security | **Location:** None, Selangor | **Score:** 55.0/100
+- **Notes:** Potential target
+
+---
+
+### 90. Bidar Security Sdn Bhd
+- **Sector:** Security | **Location:** None, KL | **Score:** 55.0/100
+- **Notes:** Potential target
+
+---
+
+### 91. Pertama Security Sdn Bhd
+- **Sector:** Security | **Location:** None, Selangor | **Score:** 55.0/100
+- **Notes:** Potential target
+
+---
+
+### 92. Matahari Security Sdn Bhd
+- **Sector:** Security | **Location:** None, KL | **Score:** 55.0/100
+- **Notes:** Potential target
+
+---
+
+### 93. Global Security Services
+- **Sector:** Security | **Location:** None, Penang | **Score:** 55.0/100
+- **Notes:** Potential target
+
+---
+
+### 94. Elite Security Services
+- **Sector:** Security | **Location:** None, Johor | **Score:** 55.0/100
+- **Notes:** Potential target
+
+---
+
+### 95. Prestige Pillar Industries Sdn Bhd
 - **Sector:** Manufacturing | **Location:** Klang, Selangor | **Score:** 50.0/100
 - **Notes:** SME - Manufacturing. Likely uses foreign workers.
 
 ---
 
-### 86. Eonmetall Group Bhd
+### 96. Eonmetall Group Bhd
 - **Sector:** Manufacturing | **Location:** Kulim, Kedah | **Score:** 50.0/100
 - **Notes:** SME - Manufacturing. Likely uses foreign workers.
 
 ---
 
-### 87. YNH Property Bhd
+### 97. YNH Property Bhd
 - **Sector:** Construction | **Location:** KL, Kuala Lumpur | **Score:** 50.0/100
 - **Notes:** SME - Construction. Likely uses foreign workers.
 
 ---
 
-### 88. Talam Transform Bhd
+### 98. Talam Transform Bhd
 - **Sector:** Construction | **Location:** KL, Kuala Lumpur | **Score:** 50.0/100
 - **Notes:** SME - Construction. Likely uses foreign workers.
 
 ---
 
-### 89. Java Corp Bhd
+### 99. Java Corp Bhd
 - **Sector:** Manufacturing | **Location:** Muar, Johor | **Score:** 50.0/100
 - **Notes:** SME - Manufacturing. Likely uses foreign workers.
 
 ---
 
-### 90. Ho Wah Genting Bhd
+### 100. Ho Wah Genting Bhd
 - **Sector:** Manufacturing | **Location:** Shah Alam, Selangor | **Score:** 50.0/100
-- **Notes:** SME - Manufacturing. Likely uses foreign workers.
-
----
-
-### 91. POH Packaging (M) Sdn Bhd
-- **Sector:** Manufacturing | **Location:** Shah Alam, Selangor | **Score:** 50.0/100
-- **Notes:** SME - Manufacturing. Likely uses foreign workers.
-
----
-
-### 92. Kian Joo Can Factory Bhd
-- **Sector:** Manufacturing | **Location:** Shah Alam, Selangor | **Score:** 50.0/100
-- **Notes:** SME - Manufacturing. Likely uses foreign workers.
-
----
-
-### 93. Malayan Flour Mills Bhd
-- **Sector:** Agriculture | **Location:** Petaling Jaya, Selangor | **Score:** 50.0/100
-- **Notes:** SME - Agriculture. Likely uses foreign workers.
-
----
-
-### 94. PLB Engineering Bhd
-- **Sector:** Construction | **Location:** Butterworth, Penang | **Score:** 50.0/100
-- **Notes:** SME - Construction. Likely uses foreign workers.
-
----
-
-### 95. Minply Holdings (M) Sdn Bhd
-- **Sector:** Furniture | **Location:** Klang, Selangor | **Score:** 50.0/100
-- **Notes:** SME - Furniture. Likely uses foreign workers.
-
----
-
-### 96. Choo Bee Metal Industries Bhd
-- **Sector:** Manufacturing | **Location:** Klang, Selangor | **Score:** 50.0/100
-- **Notes:** SME - Manufacturing. Likely uses foreign workers.
-
----
-
-### 97. Mieco Chipboard Bhd
-- **Sector:** Furniture | **Location:** Klang, Selangor | **Score:** 50.0/100
-- **Notes:** SME - Furniture. Likely uses foreign workers.
-
----
-
-### 98. Evergreen Fibreboard Bhd
-- **Sector:** Furniture | **Location:** Batu Pahat, Johor | **Score:** 50.0/100
-- **Notes:** SME - Furniture. Likely uses foreign workers.
-
----
-
-### 99. Daibochi Plastic & Packaging
-- **Sector:** Manufacturing | **Location:** Shah Alam, Selangor | **Score:** 50.0/100
-- **Notes:** SME - Manufacturing. Likely uses foreign workers.
-
----
-
-### 100. Kossan Precision Components
-- **Sector:** Manufacturing | **Location:** Klang, Selangor | **Score:** 50.0/100
 - **Notes:** SME - Manufacturing. Likely uses foreign workers.
 
 ---
@@ -1060,16 +1060,16 @@
 
 | Sector | Companies in DB | Levy Tier | Key Compliance Pressure |
 |--------|----------------|-----------|------------------------|
-| E&E | 65 | RM1,850/yr | 60 companies with flags |
-| Construction | 32 | RM1,850/yr | 16 companies with flags |
-| Plantation | 18 | RM640/yr | 5 companies with flags |
+| Manufacturing | 109 | RM1,850/yr | 2 companies with flags |
+| E&E | 74 | RM1,850/yr | 60 companies with flags |
+| Services | 66 | RM1,850/yr | 0 companies with flags |
+| Construction | 58 | RM1,850/yr | 16 companies with flags |
+| Plantation | 42 | RM640/yr | 5 companies with flags |
+| Property | 33 | RM1,850/yr | 0 companies with flags |
+| Hospitality | 27 | RM1,850/yr | 0 companies with flags |
+| Retail | 24 | RM1,850/yr | 0 companies with flags |
+| Agriculture | 19 | RM640/yr | 0 companies with flags |
 | Furniture | 17 | RM1,850/yr | 0 companies with flags |
-| Manufacturing | 16 | RM1,850/yr | 2 companies with flags |
 | Electrical & Electronics | 15 | RM1,850/yr | 0 companies with flags |
-| Retail | 12 | RM1,850/yr | 0 companies with flags |
-| Rubber | 6 | RM1,850/yr | 0 companies with flags |
-| Hospitality | 6 | RM1,850/yr | 0 companies with flags |
-| Agriculture | 5 | RM640/yr | 0 companies with flags |
-| Services | 4 | RM1,850/yr | 0 companies with flags |
-| Security | 4 | RM1,850/yr | 0 companies with flags |
-| Property | 3 | RM1,850/yr | 0 companies with flags |
+| Security | 14 | RM1,850/yr | 0 companies with flags |
+| Rubber | 7 | RM1,850/yr | 0 companies with flags |

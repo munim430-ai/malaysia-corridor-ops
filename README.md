@@ -10,10 +10,15 @@ The labor corridor is reopening after its June 2024 closure. This repo builds th
 
 | Directory | Contents |
 |-----------|----------|
+| `BUSINESS_PLAN.md` | The actionable business plan — start here |
+| `MASTER_PROMPT.md` | Reusable AI operations prompt — paste into any AI assistant to run outreach/content tasks with full context |
+| `WORKER_INTAKE_SETUP.md` | 15-minute guide to wire the site's placeholder form/WhatsApp links to a live intake pipeline |
 | `/reports/` | RED_TEAM_REPORT, TOP_100_TARGETS, QUOTA_WATCH, MASTER_REPORT |
 | `/site/` | GitHub Pages marketing site (Bengali + English, 4 pages, 5 SEO posts) |
 | `/data/` | companies.db (SQLite), companies.csv, scraper outputs |
 | `/scrapers/` | Python scrapers for employer intelligence |
+| `/automation/` | Outreach message generator + pipeline/CRM tracker for the 505-company database |
+| `/outreach/` | Generated, ready-to-send outreach queue (email/WhatsApp/LinkedIn per company) |
 | `/content/` | Marketing copy, email templates, social scripts, flyer assets |
 
 ## Live Site
@@ -56,17 +61,29 @@ The labor corridor is reopening after its June 2024 closure. This repo builds th
 git clone https://github.com/[your-org]/malaysia-corridor-ops
 cd malaysia-corridor-ops
 pip install -r requirements.txt
-python scrapers/scraper_runner.py  # Run all scrapers
+python scrapers/scraper_runner.py       # Run all scrapers
+python automation/generate_outreach.py  # Generate outreach queue for all 505 companies
+python automation/update_pipeline.py summary  # Check pipeline funnel
 ```
+
+Read `BUSINESS_PLAN.md` first, then `WORKER_INTAKE_SETUP.md` to wire the live site.
 
 ## Repository Structure
 
 ```
 malaysia-corridor-ops/
+├── BUSINESS_PLAN.md         # The actionable business plan
+├── MASTER_PROMPT.md         # Reusable AI operations prompt
+├── WORKER_INTAKE_SETUP.md   # Wire the live intake pipeline (15 min)
 ├── ASSUMPTIONS.md          # All business/technical assumptions
 ├── BLOCKERS.md             # Active blockers & workarounds
 ├── progress.db             # SQLite checkpoint database
 ├── RESUME_STATE.md         # Session continuation state
+├── automation/
+│   ├── generate_outreach.py        # Drafts email/WhatsApp/LinkedIn per company
+│   └── update_pipeline.py          # Lightweight CRM: track outreach status
+├── outreach/
+│   └── outreach_queue.csv          # Generated outreach drafts (505 companies)
 ├── data/
 │   ├── corridor_intel.md           # Corridor reopening intelligence
 │   ├── visa_requirements.md         # Malaysian visa specs
