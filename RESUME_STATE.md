@@ -1,7 +1,7 @@
 # RESUME_STATE — Malaysia Corridor Ops
 
 **Last session:** July 17, 2026
-**Branch:** master (2 commits)
+**Branch:** claude/business-plan-prompt-ofvzxk (open draft PR #1, not yet merged to master)
 **Remote:** https://github.com/munim430-ai/malaysia-corridor-ops
 
 ## Completed
@@ -29,21 +29,29 @@
 - `content/DISTRIBUTION.md` — 6-channel zero-cost marketing playbook
 
 ### Infrastructure
-- `.github/workflows/deploy.yml` — GH Pages deploy + weekly scraper
-- GitHub Pages: auto-deploys on push to master (action configures `site/` as root)
+- `.github/workflows/deploy.yml` — GH Pages deploy + weekly scraper + weekly outreach queue regen
+- GitHub Pages: **confirmed live** at https://munim430-ai.github.io/malaysia-corridor-ops/ (verified 2026-07-17 — Bengali worker funnel renders correctly)
 - GoatCounter analytics configured in `script.js`
 - WhatsApp floating button on all pages
+
+### Business Plan & Automation (this session)
+- `BUSINESS_PLAN.md` — actionable, start-today plan synthesizing all reports
+- `MASTER_PROMPT.md` — pasteable AI operations prompt with full business context
+- `WORKER_INTAKE_SETUP.md` — 15-min guide to wire the site's placeholder form/WhatsApp links live (**not yet done** — still placeholders as of this session)
+- `automation/generate_outreach.py` + `automation/update_pipeline.py` — outreach drafting + lightweight CRM
+- PR #1 open (draft): https://github.com/munim430-ai/malaysia-corridor-ops/pull/1
 
 ## Remaining / Deferred
 
 | Task | Priority | Notes |
 |------|----------|-------|
-| Run full contact enricher | Medium | Needs 10+ min timeout, scrapes 100+ websites |
-| Verify GH Pages live URL | Medium | Check `munim430-ai.github.io/malaysia-corridor-ops/` after deploy action completes |
-| Update TOP_100_TARGETS.md | Low | Generated from initial 203 companies; now 505 |
-| Post in BD worker FB groups | Low | Wait until site is verified live |
+| Merge PR #1 | High | Business plan + automation, currently a draft PR |
+| Wire real Google Form + WhatsApp number | High | Site links are still placeholders — see `WORKER_INTAKE_SETUP.md` |
+| Secure umbrella BMET RL agreement | Critical | The one task automation can't do — needs real relationships in Dhaka |
+| Update TOP_100_TARGETS.md | Low | Regenerated as companies grow past 505 |
+| Post in BD worker FB groups | Low | Site is live — can start now |
 | Set up Telegram channel | Low | `t.me/malaysia_corridor_ops` |
-| Monitor corridor reopening | Ongoing | Track FWCMS eQuota backlog, MoU progress |
+| Monitor corridor reopening | Ongoing | Track FWCMS eQuota backlog, MoU progress via `reports/QUOTA_WATCH.md` |
 
 ## Key Commands
 ```bash
