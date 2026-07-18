@@ -1,14 +1,19 @@
-# Malaysia Corridor Ops — Automated Scraping & Enrichment Pipeline
+# Malaysia Corridor Ops - Automated Scraping & Enrichment Pipeline
 # ============================================================================
-# Runs weekly on GitHub Actions: scrapes new companies, enriches contacts, updates CRM
+# Runs FREQUENTLY on GitHub Actions: scrapes new companies, enriches contacts, updates CRM
+# Schedule: Every 30 minutes during active hours (06:00-22:00 UTC = 14:00-06:00 MYT)
+# Plus weekly full runs for deep scraping
 
 name: 🚀 Scraper & Enrichment Pipeline
 
 on:
   schedule:
-    # Weekly: Sunday 02:00 UTC (Saturday night US / Sunday morning Malaysia)
+    # Frequent: Every 30 minutes during active hours (06:00-22:00 UTC)
+    # Covers Malaysia business hours (14:00-06:00 MYT next day)
+    - cron: '*/30 6-22 * * *'
+    # Deep full run: Sunday 02:00 UTC (comprehensive scrape + full enrichment)
     - cron: '0 2 * * 0'
-    # Mid-week: Wednesday 14:00 UTC (light enrichment only)
+    # Mid-week deep enrichment: Wednesday 14:00 UTC
     - cron: '0 14 * * 3'
   workflow_dispatch:
     inputs:
@@ -35,7 +40,7 @@ permissions:
 
 concurrency:
   group: scraper-pipeline-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true  # Cancel previous run if new one starts (for frequent runs)
 
 env:
   PYTHON_VERSION: '3.11'
@@ -45,7 +50,7 @@ jobs:
   # ─── Job 1: Scrape New Companies ────────────────────────────────────────
   scrape-companies:
     name: 🕷️ Scrape Companies
-    if: ${{ github.event.inputs.mode != 'enrich' && github.event.inputs.mode != 'crm-sync' }}
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode != 'enrich' || github.event.inputs.mode != 'crm-sync' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -107,7 +112,7 @@ jobs:
   enrich-contacts:
     name: 📞 Enrich Contacts
     needs: scrape-companies
-    if: ${{ github.event.inputs.mode != 'scrape' && github.event.inputs.mode != 'crm-sync' }}
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode != 'scrape' || github.event.inputs.mode != 'crm-sync' }}
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -223,7 +228,7 @@ jobs:
   crm-sync:
     name: 🔄 CRM Sync
     needs: [scrape-companies, enrich-contacts]
-    if: ${{ github.event.inputs.mode == 'full' || github.event.inputs.mode == 'crm-sync' }}
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'full' || github.event.inputs.mode == 'crm-sync' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
