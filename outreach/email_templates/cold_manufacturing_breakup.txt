@@ -1,0 +1,20 @@
+Subject: Closing the loop - Malaysia workforce partnership
+
+Hi {{contact_name}},
+
+I haven't heard back, so I'm assuming the timing isn't right or this isn't a priority for {{company_name}} right now.
+
+I'll close your file on our end — no more follow-ups from me.
+
+**But the door stays open:** If your workforce planning changes, or if you see competitors deploying Bangladesh workers ahead of you in Q1 2027, just reply to this email. We'll pick up where we left off.
+
+For reference, our pre-screened pool for {{industry}} currently includes:
+- {{worker_count}} workers with BMET clearance
+- Skills: {{top_skills}}
+- Deployment ready: January 2027
+
+All the best with {{company_name}}'s growth in {{state}}.
+
+{{sender_name}}
+{{sender_title}}
+Malaysia Corridor Ops

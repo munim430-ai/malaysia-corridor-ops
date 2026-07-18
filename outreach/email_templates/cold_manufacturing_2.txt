@@ -1,0 +1,21 @@
+Subject: Re: Partnership opportunity for {{company_name}}
+
+Hi {{contact_name}},
+
+Following up on my note from a few days ago — I know you're busy.
+
+The timeline is tightening: KESUMA centralized all quota into FWCMS eQuota on July 6th. 22,476 applications are pending. Companies that have their worker pipeline ready *before* the MoU signs will deploy first.
+
+We've already pre-screened 200+ workers for manufacturing roles (E&E, automotive, precision engineering) with:
+- BMET smart cards: ✓
+- Medical history cleared: ✓
+- Skills verified: ✓
+- Family consent documented: ✓
+
+**The ask is simple:** Reserve your allocation now. Zero cost until deployment. You only pay the standard agency fee *after* workers arrive and pass FOMEMA re-check.
+
+Can we lock in 15 minutes this week? I'll share the exact worker profiles matching your {{industry}} needs.
+
+{{sender_name}}
+{{sender_title}}
+Malaysia Corridor Ops

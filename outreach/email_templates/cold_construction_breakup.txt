@@ -1,0 +1,21 @@
+Subject: Closing the loop - Construction workforce for {{company_name}}
+
+Hi {{contact_name}},
+
+Haven't heard back, so I'll assume the timing isn't right or this isn't a priority for {{company_name}}.
+
+I'll close your file — no more emails from me.
+
+**The offer remains:** If your project pipeline changes, or if you see competitors deploying Bangladesh workers on similar projects in Q1 2027, just reply here. We'll pick up instantly.
+
+For reference, our construction pool includes {{worker_count}} workers with:
+- Skills: {{top_skills}}
+- CIDB-recognized verification
+- BMET smart cards + medical cleared
+- Ready for January 2027 deployment
+
+Best of luck with your projects in {{state}}.
+
+{{sender_name}}
+{{sender_title}}
+Malaysia Corridor Ops

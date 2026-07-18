@@ -1,0 +1,275 @@
+# Augmented Automation Suite
+# ==========================
+# Runs on schedule AND manually. Combines all automations:
+#   - Weekly scrapers (keeps employer DB growing)
+#   - Contact enrichment pipeline
+#   - Database quality checks (dedup, rescore, validate)
+#   - Report generation (markdown + JSON)
+#   - Content syndication prep
+#
+# Schedule:
+#   - Sunday 00:00 UTC: Full run (scrape + enrich + reports)
+#   - Wednesday 12:00 UTC: Light run (enrich + reports only)
+#   - Daily 08:00 UTC: Quick report refresh
+
+name: 🚀 Augmented Ops
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'     # Weekly Sunday midnight - full run
+    - cron: '0 12 * * 3'    # Wednesday noon - enrichment + reports
+    - cron: '0 8 * * 1-6'   # Mon-Sat 8am - quick report refresh
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - full      # Scrape + enrich + report + commit
+          - scrape    # Scraper runner only
+          - enrich    # Contact enrichment only
+          - reports   # Report generation only
+          - db-tools  # Database maintenance only
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: augmented-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  # ── JOB 1: Full Scraper Suite ──
+  run-scrapers:
+    name: 🕷️ Run Scrapers
+    if: |
+      github.event_name == 'schedule' && github.event.schedule == '0 0 * * 0' ||
+      (github.event_name == 'workflow_dispatch' && 
+       (inputs.mode == 'full' || inputs.mode == 'scrape'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml pandas
+      
+      - name: Run scraper suite
+        run: python scrapers/scraper_runner.py
+        timeout-minutes: 10
+      
+      - name: Commit scraper results
+        run: |
+          git config --global user.name 'Corridor Bot'
+          git config --global user.email 'bot@malaysia-corridor-ops'
+          git add data/companies.db data/companies.csv
+          git diff --staged --quiet || git commit -m "🤖 weekly scraper update $(date +%Y-%m-%d)"
+          git push
+
+  # ── JOB 2: Contact Enrichment ──
+  contact-enrichment:
+    name: 📞 Contact Enrichment
+    if: |
+      github.event_name == 'schedule' && 
+      (github.event.schedule == '0 0 * * 0' || github.event.schedule == '0 12 * * 3') ||
+      (github.event_name == 'workflow_dispatch' && 
+       (inputs.mode == 'full' || inputs.mode == 'enrich'))
+    runs-on: ubuntu-latest
+    needs: [run-scrapers]
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+      
+      - name: Run parallel enrichment
+        run: python scrapers/enricher_v2.py --batch-size 30
+        timeout-minutes: 15
+      
+      - name: Commit enriched contacts
+        run: |
+          git config --global user.name 'Corridor Bot'
+          git config --global user.email 'bot@malaysia-corridor-ops'
+          git add data/companies.db data/companies.csv
+          git diff --staged --quiet || git commit -m "🤖 contact enrichment $(date +%Y-%m-%d)"
+          git push
+
+  # ── JOB 3: Database Maintenance ──
+  db-maintenance:
+    name: 🛠️ DB Maintenance
+    if: |
+      github.event_name == 'schedule' && github.event.schedule == '0 0 * * 0' ||
+      (github.event_name == 'workflow_dispatch' && 
+       (inputs.mode == 'full' || inputs.mode == 'db-tools'))
+    runs-on: ubuntu-latest
+    needs: [contact-enrichment]
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Schema upgrade
+        run: python scrapers/db_tools.py --schema-upgrade
+      
+      - name: Deduplicate
+        run: python scrapers/db_tools.py --dedup
+      
+      - name: Rescore priorities
+        run: python scrapers/db_tools.py --rescore
+      
+      - name: Validate
+        run: python scrapers/db_tools.py --validate
+      
+      - name: Export JSON
+        run: python scrapers/db_tools.py --export-json
+      
+      - name: Commit maintenance
+        run: |
+          git config --global user.name 'Corridor Bot'
+          git config --global user.email 'bot@malaysia-corridor-ops'
+          git add data/companies.db data/companies.csv data/companies.json
+          git diff --staged --quiet || git commit -m "🤖 db maintenance $(date +%Y-%m-%d)"
+          git push
+
+  # ── JOB 4: Report Generation ──
+  generate-reports:
+    name: 📊 Generate Reports
+    if: |
+      github.event_name == 'schedule' ||
+      (github.event_name == 'workflow_dispatch' && 
+       (inputs.mode == 'full' || inputs.mode == 'reports'))
+    runs-on: ubuntu-latest
+    needs: [db-maintenance]
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install pandas
+      
+      - name: Generate all reports
+        run: python scrapers/report_generator.py --all
+      
+      - name: Commit reports
+        run: |
+          git config --global user.name 'Corridor Bot'
+          git config --global user.email 'bot@malaysia-corridor-ops'
+          git add reports/ data/stats.json
+          git diff --staged --quiet || git commit -m "🤖 auto reports $(date +%Y-%m-%d)"
+          git push
+
+  # ── JOB 5: Site Deploy (after reports) ──
+  deploy-site:
+    name: 🌐 Deploy Site
+    if: always() && !cancelled()
+    needs: [generate-reports]
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Copy stats.json to site
+        run: |
+          if [ -f data/stats.json ]; then
+            mkdir -p site/data
+            cp data/stats.json site/data/stats.json
+          fi
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # ── JOB 6: Content Syndication Prep ──
+  content-syndication:
+    name: 📤 Content Prep
+    if: |
+      github.event_name == 'schedule' && github.event.schedule == '0 0 * * 0' ||
+      (github.event_name == 'workflow_dispatch' && 
+       (inputs.mode == 'full'))
+    runs-on: ubuntu-latest
+    needs: [generate-reports]
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Generate syndication content
+        run: |
+          python3 -c "
+          import json, datetime
+          today = datetime.date.today().isoformat()
+          
+          # Read company stats
+          with open('data/stats.json') as f:
+              stats = json.load(f)
+          
+          # Generate Twitter thread content
+          twitter = f'''🇧🇩→🇲🇾 Corridor Watch — Week of {today}
+
+          📊 Database: {stats['total_companies']} Malaysian employers catalogued
+          📞 Contact coverage: {stats['contact_coverage_pct']}%
+          👷 Est. foreign worker demand: {stats['total_est_workers']:,}+
+
+          Top sectors by demand:
+          '''
+          for s in stats['sectors'][:5]:
+              twitter += f\"\n• {s['sector']}: {s['count']} companies\"
+          
+          twitter += '''
+          
+          Corridor status: CLOSED (since Jun 2024)
+          MoU: NOT signed
+          Best case reopening: Late 2026
+          
+          #Malaysia #Bangladesh #LabourCorridor #Recruitment
+          '''
+          
+          with open('content/syndication/weekly_update.md', 'w') as f:
+              f.write(twitter)
+          
+          print('Syndication content generated')
+          "
+      
+      - name: Commit syndication content
+        run: |
+          git config --global user.name 'Corridor Bot'
+          git config --global user.email 'bot@malaysia-corridor-ops'
+          git add content/syndication/
+          git diff --staged --quiet || git commit -m "🤖 weekly syndication prep $(date +%Y-%m-%d)"
+          git push

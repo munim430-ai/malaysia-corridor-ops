@@ -1,0 +1,15 @@
+Subject: Closing the loop - Plantation workforce for {{company_name}}
+
+Hi {{contact_name}},
+
+Haven't heard back, so I'll close your file — no more emails from me.
+
+**The offer stays open:** If your manpower planning changes, or if you see neighboring estates deploying Bangladesh workers ahead of you in Q1 2027, just reply here.
+
+For reference: {{worker_count}} workers with {{top_skills}} ready for January 2027 at RM640/worker/year levy.
+
+All the best with operations in {{state}}.
+
+{{sender_name}}
+{{sender_title}}
+Malaysia Corridor Ops

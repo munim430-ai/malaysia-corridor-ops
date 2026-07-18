@@ -1,0 +1,202 @@
+{
+  "name": "Cold Outreach - Construction/Plantation",
+  "nodes": [
+    {
+      "parameters": {
+        "functionCode": "const leads = $json.leads || [];\nreturn leads.map(lead => ({\n  json: {\n    lead_id: lead.id,\n    company_name: lead.company_name,\n    contact_name: lead.contact_name || 'Project Director',\n    contact_email: lead.email,\n    industry: lead.industry,\n    state: lead.state,\n    employee_count: lead.employee_count,\n    levy_tier: lead.levy_tier,\n    template: lead.industry === 'construction' ? 'cold_construction_1' : 'cold_plantation_1'\n  }\n}));"
+      },
+      "id": "1",
+      "name": "Prepare Leads",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{$credentials.smtp.fromEmail}}",
+        "toEmail": "={{$json.contact_email}}",
+        "subject": "={{$json.email_subject}}",
+        "text": "={{$json.email_body}}",
+        "html": "={{$json.email_html}}"
+      },
+      "id": "2",
+      "name": "Send Email 1",
+      "type": "n8n-nodes-base.sendEmail",
+      "typeVersion": 2,
+      "position": [500, 300],
+      "credentials": {
+        "smtp": "smtp_credentials"
+      }
+    },
+    {
+      "parameters": {
+        "functionCode": "const lead = $json;\nreturn [{\n  json: {\n    lead_id: lead.lead_id,\n    activity_type: 'email_sent',\n    template: lead.template,\n    step: 1,\n    timestamp: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "3",
+      "name": "Log Activity",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [750, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://your-crm.com/api/activities",
+        "method": "POST",
+        "jsonParameters": true,
+        "options": {},
+        "bodyParametersJson": "={{$json}}"
+      },
+      "id": "4",
+      "name": "CRM Webhook",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "position": [1000, 300]
+    },
+    {
+      "parameters": {
+        "amount": 4,
+        "unit": "days"
+      },
+      "id": "5",
+      "name": "Wait 4 Days",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [500, 500]
+    },
+    {
+      "parameters": {
+        "functionCode": "const lead = $json;\nif (lead.email_replied) {\n  return [{json: {...lead, action: 'stop', reason: 'replied'}}];\n}\nconst nextTemplate = lead.industry === 'construction' ? 'cold_construction_2' : 'cold_plantation_2';\nreturn [{json: {...lead, template: nextTemplate}}];"
+      },
+      "id": "6",
+      "name": "Check Engagement",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [750, 500]
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{$credentials.smtp.fromEmail}}",
+        "toEmail": "={{$json.contact_email}}",
+        "subject": "={{$json.email_subject}}",
+        "text": "={{$json.email_body}}",
+        "html": "={{$json.email_html}}"
+      },
+      "id": "7",
+      "name": "Send Email 2",
+      "type": "n8n-nodes-base.sendEmail",
+      "typeVersion": 2,
+      "position": [1000, 500],
+      "credentials": {
+        "smtp": "smtp_credentials"
+      }
+    },
+    {
+      "parameters": {
+        "amount": 7,
+        "unit": "days"
+      },
+      "id": "8",
+      "name": "Wait 7 Days",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [1000, 700]
+    },
+    {
+      "parameters": {
+        "functionCode": "const lead = $json;\nif (lead.email_replied) {\n  return [{json: {...lead, action: 'stop', reason: 'replied'}}];\n}\nconst nextTemplate = lead.industry === 'construction' ? 'cold_construction_3' : 'cold_plantation_3';\nreturn [{json: {...lead, template: nextTemplate}}];"
+      },
+      "id": "9",
+      "name": "Check Reply",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [1250, 700]
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{$credentials.smtp.fromEmail}}",
+        "toEmail": "={{$json.contact_email}}",
+        "subject": "={{$json.email_subject}}",
+        "text": "={{$json.email_body}}",
+        "html": "={{$json.email_html}}"
+      },
+      "id": "10",
+      "name": "Send Email 3",
+      "type": "n8n-nodes-base.sendEmail",
+      "typeVersion": 2,
+      "position": [1500, 700],
+      "credentials": {
+        "smtp": "smtp_credentials"
+      }
+    },
+    {
+      "parameters": {
+        "amount": 14,
+        "unit": "days"
+      },
+      "id": "11",
+      "name": "Wait 14 Days",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [1500, 900]
+    },
+    {
+      "parameters": {
+        "functionCode": "const lead = $json;\nif (lead.email_replied) {\n  return [{json: {...lead, action: 'stop', reason: 'replied'}}];\n}\nconst isFinal = !lead.email_clicked && !lead.email_opened;\nreturn [{json: {...lead, template: isFinal ? (lead.industry === 'construction' ? 'cold_construction_breakup' : 'cold_plantation_breakup') : (lead.industry === 'construction' ? 'nurture_construction' : 'nurture_plantation'), is_final: isFinal}}];"
+      },
+      "id": "12",
+      "name": "Final Decision",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [1750, 900]
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{$credentials.smtp.fromEmail}}",
+        "toEmail": "={{$json.contact_email}}",
+        "subject": "={{$json.email_subject}}",
+        "text": "={{$json.email_body}}",
+        "html": "={{$json.email_html}}"
+      },
+      "id": "13",
+      "name": "Send Final/Breakup",
+      "type": "n8n-nodes-base.sendEmail",
+      "typeVersion": 2,
+      "position": [2000, 900],
+      "credentials": {
+        "smtp": "smtp_credentials"
+      }
+    }
+  ],
+  "connections": {
+    "Prepare Leads": { "main": [[{"node": "Send Email 1", "type": "main", "index": 0}]] },
+    "Send Email 1": { "main": [[{"node": "Log Activity", "type": "main", "index": 0}]] },
+    "Log Activity": { "main": [[{"node": "CRM Webhook", "type": "main", "index": 0}]] },
+    "CRM Webhook": { "main": [[{"node": "Wait 4 Days", "type": "main", "index": 0}]] },
+    "Wait 4 Days": { "main": [[{"node": "Check Engagement", "type": "main", "index": 0}]] },
+    "Check Engagement": { 
+      "main": [
+        [{"node": "Send Email 2", "type": "main", "index": 0}],
+        [{"node": "Stop", "type": "main", "index": 0}]
+      ] 
+    },
+    "Send Email 2": { "main": [[{"node": "Wait 7 Days", "type": "main", "index": 0}]] },
+    "Wait 7 Days": { "main": [[{"node": "Check Reply", "type": "main", "index": 0}]] },
+    "Check Reply": { 
+      "main": [
+        [{"node": "Send Email 3", "type": "main", "index": 0}],
+        [{"node": "Stop", "type": "main", "index": 0}]
+      ] 
+    },
+    "Send Email 3": { "main": [[{"node": "Wait 14 Days", "type": "main", "index": 0}]] },
+    "Wait 14 Days": { "main": [[{"node": "Final Decision", "type": "main", "index": 0}]] },
+    "Final Decision": { 
+      "main": [
+        [{"node": "Send Final/Breakup", "type": "main", "index": 0}],
+        [{"node": "Nurture Enroll", "type": "main", "index": 0}]
+      ] 
+    }
+  },
+  "active": false,
+  "settings": { "executionTimeout": 3600 },
+  "id": "2"
+}

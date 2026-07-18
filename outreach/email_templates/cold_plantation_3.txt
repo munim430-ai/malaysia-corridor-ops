@@ -1,0 +1,19 @@
+Subject: Plantation workforce update - Q1 2027 deployment
+
+Hi {{contact_name}},
+
+Last note — KESUMA's July 6 centralization means the FWCMS queue is now the only path. 22,476 applications. FIFO processing.
+
+**Our plantation pool for {{company_name}}:**
+- {{worker_count}} workers pre-screened
+- Skills: {{top_skills}}
+- Deployment ready: January 2027
+- RM640 levy tier locked in
+
+**If not the right contact,** please forward to your Estate Manager/HR Director.
+
+If timing isn't right, reply "not now" and I'll close your file.
+
+{{sender_name}}
+{{sender_title}}
+Malaysia Corridor Ops

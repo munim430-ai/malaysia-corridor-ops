@@ -1,0 +1,28 @@
+Subject: Plantation workforce for {{company_name}} - RM640 levy advantage
+
+Hi {{contact_name}},
+
+I've been tracking {{company_name}}'s operations in {{state}} — with the EUDR compliance deadline approaching and CBP scrutiny on Malaysian palm oil, workforce stability is more critical than ever.
+
+**The opportunity:** Malaysia's plantation levy remains at RM640/worker/year (vs RM1,850 for other sectors). With the Bangladesh corridor reopening expected Q1 2027, plantations that secure workers now gain a 65% cost advantage per head.
+
+**Our plantation pool:** We've pre-screened {{worker_count}} workers with direct plantation experience:
+- Harvesting (loose fruit, FFB): {{skill_1}}
+- Manuring & spraying: {{skill_2}}
+- Nursery & replanting: {{skill_3}}
+- Mill operations: {{skill_4}}
+- All with BMET smart cards & medical pre-cleared
+
+**Why {{company_name}}:** Your {{employee_count}} workforce and {{foreign_worker_count}} existing foreign workers show you understand the value. The RM640 levy tier means each worker costs you ~RM2,000/year less than manufacturing peers.
+
+**Zero-risk reservation:** We allocate workers to your estates at zero cost until deployment. Standard fee (RM4,000-5,000/worker) only on successful arrival and FOMEMA clearance.
+
+Can we discuss your 2027 replanting/harvesting manpower plan? 15 minutes.
+
+{{sender_name}}
+{{sender_title}}
+Malaysia Corridor Ops
+{{sender_phone}} | {{sender_email}}
+
+---
+Unsubscribe: {{unsubscribe_link}}

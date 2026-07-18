@@ -1,0 +1,21 @@
+Subject: Construction workforce update - Q1 2027 deployment window
+
+Hi {{contact_name}},
+
+Final note on this — the window is narrowing.
+
+KESUMA's July 6 centralization of FWCMS eQuota means the 22,476 pending applications will be processed in FIFO order when the MoU signs. Companies with complete documentation (which we prepare) deploy first.
+
+**Our construction pool for {{company_name}}:**
+- {{worker_count}} workers pre-screened
+- CIDB skills: {{top_skills}}
+- Deployment ready: January 2027
+- Zero cost until arrival
+
+**If you're not the right person**, please forward to your HR/Project Director.
+
+If timing isn't right, just reply "not now" and I'll close your file.
+
+{{sender_name}}
+{{sender_title}}
+Malaysia Corridor Ops

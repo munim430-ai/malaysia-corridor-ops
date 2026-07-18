@@ -1,0 +1,22 @@
+Subject: Re: Construction workforce for {{company_name}}
+
+Hi {{contact_name}},
+
+Following up — I know project timelines are tight.
+
+Quick update: The CIDB G7 contractor we're working with in Selangor just reserved 80 workers for their Q1 2027 MRT3 package. Their logic: each month of delay on a RM50M+ project costs ~RM400K in LDs and overhead. Pre-reserving workers cost them zero upfront.
+
+**For {{company_name}}:** Based on your CIDB grade and {{state}} project pipeline, we'd recommend a 50-100 worker allocation across:
+- Structural: {{skill_1}}, {{skill_2}}
+- Finishing: {{skill_3}}, {{skill_4}}
+- M&E support: {{skill_5}}
+
+**No commitment needed now.** Just a "reserve" flag in our system. When the corridor opens, you get first pick from the pre-cleared pool.
+
+Can we've pool.
+
+Happy to send a one-pager with worker profiles and deployment timeline — no call required.
+
+{{sender_name}}
+{{sender_title}}
+Malaysia Corridor Ops

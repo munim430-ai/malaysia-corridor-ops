@@ -1,0 +1,36 @@
+Subject: Partnership opportunity: Bangladesh workforce for {{company_name}}
+
+Hi {{contact_name}},
+
+I've been following {{company_name}}'s growth in the {{industry}} sector in {{state}} and wanted to reach out about something that could directly impact your operations.
+
+**The situation:** Malaysia's FWCMS eQuota system now has 22,476 pending applications from 548 companies — quota is approved but workers aren't arriving. The corridor with Bangladesh has been closed since May 2024, but both governments agreed on the Employer Pays Principle in April 2026, and PM Tarique Rahman's June visit to KL signaled reopening momentum.
+
+**Where we fit:** We're a Bangladesh-based sourcing partner with a pre-screened worker pool ready for deployment the moment the corridor reopens. We handle:
+- BMET clearance & smart card processing
+- FOMEMA medical screening (pre-departure, reducing rejection from 15% to <3%)
+- FWCMS eQuota slot coordination
+- Calling visa & VDR processing
+- End-to-end documentation
+
+**Why {{company_name}}:** With ~{{employee_count}} employees in {{industry}}, you're exactly the profile that benefits from early pipeline access. Companies that pre-qualify workers now deploy 60-90 days faster when quota opens.
+
+**What I'm asking:** A 15-minute call this week to map your FY2026/27 workforce needs against our available pool. No commitment — just a conversation about timing.
+
+Available slots:
+- {{slot_1}}
+- {{slot_2}}
+- {{slot_3}}
+
+Or suggest a time that works for you.
+
+Best regards,
+{{sender_name}}
+{{sender_title}}
+Malaysia Corridor Ops
+{{sender_phone}} | {{sender_email}}
+
+P.S. We're already working with 3 manufacturers in Penang and 2 in Johor — happy to share references.
+
+---
+Unsubscribe: {{unsubscribe_link}}

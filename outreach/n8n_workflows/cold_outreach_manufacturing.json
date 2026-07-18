@@ -1,0 +1,313 @@
+{
+  "name": "Cold Outreach - Manufacturing/E&E",
+  "nodes": [
+    {
+      "parameters": {
+        "functionCode": "const leads = $json.leads || [];\nreturn leads.map(lead => ({\n  json: {\n    lead_id: lead.id,\n    company_name: lead.company_name,\n    contact_name: lead.contact_name || 'Hiring Manager',\n    contact_email: lead.email,\n    industry: lead.industry,\n    state: lead.state,\n    employee_count: lead.employee_count,\n    priority_score: lead.priority_score,\n    template: 'cold_manufacturing_1'\n  }\n}));"
+      },
+      "id": "1",
+      "name": "Prepare Leads",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{$credentials.smtp.fromEmail}}",
+        "toEmail": "={{$json.contact_email}}",
+        "subject": "Partnership opportunity: Bangladesh workforce for {{ $json.company_name }}",
+        "text": "={{$json.email_body}}",
+        "html": "={{$json.email_html}}"
+      },
+      "id": "2",
+      "name": "Send Email 1",
+      "type": "n8n-nodes-base.sendEmail",
+      "typeVersion": 2,
+      "position": [500, 300],
+      "credentials": {
+        "smtp": "smtp_credentials"
+      }
+    },
+    {
+      "parameters": {
+        "functionCode": "const lead = $json;\n// Log activity to CRM via webhook\nreturn [{\n  json: {\n    lead_id: lead.lead_id,\n    activity_type: 'email_sent',\n    subject: 'Partnership opportunity: Bangladesh workforce',\n    template: 'cold_manufacturing_1',\n    step: 1,\n    timestamp: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "3",
+      "name": "Log Activity 1",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [750, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://your-crm.com/api/activities",
+        "method": "POST",
+        "jsonParameters": true,
+        "options": {},
+        "bodyParametersJson": "={{$json}}"
+      },
+      "id": "4",
+      "name": "CRM Webhook 1",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "position": [1000, 300]
+    },
+    {
+      "parameters": {
+        "amount": 3,
+        "unit": "days"
+      },
+      "id": "5",
+      "name": "Wait 3 Days",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [500, 500]
+    },
+    {
+      "parameters": {
+        "functionCode": "const lead = $json;\n// Check if replied or opened\nconst replied = lead.email_replied || false;\nconst opened = lead.email_opened || false;\n\nif (replied) {\n  return [{json: {...lead, action: 'stop', reason: 'replied'}}];\n}\n\n// Continue to next email\nreturn [{json: {...lead, template: 'cold_manufacturing_2'}}];"
+      },
+      "id": "6",
+      "name": "Check Reply/Engagement",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [750, 500]
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{$credentials.smtp.fromEmail}}",
+        "toEmail": "={{$json.contact_email}}",
+        "subject": "Re: Partnership opportunity for {{ $json.company_name }}",
+        "text": "={{$json.email_body}}",
+        "html": "={{$json.email_html}}"
+      },
+      "id": "7",
+      "name": "Send Email 2",
+      "type": "n8n-nodes-base.sendEmail",
+      "typeVersion": 2,
+      "position": [1000, 500],
+      "credentials": {
+        "smtp": "smtp_credentials"
+      }
+    },
+    {
+      "parameters": {
+        "functionCode": "const lead = $json;\nreturn [{\n  json: {\n    lead_id: lead.lead_id,\n    activity_type: 'email_sent',\n    template: 'cold_manufacturing_2',\n    step: 2,\n    timestamp: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "8",
+      "name": "Log Activity 2",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [1250, 500]
+    },
+    {
+      "parameters": {
+        "url": "https://your-crm.com/api/activities",
+        "method": "POST",
+        "jsonParameters": true,
+        "options": {},
+        "bodyParametersJson": "={{$json}}"
+      },
+      "id": "9",
+      "name": "CRM Webhook 2",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "position": [1500, 500]
+    },
+    {
+      "parameters": {
+        "amount": 7,
+        "unit": "days"
+      },
+      "id": "10",
+      "name": "Wait 7 Days",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [1000, 700]
+    },
+    {
+      "parameters": {
+        "functionCode": "const lead = $json;\nconst replied = lead.email_replied || false;\nif (replied) {\n  return [{json: {...lead, action: 'stop', reason: 'replied'}}];\n}\nreturn [{json: {...lead, template: 'cold_manufacturing_3'}}];"
+      },
+      "id": "11",
+      "name": "Check Reply 3",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [1250, 700]
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{$credentials.smtp.fromEmail}}",
+        "toEmail": "={{$json.contact_email}}",
+        "subject": "Quick follow-up: Malaysia workforce solutions",
+        "text": "={{$json.email_body}}",
+        "html": "={{$json.email_html}}"
+      },
+      "id": "12",
+      "name": "Send Email 3",
+      "type": "n8n-nodes-base.sendEmail",
+      "typeVersion": 2,
+      "position": [1500, 700],
+      "credentials": {
+        "smtp": "smtp_credentials"
+      }
+    },
+    {
+      "parameters": {
+        "functionCode": "const lead = $json;\nreturn [{\n  json: {\n    lead_id: lead.lead_id,\n    activity_type: 'email_sent',\n    template: 'cold_manufacturing_3',\n    step: 3,\n    timestamp: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "13",
+      "name": "Log Activity 3",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [1750, 700]
+    },
+    {
+      "parameters": {
+        "url": "https://your-crm.com/api/activities",
+        "method": "POST",
+        "jsonParameters": true,
+        "options": {},
+        "bodyParametersJson": "={{$json}}"
+      },
+      "id": "14",
+      "name": "CRM Webhook 3",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "position": [2000, 700]
+    },
+    {
+      "parameters": {
+        "amount": 14,
+        "unit": "days"
+      },
+      "id": "15",
+      "name": "Wait 14 Days",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [1500, 900]
+    },
+    {
+      "parameters": {
+        "functionCode": "const lead = $json;\nconst replied = lead.email_replied || false;\nconst clicked = lead.email_clicked || false;\n\nif (replied) {\n  return [{json: {...lead, action: 'stop', reason: 'replied'}}];\n}\n\n// Final breakup email if no engagement\nif (!clicked && !replied) {\n  return [{json: {...lead, template: 'cold_manufacturing_breakup', is_final: true}}];\n}\n\n// Still engaged but no reply - nurture\nreturn [{json: {...lead, template: 'nurture_value_1', action: 'nurture'}}];"
+      },
+      "id": "16",
+      "name": "Final Decision",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [1750, 900]
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{$credentials.smtp.fromEmail}}",
+        "toEmail": "={{$json.contact_email}}",
+        "subject": "Closing the loop - Malaysia workforce partnership",
+        "text": "={{$json.email_body}}",
+        "html": "={{$json.email_html}}"
+      },
+      "id": "17",
+      "name": "Send Breakup Email",
+      "type": "n8n-nodes-base.sendEmail",
+      "typeVersion": 2,
+      "position": [2000, 900],
+      "credentials": {
+        "smtp": "smtp_credentials"
+      }
+    },
+    {
+      "parameters": {
+        "functionCode": "const lead = $json;\nif (lead.is_final) {\n  // Mark lead as nurturing in CRM\n  return [{json: {\n    lead_id: lead.lead_id,\n    status: 'nurturing',\n    reason: 'No response after 5-touch sequence'\n  }}];\n}\nreturn [{json: {...lead, action: 'enroll_nurture'}}];"
+      },
+      "id": "18",
+      "name": "Update Lead Status",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [2250, 900]
+    },
+    {
+      "parameters": {
+        "url": "https://your-crm.com/api/leads/{{$json.lead_id}}/status",
+        "method": "PATCH",
+        "jsonParameters": true,
+        "options": {},
+        "bodyParametersJson": "={{\"status\": \"nurturing\", \"reason\": \"No response after 5-touch sequence\"}}"
+      },
+      "id": "19",
+      "name": "CRM Status Update",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "position": [2500, 900]
+    }
+  ],
+  "connections": {
+    "Prepare Leads": {
+      "main": [[{"node": "Send Email 1", "type": "main", "index": 0}]]
+    },
+    "Send Email 1": {
+      "main": [[{"node": "Log Activity 1", "type": "main", "index": 0}]]
+    },
+    "Log Activity 1": {
+      "main": [[{"node": "CRM Webhook 1", "type": "main", "index": 0}]]
+    },
+    "CRM Webhook 1": {
+      "main": [[{"node": "Wait 3 Days", "type": "main", "index": 0}]]
+    },
+    "Wait 3 Days": {
+      "main": [[{"node": "Check Reply/Engagement", "type": "main", "index": 0}]]
+    },
+    "Check Reply/Engagement": {
+      "main": [
+        [{"node": "Send Email 2", "type": "main", "index": 0}],
+        [{"node": "Stop - Replied", "type": "main", "index": 0}]
+      ]
+    },
+    "Send Email 2": {
+      "main": [[{"node": "Log Activity 2", "type": "main", "index": 0}]]
+    },
+    "Log Activity 2": {
+      "main": [[{"node": "CRM Webhook 2", "type": "main", "index": 0}]]
+    },
+    "CRM Webhook 2": {
+      "main": [[{"node": "Wait 7 Days", "type": "main", "index": 0}]]
+    },
+    "Wait 7 Days": {
+      "main": [[{"node": "Check Reply 3", "type": "main", "index": 0}]]
+    },
+    "Check Reply 3": {
+      "main": [
+        [{"node": "Send Email 3", "type": "main", "index": 0}],
+        [{"node": "Stop - Replied", "type": "main", "index": 0}]
+      ]
+    },
+    "Send Email 3": {
+      "main": [[{"node": "Log Activity 3", "type": "main", "index": 0}]]
+    },
+    "Log Activity 3": {
+      "main": [[{"node": "CRM Webhook 3", "type": "main", "index": 0}]]
+    },
+    "CRM Webhook 3": {
+      "main": [[{"node": "Wait 14 Days", "type": "main", "index": 0}]]
+    },
+    "Wait 14 Days": {
+      "main": [[{"node": "Final Decision", "type": "main", "index": 0}]]
+    },
+    "Final Decision": {
+      "main": [
+        [{"node": "Send Breakup Email", "type": "main", "index": 0}],
+        [{"node": "Nurture Sequence", "type": "main", "index": 0}]
+      ]
+    },
+    "Send Breakup Email": {
+      "main": [[{"node": "Update Lead Status", "type": "main", "index": 0}]]
+    },
+    "Update Lead Status": {
+      "main": [[{"node": "CRM Status Update", "type": "main", "index": 0}]]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionTimeout": 3600,
+    "errorWorkflow": "Error Handler"
+  },
+  "id": "1"
+}

@@ -1,0 +1,403 @@
+# Malaysia Corridor Ops — Automated Scraping & Enrichment Pipeline
+# ============================================================================
+# Runs weekly on GitHub Actions: scrapes new companies, enriches contacts, updates CRM
+
+name: 🚀 Scraper & Enrichment Pipeline
+
+on:
+  schedule:
+    # Weekly: Sunday 02:00 UTC (Saturday night US / Sunday morning Malaysia)
+    - cron: '0 2 * * 0'
+    # Mid-week: Wednesday 14:00 UTC (light enrichment only)
+    - cron: '0 14 * * 3'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - full          # Scrape + Enrich + CRM sync
+          - scrape        # Only scrape new companies
+          - enrich        # Only enrich contacts
+          - crm-sync      # Only sync to CRM
+      limit:
+        description: 'Max companies to process (0 = all)'
+        required: false
+        default: '0'
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: scraper-pipeline-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PYTHON_VERSION: '3.11'
+  NODE_VERSION: '20'
+
+jobs:
+  # ─── Job 1: Scrape New Companies ────────────────────────────────────────
+  scrape-companies:
+    name: 🕷️ Scrape Companies
+    if: ${{ github.event.inputs.mode != 'enrich' && github.event.inputs.mode != 'crm-sync' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Need history for git diff
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install aiohttp lxml  # Extra for company_enricher.py
+
+      - name: Run scraper suite
+        id: scraper
+        run: |
+          python scrapers/scraper_runner.py
+        timeout-minutes: 20
+
+      - name: Check for new companies
+        id: changes
+        run: |
+          git status --porcelain data/companies.db data/companies.csv > /tmp/git_status.txt
+          CHANGES=$(cat /tmp/git_status.txt | wc -l)
+          echo "changes=$CHANGES" >> $GITHUB_OUTPUT
+          if [ $CHANGES -gt 0 ]; then
+            echo "New companies detected"
+            cat /tmp/git_status.txt
+          else
+            echo "No new companies"
+          fi
+
+      - name: Commit database updates
+        if: steps.changes.outputs.changes > 0
+        run: |
+          git config --global user.name 'Corridor Bot'
+          git config --global user.email 'bot@malaysia-corridor-ops'
+          git add data/companies.db data/companies.csv
+          git commit -m "🤖 weekly scraper update $(date +%Y-%m-%d)"
+          git push
+
+      - name: Upload scraper log
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-output
+          path: |
+            data/companies.db
+            data/companies.csv
+          retention-days: 30
+
+  # ─── Job 2: Enrich Contacts ─────────────────────────────────────────────
+  enrich-contacts:
+    name: 📞 Enrich Contacts
+    needs: scrape-companies
+    if: ${{ github.event.inputs.mode != 'scrape' && github.event.inputs.mode != 'crm-sync' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install aiohttp lxml
+
+      - name: Run contact enrichment
+        id: enrich
+        env:
+          ENRICH_LIMIT: ${{ github.event.inputs.limit }}
+          ENRICH_PRIORITY: ${{ github.event.inputs.mode == 'full' && 'true' || 'false' }}
+        run: |
+          LIMIT_FLAG=""
+          if [ "${{ env.ENRICH_LIMIT }}" != "0" ]; then
+            LIMIT_FLAG="--limit ${{ env.ENRICH_LIMIT }}"
+          fi
+          
+          PRIORITY_FLAG=""
+          if [ "${{ env.ENRICH_PRIORITY }}" = "true" ]; then
+            PRIORITY_FLAG="--priority-only"
+          fi
+          
+          python scrapers/company_enricher.py $LIMIT_FLAG $PRIORITY_FLAG --output both
+
+      - name: Check enrichment results
+        id: enrich_changes
+        run: |
+          git status --porcelain data/companies.db data/companies.csv data/enriched_contacts_*.csv > /tmp/enrich_status.txt
+          CHANGES=$(cat /tmp/enrich_status.txt | wc -l)
+          echo "changes=$CHANGES" >> $GITHUB_OUTPUT
+          if [ $CHANGES -gt 0 ]; then
+            echo "Enrichment produced new data"
+            cat /tmp/enrich_status.txt
+          fi
+
+      - name: Commit enrichment updates
+        if: steps.enrich_changes.outputs.changes > 0
+        run: |
+          git config --global user.name 'Corridor Bot'
+          git config --global user.email 'bot@malaysia-corridor-ops'
+          git add data/companies.db data/companies.csv data/enriched_contacts_*.csv
+          git commit -m "🤖 contact enrichment $(date +%Y-%m-%d)"
+          git push
+
+      - name: Upload enrichment artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: enrichment-output
+          path: |
+            data/enriched_contacts_*.csv
+            data/companies_enriched.csv
+          retention-days: 30
+
+  # ─── Job 3: Generate Reports ────────────────────────────────────────────
+  generate-reports:
+    name: 📊 Generate Reports
+    needs: [scrape-companies, enrich-contacts]
+    if: ${{ always() && needs.enrich-contacts.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: pip install pandas jinja2
+
+      - name: Generate all reports
+        run: python scrapers/report_generator.py --all
+
+      - name: Copy stats.json to site for live embedding
+        run: |
+          mkdir -p site/data
+          cp data/stats.json site/data/stats.json
+
+      - name: Commit reports
+        run: |
+          git config --global user.name 'Corridor Bot'
+          git config --global user.email 'bot@malaysia-corridor-ops'
+          git add reports/ data/stats.json site/data/stats.json
+          git diff --staged --quiet || git commit -m "🤖 auto reports $(date +%Y-%m-%d)"
+          git push
+
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-reports
+          path: |
+            reports/*.md
+            data/stats.json
+          retention-days: 90
+
+  # ─── Job 4: CRM Sync ────────────────────────────────────────────────────
+  crm-sync:
+    name: 🔄 CRM Sync
+    needs: [scrape-companies, enrich-contacts]
+    if: ${{ github.event.inputs.mode == 'full' || github.event.inputs.mode == 'crm-sync' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: Sync to CRM
+        run: |
+          python -c "
+          from crm.models import import_from_companies_csv, init_db
+          from pathlib import Path
+          
+          DB_PATH = Path('data/crm.db')
+          CSV_PATH = Path('data/companies_enriched.csv')
+          
+          if CSV_PATH.exists():
+              init_db()
+              imported = import_from_companies_csv(CSV_PATH)
+              print(f'Imported {imported} companies to CRM')
+          else:
+              print('No enriched CSV found, using base CSV')
+              import_from_companies_csv(Path('data/companies.csv'))
+          "
+
+      - name: Score all leads
+        run: |
+          python -c "
+          from crm.pipeline import score_all_leads
+          updated = score_all_leads()
+          print(f'Updated {updated} lead scores')
+          "
+
+      - name: Create default sequences
+        run: |
+          python -c "
+          from crm.pipeline import create_default_sequences
+          create_default_sequences()
+          print('Default sequences created')
+          "
+
+      - name: Enroll new leads in sequences
+        run: |
+          python -c "
+          from crm.models import LeadRepo, get_db
+          from crm.pipeline import enroll_lead_in_sequence
+          
+          with get_db() as conn:
+              # Get new leads not yet enrolled
+              rows = conn.execute('''
+                  SELECT l.id FROM leads l
+                  LEFT JOIN sequence_enrollments se ON l.id = se.lead_id AND se.status = 'active'
+                  WHERE l.status = 'new' AND se.id IS NULL
+                  LIMIT 50
+              ''').fetchall()
+              
+              for row in rows:
+                  lead_id = row['id']
+                  # Assign sequence based on industry
+                  company = conn.execute('SELECT industry FROM companies WHERE id = (SELECT company_id FROM leads WHERE id = ?)', (lead_id,)).fetchone()
+                  if company:
+                      ind = company['industry']
+                      if ind in ('manufacturing', 'electronics'):
+                          seq = 'Cold Outreach - Manufacturing/E&E'
+                      elif ind == 'construction':
+                          seq = 'Cold Outreach - Construction'
+                      elif ind == 'plantation':
+                          seq = 'Cold Outreach - Plantation'
+                      else:
+                          seq = 'Warm Lead Nurture'
+                      from crm.pipeline import enroll_lead_in_sequence
+                      enroll_lead_in_sequence(lead_id, seq)
+                      print(f'Enrolled {lead_id} in {seq}')
+          "
+
+  # ─── Job 5: Deploy Site ─────────────────────────────────────────────────
+  deploy-site:
+    name: 🌐 Deploy Site
+    needs: [generate-reports]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Copy stats to site
+        run: |
+          mkdir -p site/data
+          cp data/stats.json site/data/stats.json
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # ─── Job 6: Pipeline Health Check ───────────────────────────────────────
+  health-check:
+    name: 🏥 Pipeline Health Check
+    needs: [scrape-companies, enrich-contacts, generate-reports, crm-sync]
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install deps
+        run: pip install pandas
+
+      - name: Run health checks
+        run: |
+          python -c "
+          from crm.pipeline import get_pipeline_metrics, get_lead_velocity
+          import json
+          
+          metrics = get_pipeline_metrics()
+          velocity = get_lead_velocity()
+          
+          print('=== PIPELINE HEALTH ===')
+          print(f'Total Leads: {metrics.total_leads}')
+          print(f'By Stage: {metrics.by_stage}')
+          print(f'Conversion Rates: {metrics.conversion_rates}')
+          print(f'Weighted Pipeline: RM {metrics.weighted_pipeline_value:,.0f}')
+          print(f'Win Rate: {metrics.win_rate}%')
+          print(f'Avg Sales Cycle: {metrics.avg_sales_cycle_days} days')
+          
+          # Alert if concerning metrics
+          if metrics.total_leads < 50:
+              print('⚠️ WARNING: Low lead count (< 50)')
+          if metrics.win_rate < 10:
+              print('⚠️ WARNING: Win rate below 10%')
+          if metrics.weighted_pipeline_value < 100000:
+              print('⚠️ WARNING: Weighted pipeline below RM100K')
+          
+          # Recent velocity
+          recent = velocity['weekly_velocity'][-4:]
+          avg_new = sum(w['new_leads'] for w in recent) / len(recent)
+          print(f'Avg new leads/week (last 4): {avg_new:.1f}')
+          if avg_new < 5:
+              print('⚠️ WARNING: Low lead velocity (< 5/week)')
+          "
+
+      - name: Post summary to workflow
+        run: |
+          echo "## Pipeline Health Summary" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          python -c "
+          from crm.pipeline import get_pipeline_metrics
+          m = get_pipeline_metrics()
+          print(f'| Total Leads | {m.total_leads} |')
+          print(f'| Weighted Pipeline | RM {m.weighted_pipeline_value:,.0f} |')
+          print(f'| Win Rate | {m.win_rate}% |')
+          print(f'| Avg Sales Cycle | {m.avg_sales_cycle_days} days |')
+          " >> $GITHUB_STEP_SUMMARY

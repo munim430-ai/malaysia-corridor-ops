@@ -1,0 +1,27 @@
+Subject: Construction workforce pipeline for {{company_name}} - CIDB G7 opportunities
+
+Hi {{contact_name}},
+
+I noticed {{company_name}}'s recent CIDB G7 project awards in {{state}} — specifically the {{project_reference}} project. With the infrastructure pipeline accelerating (MRT3, Pan Borneo, data center builds), workforce availability is becoming the critical constraint.
+
+**The bottleneck:** Malaysia's FWCMS eQuota has 22,476 pending applications but the Bangladesh corridor has been closed since May 2024. The Employer Pays Principle was agreed April 2026, and reopening is expected Q1 2027.
+
+**Our solution:** We maintain a pre-screened pool of construction workers in Bangladesh — masons, carpenters, steel fixers, scaffolders, heavy equipment operators — with:
+- CIDB-recognized skills verification
+- BMET smart cards processed
+- Medical pre-cleared (FOMEMA pass rate >97%)
+- Safety induction completed (OSHA/ISO 45001 basics)
+
+**Why now:** Construction firms that reserved allocations in the 2019-2023 cycle deployed 3-4 months faster than those who waited. With your {{employee_count}} workforce and current project load, a 50-100 worker pipeline would de-risk your {{state}} projects.
+
+**Zero-risk proposal:** We reserve workers for your upcoming projects at zero cost until deployment. Standard agency fee (RM5,000-8,000/worker) only on successful arrival and FOMEMA clearance.
+
+Can we discuss your FY2027 manpower plan? 15 minutes this week.
+
+{{sender_name}}
+{{sender_title}}
+Malaysia Corridor Ops
+{{sender_phone}} | {{sender_email}}
+
+---
+Unsubscribe: {{unsubscribe_link}}
