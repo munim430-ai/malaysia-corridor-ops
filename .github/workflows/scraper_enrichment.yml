@@ -4,7 +4,7 @@
 # Schedule: Every 30 minutes during active hours (06:00-22:00 UTC = 14:00-06:00 MYT)
 # Plus weekly full runs for deep scraping
 
-name: 🚀 Scraper & Enrichment Pipeline
+name:  Scraper & Enrichment Pipeline
 
 on:
   schedule:
@@ -47,7 +47,7 @@ env:
   NODE_VERSION: '20'
 
 jobs:
-  # ─── Job 1: Scrape New Companies ────────────────────────────────────────
+  # --- Job 1: Scrape New Companies ----------------------------------------
   scrape-companies:
     name: 🕷️ Scrape Companies
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode != 'enrich' || github.event.inputs.mode != 'crm-sync' }}
@@ -109,7 +109,7 @@ jobs:
             data/companies.csv
           retention-days: 30
 
-  # ─── Job 2: Enrich Contacts ─────────────────────────────────────────────
+  # --- Job 2: Enrich Contacts ---------------------------------------------
   enrich-contacts:
     name: 📞 Enrich Contacts
     needs: scrape-companies
@@ -183,7 +183,7 @@ jobs:
             data/companies_enriched.csv
           retention-days: 30
 
-  # ─── Job 3: Generate Reports ────────────────────────────────────────────
+  # --- Job 3: Generate Reports --------------------------------------------
   generate-reports:
     name: 📊 Generate Reports
     needs: [scrape-companies, enrich-contacts]
@@ -228,7 +228,7 @@ jobs:
             data/stats.json
           retention-days: 90
 
-  # ─── Job 4: CRM Sync ────────────────────────────────────────────────────
+  # --- Job 4: CRM Sync ----------------------------------------------------
   crm-sync:
     name: 🔄 CRM Sync
     needs: [scrape-companies, enrich-contacts]
@@ -315,7 +315,7 @@ jobs:
                       print(f'Enrolled {lead_id} in {seq}')
           "
 
-  # ─── Job 5: Deploy Site ─────────────────────────────────────────────────
+  # --- Job 5: Deploy Site -------------------------------------------------
   deploy-site:
     name: 🌐 Deploy Site
     needs: [generate-reports]
@@ -345,7 +345,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  # ─── Job 6: Pipeline Health Check ───────────────────────────────────────
+  # --- Job 6: Pipeline Health Check ---------------------------------------
   health-check:
     name: 🏥 Pipeline Health Check
     needs: [scrape-companies, enrich-contacts, generate-reports, crm-sync]
