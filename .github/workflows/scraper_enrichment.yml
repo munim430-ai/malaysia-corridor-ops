@@ -95,6 +95,7 @@ jobs:
         run: |
           git config --global user.name 'Corridor Bot'
           git config --global user.email 'bot@malaysia-corridor-ops'
+          git pull --rebase origin master
           git add data/companies.db data/companies.csv
           git commit -m "🤖 weekly scraper update $(date +%Y-%m-%d)"
           git push
@@ -162,12 +163,14 @@ jobs:
             cat /tmp/enrich_status.txt
           fi
 
-      - name: Commit enrichment updates
+- name: Commit enrichment updates
         if: steps.enrich_changes.outputs.changes > 0
         run: |
           git config --global user.name 'Corridor Bot'
           git config --global user.email 'bot@malaysia-corridor-ops'
-          git add data/companies.db data/companies.csv data/enriched_contacts_*.csv
+          git pull --rebase origin master
+          git add data/companies.db data/companies.csv 
+          data/enriched_contacts_*.csv
           git commit -m "🤖 contact enrichment $(date +%Y-%m-%d)"
           git push
 
@@ -211,6 +214,7 @@ jobs:
         run: |
           git config --global user.name 'Corridor Bot'
           git config --global user.email 'bot@malaysia-corridor-ops'
+          git pull --rebase origin master
           git add reports/ data/stats.json site/data/stats.json
           git diff --staged --quiet || git commit -m "🤖 auto reports $(date +%Y-%m-%d)"
           git push
