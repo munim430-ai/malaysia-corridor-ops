@@ -100,7 +100,10 @@ malaysia-corridor-ops/
 │   ├── corridor-tracker/           # SEO blog + calendar
 │   └── assets/                     # CSS, JS, logos, flyers
 ├── scrapers/                       # Python scraping scripts
-│   └── scraper_runner.py           # Main orchestrator
+│   ├── scraper_runner.py           # Employer database orchestrator
+│   └── demand_letter_scraper.py    # Async: BMET circulars/notices + OEP clearance data
+│                                   #   for Malaysia-specific quota/demand-letter documents
+│                                   #   (see file docstring for corrected target list + setup)
 ├── content/
 │   └── DISTRIBUTION.md             # Zero-cost marketing playbook
 └── requirements.txt                # Python dependencies
