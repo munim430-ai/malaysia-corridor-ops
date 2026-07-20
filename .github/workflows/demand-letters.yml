@@ -1,0 +1,70 @@
+name: Demand Letter & Quota Circular Scraper
+
+# Manual-trigger only, deliberately not on a schedule yet — this scraper is new
+# (added 2026-07-20) and hasn't accumulated a track record of unattended runs.
+# Convert to a cron schedule (see deploy.yml for the pattern) once its output
+# has been reviewed a few times.
+on:
+  workflow_dispatch:
+    inputs:
+      max_pages:
+        description: "Max pages to paginate per BMET category"
+        default: "15"
+      concurrency:
+        description: "Max concurrent requests"
+        default: "6"
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run demand letter scraper
+        env:
+          # Optional. Without these, the discovery module (Scribd/Docplayer/etc.
+          # metadata search) skips itself gracefully and logs why — BMET circular
+          # scraping and the OEP clearance fetch still run either way. Add these
+          # as repo secrets to enable discovery: Settings > Secrets and variables
+          # > Actions. See scrapers/demand_letter_scraper.py's bottom-of-file
+          # README section for how to get a free-tier key.
+          GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
+          GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
+        run: |
+          python scrapers/demand_letter_scraper.py \
+            --max-pages "${{ github.event.inputs.max_pages }}" \
+            --concurrency "${{ github.event.inputs.concurrency }}" \
+            --delay 1.0
+
+      - name: Upload scraped data as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: demand-letter-scrape-${{ github.run_id }}
+          path: |
+            data/circulars.db
+            data/circulars/
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Commit circulars.db metadata
+        if: always()
+        run: |
+          git config --global user.name 'Corridor Bot'
+          git config --global user.email 'bot@malaysia-corridor-ops'
+          git add data/circulars.db
+          git diff --staged --quiet || git commit -m "chore: demand letter scraper run $(date -u +%Y-%m-%d)"
+          git pull --rebase origin "${{ github.ref_name }}" || true
+          git push

@@ -2,3 +2,4 @@ slide-deck-ai/
 tokenizers/
 bulletproof-business-plan/
 data/circulars/
+__pycache__/

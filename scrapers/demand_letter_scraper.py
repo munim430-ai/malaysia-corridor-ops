@@ -17,7 +17,8 @@ Corrected targets (verified 2026-07-20 — see module docstrings below for why):
                               (admit cards, payments) — unrelated to Malaysia
                               worker quotas. Scraping it would produce noise,
                               not signal.
-  - "Public document repos" (Scribd etc.): implemented as metadata-only
+  - "Public document repos" (Scribd, Docplayer, PDFCoffee, SlideShare,
+                              Academia.edu): implemented as metadata-only
                               discovery via a real search API (Google
                               Custom Search JSON API). Never downloads
                               documents, never scrapes Google/Bing search
@@ -29,6 +30,15 @@ Corrected targets (verified 2026-07-20 — see module docstrings below for why):
                               letters shared online, consistent with the
                               data-minimization commitments in
                               BULLETPROOF_BUSINESS_PLAN.md §10.
+                              Query coverage: ~6 demand-letter/job-order
+                              phrasings fanned out across all 5 repo sites
+                              (30 generic queries), PLUS one targeted query
+                              per real Malaysian employer already scored in
+                              data/companies.db (top ~30 by priority_score,
+                              capped to respect the 100/day free-tier quota)
+                              — this is what actually searches for demand
+                              letters "from Malaysian companies" specifically,
+                              not just generic phrasing.
 
 Known caveat: bmet.gov.bd serves a TLS certificate issued for a different
 hostname (bicm.gov.bd) — a misconfiguration on their shared government
@@ -68,6 +78,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 CIRCULARS_DIR = DATA_DIR / "circulars"
 DB_PATH = DATA_DIR / "circulars.db"
+DB_PATH_COMPANIES = DATA_DIR / "companies.db"  # the existing 505-company employer database
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("demand_letter_scraper")
@@ -407,11 +418,71 @@ async def run_discovery(conn, queries: list):
             await asyncio.sleep(limiter.delay)
 
 
-DEFAULT_DISCOVERY_QUERIES = [
-    'site:scribd.com "DEMAND LETTER FOR RECRUITMENT OF WORKERS" Malaysia',
-    'site:scribd.com "JOB ORDER" Malaysia manpower Bangladesh',
-    'site:scribd.com "BMET" Malaysia quota demand letter',
+# Public document-repository domains most likely to host shared demand-letter/job-order
+# PDFs. Kept as a separate list (not folded into query strings) so both the generic and
+# per-company query builders below can reuse it consistently.
+DOCUMENT_REPO_SITES = [
+    "scribd.com",
+    "docplayer.net",
+    "pdfcoffee.com",
+    "slideshare.net",
+    "academia.edu",
 ]
+
+# Generic phrasings covering the different names/formats a Malaysia worker demand letter or
+# job order commonly appears under, each fanned out across the document-repo sites above.
+DEMAND_LETTER_PHRASES = [
+    "DEMAND LETTER FOR RECRUITMENT OF WORKERS Malaysia",
+    "JOB ORDER Malaysia manpower Bangladesh",
+    "MANPOWER REQUISITION Malaysia worker",
+    "POWER OF ATTORNEY recruitment agency Malaysia worker",
+    "BMET demand letter Malaysia quota approval",
+    "foreign worker demand letter Malaysia Sdn Bhd",
+]
+
+
+def build_default_discovery_queries() -> list:
+    """Generic queries covering the different names a demand letter appears under, fanned
+    out across every known public document-repo site — not just Scribd."""
+    queries = []
+    for site in DOCUMENT_REPO_SITES:
+        for phrase in DEMAND_LETTER_PHRASES:
+            queries.append(f'site:{site} "{phrase}"')
+    return queries
+
+
+DEFAULT_DISCOVERY_QUERIES = build_default_discovery_queries()
+
+
+def build_company_discovery_queries(min_priority: float = 85.0, limit: int = 30) -> list:
+    """Per-company demand-letter queries, one per real Malaysian employer already scored in
+    data/companies.db — this is what actually targets 'every type of demand letter from
+    Malaysian companies' rather than only generic phrasing. Capped and priority-gated to stay
+    within the Google CSE free tier (100 queries/day total, shared with the generic queries
+    above), and deduplicated by company name (the DB has a few name/sector/state duplicates)."""
+    if not DB_PATH_COMPANIES.exists():
+        log.info("[Discovery] data/companies.db not found — skipping per-company queries")
+        return []
+    conn = sqlite3.connect(str(DB_PATH_COMPANIES))
+    cursor = conn.cursor()
+    cursor.execute(
+        "SELECT DISTINCT company_name FROM companies WHERE priority_score >= ? "
+        "ORDER BY priority_score DESC LIMIT ?",
+        (min_priority, limit),
+    )
+    names = [row[0] for row in cursor.fetchall()]
+    conn.close()
+    # A couple of rows in companies.db are placeholder aggregates from the original seed
+    # data (e.g. "Palm oil sector - multiple companies"), not real single companies —
+    # searching for those by name in quotes is useless, so filter them out.
+    names = [n for n in names if "multiple companies" not in n.lower() and "(various)" not in n.lower()]
+    queries = []
+    for name in names:
+        site_filter = " OR ".join(f"site:{s}" for s in DOCUMENT_REPO_SITES)
+        queries.append(f'"{name}" "demand letter" Malaysia worker ({site_filter})')
+    log.info("[Discovery] Built %d per-company queries from data/companies.db (priority >= %s)",
+              len(queries), min_priority)
+    return queries
 
 
 def print_summary(conn):
@@ -445,7 +516,16 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="List matches without downloading files")
     parser.add_argument("--skip-oep", action="store_true", help="Skip the OEP clearance report fetch")
     parser.add_argument("--skip-discovery", action="store_true", help="Skip the search-API discovery module")
-    parser.add_argument("--discovery-queries", nargs="+", default=DEFAULT_DISCOVERY_QUERIES)
+    parser.add_argument("--discovery-queries", nargs="+", default=None,
+                         help="Override the full discovery query list (skips auto-building generic + per-company queries)")
+    parser.add_argument("--skip-company-discovery", action="store_true",
+                         help="Skip per-company demand-letter queries built from data/companies.db")
+    parser.add_argument("--discovery-company-limit", type=int, default=30,
+                         help="Max companies (by priority_score) to build discovery queries for")
+    parser.add_argument("--discovery-min-priority", type=float, default=85.0,
+                         help="Minimum companies.db priority_score to include in per-company discovery")
+    parser.add_argument("--discovery-query-cap", type=int, default=95,
+                         help="Hard cap on total discovery queries fired (Google CSE free tier is 100/day)")
     args = parser.parse_args()
 
     conn = init_db()
@@ -460,7 +540,17 @@ def main():
         log.info("[OEP] Skipped (--skip-oep)")
 
     if not args.skip_discovery:
-        asyncio.run(run_discovery(conn, args.discovery_queries))
+        if args.discovery_queries is not None:
+            queries = args.discovery_queries
+        else:
+            queries = list(DEFAULT_DISCOVERY_QUERIES)
+            if not args.skip_company_discovery:
+                queries += build_company_discovery_queries(args.discovery_min_priority, args.discovery_company_limit)
+        if len(queries) > args.discovery_query_cap:
+            log.warning("[Discovery] %d queries built, capping to %d to respect the free-tier daily quota",
+                        len(queries), args.discovery_query_cap)
+            queries = queries[:args.discovery_query_cap]
+        asyncio.run(run_discovery(conn, queries))
     else:
         log.info("[Discovery] Skipped (--skip-discovery)")
 
@@ -493,10 +583,15 @@ if __name__ == "__main__":
 #   3. Set environment variables before running:
 #        export GOOGLE_CSE_API_KEY="your-key"
 #        export GOOGLE_CSE_CX="your-search-engine-id"
-#   4. Free tier: 100 queries/day. Each query in DEFAULT_DISCOVERY_QUERIES
-#      (or your own via --discovery-queries) costs one call.
-#   Without these variables set, discovery is skipped — this is intentional,
-#   not a silent failure (see the log line in run_discovery()).
+#   4. Free tier: 100 queries/day. By default this scraper builds ~30 generic
+#      queries (demand-letter phrasings x 5 document-repo sites) PLUS one
+#      targeted query per real Malaysian employer in data/companies.db
+#      (top ~30 by priority_score) — ~60 total, capped at --discovery-query-cap
+#      (default 95) to leave headroom under the daily quota. Tune with
+#      --discovery-company-limit / --discovery-min-priority / --skip-company-discovery,
+#      or replace everything with your own list via --discovery-queries.
+#   Without GOOGLE_CSE_API_KEY/GOOGLE_CSE_CX set, discovery is skipped —
+#   this is intentional, not a silent failure (see the log line in run_discovery()).
 #
 #   This module NEVER downloads the documents it finds — only title, snippet,
 #   and URL land in discovered_documents, for a human to review and decide
