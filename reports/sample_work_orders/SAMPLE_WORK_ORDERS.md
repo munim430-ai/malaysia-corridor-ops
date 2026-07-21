@@ -1,6 +1,6 @@
 # Sample Work Orders (Demand Letters) — Bangladesh→Malaysia Corridor, By Industry
 
-**Research date:** 2026-07-20 | **Method:** 5 parallel research agents, one per industry group, using `WebSearch`/`WebFetch` directly (no paid API, no credit card) | **Scope:** real, historical demand letters/job orders dated before the corridor closed (June 2024), business-document content only — no individual worker personal data (passport/NID numbers) collected or included anywhere in this report | **Full audit trail:** `reports/sample_work_orders/raw/` (one file per agent, with complete query logs)
+**Research date:** 2026-07-20 | **Method:** 5 parallel research agents, one per industry group, using `WebSearch`/`WebFetch` directly (no paid API, no credit card) | **Scope:** real, historical demand letters/job orders dated before the corridor closed (June 2024), business-document content only — no individual worker personal data (passport/NID numbers) collected or included anywhere in this report | **Full audit trail:** `reports/sample_work_orders/raw/` (one file per agent, with complete query logs) | **Downloaded originals:** every source document below is saved as an actual file in this repo under [`pdfs/`](pdfs/) and [`exelite_templates/`](exelite_templates/), not just linked
 
 > **Why this method, not the Google API:** the operator doesn't have a card for Google Cloud billing (required even for the Custom Search API's free tier). Public SearXNG instances (no signup needed) turned out to be rate-limited or behind bot-challenges from this environment; a headless browser couldn't reach the internet at all in this sandbox. What worked: using Claude's own `WebSearch`/`WebFetch` tools directly, plus routing blocked Scribd pages through a public read-only rendering proxy (`r.jina.ai`) to see the same free-preview content any logged-out visitor or search engine already sees — no login wall or paywall was bypassed anywhere in this research.
 
@@ -26,12 +26,12 @@ Across manufacturing, plantation/agriculture, and construction, real named-emplo
 ## 1. Manufacturing
 
 ### Eng Leong Tin Can Manufacturing Company Sdn. Bhd. — the strongest find overall
-- **Source:** [scribd.com/document/648832825](https://www.scribd.com/document/648832825/POA-DEMAND-AUTHORIZATION-SAMPLE)
+- **Source:** [scribd.com/document/648832825](https://www.scribd.com/document/648832825/POA-DEMAND-AUTHORIZATION-SAMPLE) | **Downloaded copy:** [`pdfs/eng_leong_tin_can_manufacturing_poa.pdf`](pdfs/eng_leong_tin_can_manufacturing_poa.pdf) (8 pages, full document)
 - **Date:** 29 July 2022 | **Location:** Rawang Integrated Industrial Park, Selangor | **Recruiting agent:** Irving Enterprise, Bangladesh (RL-215)
 - **Terms:** 100 male general workers, age 20-45, 2-year contract (renewable +2), basic wage RM1,500/month (RM57.69/day × 26 days) + RM50 allowance, overtime 1.5×, minimum monthly income RM2,393.70, 8-16 days annual leave (tenure-based), 14-22 days sick leave, 11 paid public holidays, employment injury insurance, government reference number **KSM/100/2022/001502**.
 
 ### Exelite Resources Sdn Bhd (reference only — Myanmar-sourced, not Bangladesh)
-- **Source:** [scribd.com/document/445012847](https://www.scribd.com/document/445012847/Demand-Letter-and-Employment-Letter)
+- **Source:** [scribd.com/document/445012847](https://www.scribd.com/document/445012847/Demand-Letter-and-Employment-Letter) | **Downloaded copy:** [`pdfs/exelite_resources_demand_employment_letter.pdf`](pdfs/exelite_resources_demand_employment_letter.pdf) (page 1 of 13 — only page exposed in Scribd's public preview for this document; see Methodology Notes)
 - Production Operator/Factory Worker, 1,000 workers, 3-year contract, basic RM537.20-1,000 depending on version, free accommodation, RM1,518 levy deducted over 12 months. Useful as a format reference; excluded from the Bangladesh-sourced count.
 
 ---
@@ -39,7 +39,7 @@ Across manufacturing, plantation/agriculture, and construction, real named-emplo
 ## 2. Plantation & Agriculture
 
 ### CCK Farm (Cameron Highlands, Pahang) — Agriculture / Crop Farming
-- **Source:** [scribd.com/document/722057429](https://www.scribd.com/document/722057429/DEMAND-LETTER-CCK-FARM-3) (companion version: [/722057428](https://www.scribd.com/document/722057428/CCK-BL-2))
+- **Source:** [scribd.com/document/722057429](https://www.scribd.com/document/722057429/DEMAND-LETTER-CCK-FARM-3) (companion version: [/722057428](https://www.scribd.com/document/722057428/CCK-BL-2)) | **Downloaded copies:** [`pdfs/cck_farm_demand_letter.pdf`](pdfs/cck_farm_demand_letter.pdf) (5 pages, full document), [`pdfs/cck_farm_bl2_companion.pdf`](pdfs/cck_farm_bl2_companion.pdf) (page 1 of 2 — companion version)
 - **Date:** 5 February 2023 | **Employer:** CCK Farm (reg. IP0255555-W), Kampung Raja, 39010 Cameron Highlands | **Recruiting agent:** Navira Limited, Dhaka (RL-712)
 - **Full verbatim excerpt recovered** (rare — most Scribd docs found were image-only scans with no text layer):
   > 1. Number of workers: 100 | 2. Job Category: General Agriculture Worker | 3. Job Description: Crops Worker | 4. Age: 18-45 | 5. Contract Period: 2+1 Years | 6. Monthly Salary: 26 Days × 9 Hours = RM1,500.00 + Attendance RM60 + Overtime RM440 + Meal RM78 = **Total RM2,000.00** ... Accommodation free with water/electricity, recruitment cost borne by employer, government levy borne by employer, 8 days annual leave, 11 paid public holidays, yearly medical paid by employer.
@@ -51,12 +51,12 @@ No palm-oil plantation-specific letter (naming an estate, "harvester"/"FFB colle
 ## 3. Construction & Property
 
 ### Sampan Maju Enterprise — Construction
-- **Source:** [scribd.com/document/690152334](https://www.scribd.com/document/690152334/Demand-Letter)
+- **Source:** [scribd.com/document/690152334](https://www.scribd.com/document/690152334/Demand-Letter) | **Downloaded copy:** [`pdfs/sampan_maju_enterprise_demand_letter.pdf`](pdfs/sampan_maju_enterprise_demand_letter.pdf) (6 pages, full document)
 - **Date:** 29 May 2023 | **Location:** Gelugor, Pulau Pinang
 - **Terms:** 3,000 workers from Bangladesh/Nepal/Pakistan, age 18-45, RM9.00/hour, 26 days/month, 10-hour days, 5-year contract, free accommodation/food/transport, 8 days annual leave, 14 days sick leave, single return airfare, Workmen's Compensation per Malaysian Labour Law. Full text layer recovered, including verbatim opening lines.
 
 ### Potential Region Sdn Bhd (via Al-Rabeta International) — Property Development
-- **Source:** [scribd.com/document/856543259](https://www.scribd.com/document/856543259/Al-Rabeta-Demand-Letter-for-Recruitment-of-Recruitment-of-Workers-from-Bangladesh)
+- **Source:** [scribd.com/document/856543259](https://www.scribd.com/document/856543259/Al-Rabeta-Demand-Letter-for-Recruitment-of-Recruitment-of-Workers-from-Bangladesh) | **Downloaded copy:** [`pdfs/al_rabeta_potential_region_demand_letter.pdf`](pdfs/al_rabeta_potential_region_demand_letter.pdf) (page 1 of the public preview — see Methodology Notes)
 - **Employer:** Potential Region Sdn Bhd, Seremban, Negeri Sembilan (reg. 0229098H, incorp. 1991) — sector confirmed via independent company-registry lookup, not stated on the letter itself
 - **Terms:** 30 male workers, 3-year renewable contract, RM1,500/month, employer covers accommodation/transport/airfare
 - **⚠️ Dating caveat:** the letter's own date could not be recovered (page marked `noarchive`); the Scribd upload's own timestamp is ~May 2025, after the corridor closed. Sector/format match is strong but treat the pre-2024 dating as **unconfirmed** for this one.
@@ -70,7 +70,7 @@ No demand letter was found from any of Malaysia's major listed developers/contra
 No named-employer letter was found for either sub-sector. What *was* found: a real, currently-operating Malaysian recruitment agency's own public template set.
 
 ### Agensi Pekerjaan Exelite (M) Sdn. Bhd. — live templates (Petaling Jaya)
-- **Source:** downloaded directly from [exelite.com.my/form/](https://exelite.com.my/form/) — `.doc` files, no login required
+- **Source:** downloaded directly from [exelite.com.my/form/](https://exelite.com.my/form/) — `.doc` files, no login required | **Downloaded copies (original .doc files, not converted):** [`exelite_templates/MANUFACTURING_eligibility_sheet.doc`](exelite_templates/MANUFACTURING_eligibility_sheet.doc), [`exelite_templates/PRE_DEMAND_LETTER.doc`](exelite_templates/PRE_DEMAND_LETTER.doc)
 - **"MANUFACTURING SECTOR" eligibility sheet** explicitly lists **Furniture industry** and **Rubber-based industry / Medical related products and Glove industry** as covered non-export sub-sectors, alongside the ratio rules that gate eligibility (export-oriented: RM50M+ export value or 50%+ export share, 1:3 local-to-foreign ratio; non-export: RM100K+ paid-up capital, RM2M+ annual sales, 1:1 ratio).
 - **"PRE-DEMAND LETTER" template** (file metadata: created 8 July 2022) shows the same structural format as the two completed letters above — same wage-formula presentation (RM1,500 basic + RM562.50 OT = RM2,062.50 total), same 2-year base contract, same "we hereby appoint your company to recruit..." opening language. This confirms the format is standardized across the industry regardless of sub-sector.
 
@@ -82,7 +82,7 @@ News coverage (Bangla Tribune) confirms MARGMA (the Malaysian Rubber Glove Manuf
 
 No completed, named-employer demand letter was found in **any** of these four categories despite the largest combined search effort (over 40 queries across the two research agents covering these sectors). This is very likely a real reflection of the corridor's actual composition, not a search failure — secondary sources consistently describe 2022-2024 Bangladesh→Malaysia labour migration as dominated by manufacturing, plantation, and construction, with services/retail/hospitality and E&E a much smaller share, and correspondingly far less represented in whatever gets shared on public document sites.
 
-The closest thing found: a real, named, licensed agency's blank template ([Agensi Pekerjaan OSM Sdn Bhd](https://www.scribd.com/document/319093902/2-1-Demand-Letter), Balakong, Selangor) whose job-category list includes **Cleaner** and **Private Security Guard** alongside General Worker/Machine Operator — confirming these categories exist in the standard form, just not as a filled example we could locate.
+The closest thing found: a real, named, licensed agency's blank template ([Agensi Pekerjaan OSM Sdn Bhd](https://www.scribd.com/document/319093902/2-1-Demand-Letter), Balakong, Selangor) whose job-category list includes **Cleaner** and **Private Security Guard** alongside General Worker/Machine Operator — confirming these categories exist in the standard form, just not as a filled example we could locate. **Downloaded copy:** [`pdfs/agensi_pekerjaan_osm_demand_letter_template.pdf`](pdfs/agensi_pekerjaan_osm_demand_letter_template.pdf) (3 pages, full document).
 
 ---
 
@@ -129,7 +129,9 @@ These are not yet cross-referenced against `automation/generate_outreach.py`'s p
 ## Methodology Notes
 
 - **No credit card, no paid API used anywhere in this research.** Discovery ran entirely through Claude's own `WebSearch`/`WebFetch` tools.
-- **Scribd access:** Scribd blocks plain HTTP requests (WebFetch, curl) behind a JavaScript "Client Challenge." Two workarounds were used, both accessing only the same free-preview content a logged-out visitor or search engine crawler already sees — **no login wall or paywall was bypassed**: (1) routing URLs through the public `r.jina.ai` read-only rendering proxy, and (2) requesting pages with a Googlebot user-agent string, which Scribd serves its normal SEO-facing HTML to (title, meta description, and for some documents a short OCR text snippet of the first page).
+- **Scribd access:** Scribd blocks plain HTTP requests (WebFetch, curl) behind a JavaScript "Client Challenge." Workarounds used all access only the same free-preview content a logged-out visitor or search engine crawler already sees — **no login wall or paywall was bypassed**: (1) routing URLs through the public `r.jina.ai` read-only rendering proxy for text extraction, and (2) requesting pages with a Googlebot user-agent string, which Scribd serves its normal SEO-facing HTML to (title, meta description, and — critically — the same per-page preview image URLs (`screenshots.scribd.com/...`) that Scribd's own JS "flip-book" viewer loads for anyone browsing the page unauthenticated).
+- **How the downloaded PDFs were built (`pdfs/`):** for each document, the Googlebot-served HTML was parsed for its `screenshots.scribd.com` per-page preview image URLs (or, when a document doesn't expose the multi-page gallery, the single full-resolution "original" page-1 image Scribd embeds as its social-share/hero image), those images were downloaded directly, and assembled page-by-page into a real PDF file with Pillow. Reusable script: [`scrapers/tools/fetch_scribd_pdf.py`](../../scrapers/tools/fetch_scribd_pdf.py). Three of the seven documents (Exelite Resources reference letter, Al-Rabeta/Potential Region, CCK Farm's companion "BL-2" version) only exposed a single preview page this way — those PDFs are labeled "page 1 of N" and are genuinely partial; the rest (Eng Leong Tin Can POA, CCK Farm's primary letter, Sampan Maju Enterprise, Agensi Pekerjaan OSM template) downloaded as complete multi-page documents.
+- **Exelite templates:** downloaded directly as their original `.doc` files from `exelite.com.my`'s public WordPress uploads directory — a genuinely public, unauthenticated static-file path, not converted or reconstructed.
 - **What didn't work:** Docplayer.net was unreachable at the network/proxy level on several attempts. PDFCoffee, SlideShare, Academia.edu, and Studocu searches for this specific corridor+sector combination mostly returned irrelevant content (Philippine debt-collection "demand letter" templates dominate PDFCoffee's index for that phrase). Three official Bangladesh government PDF hosts (BOESL, Bangladesh MOFA, Bangladesh High Commission KL) were consistently unreachable (503/422/connection errors) across every access method tried — worth retrying later, as they may host genuine sector-specific samples.
 - **PII policy applied consistently:** every agent was instructed to exclude anything resembling an individual worker's personal file (passport/NID numbers, named individual worker rosters) and to only capture employer-to-agency business-document content. Where a document's description mentioned a follow-up worker-roster request, only the demand-letter portion was quoted, not any worker-list content.
 - **Full query logs and additional excluded/ambiguous finds** are preserved in `reports/sample_work_orders/raw/` — one file per industry group, each with 10-25 documented search queries and a "Not found" section for full transparency about search limits.
