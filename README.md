@@ -15,7 +15,7 @@ The labor corridor is reopening after its June 2024 closure. This repo builds th
 | `WORKER_INTAKE_SETUP.md` | 15-minute guide to wire the site's placeholder form/WhatsApp links to a live intake pipeline |
 | `/reports/` | RED_TEAM_REPORT, TOP_100_TARGETS, QUOTA_WATCH, MASTER_REPORT |
 | `/site/` | GitHub Pages marketing site (Bengali + English, 4 pages, 5 SEO posts) |
-| `/data/` | companies.db (SQLite), companies.csv, scraper outputs |
+| `/data/` | companies.db (SQLite), companies.csv, scraper outputs, crm_pipeline_export.csv (downloaded snapshot of the live CRM Google Sheet) |
 | `/scrapers/` | Python scrapers for employer intelligence |
 | `/automation/` | Outreach message generator + pipeline/CRM tracker for the 505-company database |
 | `/outreach/` | Generated, ready-to-send outreach queue (email/WhatsApp/LinkedIn per company) |
