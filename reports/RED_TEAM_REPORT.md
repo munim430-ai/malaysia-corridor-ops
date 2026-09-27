@@ -3,6 +3,8 @@
 **Generated:** 2026-07-17 | **Status:** COMPLETE — 13 assumptions attacked
 **Methodology:** Live web research, source verification, cross-referencing official statements
 
+> **⚠️ Superseded (2026-09-27): worker-pays pricing is off the table.** Charging workers 2–3.5 lakh BDT is illegal above the government-fixed maximum of BDT 78,990, and in April 2026 Bangladesh and Malaysia agreed that employers bear the full recruitment cost. Workers pay nothing; all revenue comes from employers. The worker-pays analysis below is kept only as a record of why it was rejected.
+
 ---
 
 ## EXECUTIVE VERDICT TABLE
@@ -58,6 +60,8 @@ The TURAP toll is PARTIALLY knowable but NOT yet fixed:
 ---
 
 ## ATTACK 2: "2-3 lakh leaves profit"
+
+> **⚠️ Superseded (2026-09-27): worker-pays pricing is off the table.** Charging workers 2–3.5 lakh BDT is illegal above the government-fixed maximum of BDT 78,990, and in April 2026 Bangladesh and Malaysia agreed that employers bear the full recruitment cost. Workers pay nothing; all revenue comes from employers. The worker-pays analysis below is kept only as a record of why it was rejected.
 
 ### Original Assumption
 > Charging workers 2-3 lakh BDT all-in (vs market's 6-7 lakh) leaves enough margin.
@@ -210,6 +214,8 @@ TURAP's stated INTENT is eliminating middlemen. This is an existential threat to
 ---
 
 ## ATTACK 6: "Workers can/will pay 2-3 lakh"
+
+> **⚠️ Superseded (2026-09-27): worker-pays pricing is off the table.** Charging workers 2–3.5 lakh BDT is illegal above the government-fixed maximum of BDT 78,990, and in April 2026 Bangladesh and Malaysia agreed that employers bear the full recruitment cost. Workers pay nothing; all revenue comes from employers. The worker-pays analysis below is kept only as a record of why it was rejected.
 
 ### Original Assumption
 > Bangladeshi workers can afford 2-3 lakh BDT in fees and will pay this vs market's 6-7 lakh.
@@ -407,7 +413,7 @@ After the red team exercise, the business model shifts from:
 
 **Before Red Team:** Worker-pays, 2-3 lakh BDT, compete with incumbents on price, start immediately.
 
-**After Red Team:** Dual-track pricing (worker-pays + employer-pays), 3.0-3.5 lakh BDT launch price, POSITION as "TURAP-compatible compliance and processing partner," TARGET compliance-stressed SMEs first, operating model = Malaysia entity + umbrella RL holder, build to survive 12-month delay.
+**After Red Team (revised 2026-09-27):** Employer-pays only: workers pay 0 BDT, and all fees, including ours, are charged to employers. POSITION as "TURAP-compatible compliance and processing partner," TARGET compliance-stressed SMEs first, operating model = Malaysia entity + umbrella RL holder, build to survive 12-month delay.
 
 ### The 3 Scenario Plan
 

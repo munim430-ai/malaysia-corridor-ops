@@ -1,16 +1,12 @@
-Subject: Construction workforce update - Q1 2027 deployment window
+Subject: Bangladesh corridor update for {{company_name}}
 
 Hi {{contact_name}},
 
-Final note on this — the window is narrowing.
+Final note on this.
 
-KESUMA's July 6 centralization of FWCMS eQuota means the 22,476 pending applications will be processed in FIFO order when the MoU signs. Companies with complete documentation (which we prepare) deploy first.
+Since KESUMA's 6 July 2026 change, all foreign-worker quota applications go through FWCMS eQuota — 22,476 were pending at the time. Having your Section 60K and quota paperwork in order before the Bangladesh corridor reopens is the part you can control today.
 
-**Our construction pool for {{company_name}}:**
-- {{worker_count}} workers pre-screened
-- CIDB skills: {{top_skills}}
-- Deployment ready: January 2027
-- Zero cost until arrival
+If it helps, I can send a short checklist of what the employer side needs to prepare.
 
 **If you're not the right person**, please forward to your HR/Project Director.
 

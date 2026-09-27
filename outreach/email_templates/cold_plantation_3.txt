@@ -1,14 +1,10 @@
-Subject: Plantation workforce update - Q1 2027 deployment
+Subject: Bangladesh corridor update for {{company_name}}
 
 Hi {{contact_name}},
 
-Last note — KESUMA's July 6 centralization means the FWCMS queue is now the only path. 22,476 applications. FIFO processing.
+Last note — since KESUMA's 6 July 2026 change, all foreign-worker quota applications go through FWCMS eQuota. Getting your quota paperwork in order before the Bangladesh corridor reopens is the part you can control today.
 
-**Our plantation pool for {{company_name}}:**
-- {{worker_count}} workers pre-screened
-- Skills: {{top_skills}}
-- Deployment ready: January 2027
-- RM640 levy tier locked in
+If it helps, I can send a short checklist of what the employer side needs to prepare.
 
 **If not the right contact,** please forward to your Estate Manager/HR Director.
 

@@ -1,22 +1,17 @@
-Subject: Construction workforce pipeline for {{company_name}} - CIDB G7 opportunities
+Subject: Bangladesh construction workforce for {{company_name}} - zero worker fees
 
 Hi {{contact_name}},
 
-I noticed {{company_name}}'s recent CIDB G7 project awards in {{state}} — specifically the {{project_reference}} project. With the infrastructure pipeline accelerating (MRT3, Pan Borneo, data center builds), workforce availability is becoming the critical constraint.
+With the infrastructure pipeline in {{state}} and beyond (MRT3, Pan Borneo, data centre builds), workforce availability is becoming a critical constraint for contractors like {{company_name}}.
 
-**The bottleneck:** Malaysia's FWCMS eQuota has 22,476 pending applications but the Bangladesh corridor has been closed since May 2024. The Employer Pays Principle was agreed April 2026, and reopening is expected Q1 2027.
+**The bottleneck:** Malaysia's FWCMS eQuota has 22,476 pending applications, but the Bangladesh corridor has been closed since May 2024. In April 2026 both governments agreed that, on reopening, employers bear the full recruitment cost and workers pay nothing.
 
-**Our solution:** We maintain a pre-screened pool of construction workers in Bangladesh — masons, carpenters, steel fixers, scaffolders, heavy equipment operators — with:
-- CIDB-recognized skills verification
-- BMET smart cards processed
-- Medical pre-cleared (FOMEMA pass rate >97%)
-- Safety induction completed (OSHA/ISO 45001 basics)
+**What we're building:** a pre-launch, zero-worker-fee channel from Bangladesh. We are not recruiting yet. When the corridor opens, deployment will run through a BMET-licensed recruiting agency, and we will:
+- Charge our fee to the employer only, never to the worker
+- Provide an itemised, auditable cost record for each worker
+- Document skills checks, BMET clearance, medical and pre-departure training
 
-**Why now:** Construction firms that reserved allocations in the 2019-2023 cycle deployed 3-4 months faster than those who waited. With your {{employee_count}} workforce and current project load, a 50-100 worker pipeline would de-risk your {{state}} projects.
-
-**Zero-risk proposal:** We reserve workers for your upcoming projects at zero cost until deployment. Standard agency fee (RM5,000-8,000/worker) only on successful arrival and FOMEMA clearance.
-
-Can we discuss your FY2027 manpower plan? 15 minutes this week.
+**What I'm asking:** 15 minutes to understand your FY2027 manpower needs so we can plan around them. No commitment.
 
 {{sender_name}}
 {{sender_title}}

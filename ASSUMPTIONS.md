@@ -10,11 +10,11 @@
 | ID | Assumption | Status | Evidence Needed | Source |
 |----|-----------|--------|-----------------|--------|
 | A1 | TURAP toll is knowable and payable as fixed cost | UNVERIFIED | Official FWCMS/TURAP fee schedule | KESUMA/MOHR |
-| A2 | 2-3 lakh BDT all-in leaves sustainable margin | UNVERIFIED | Complete cost breakdown (levy, VDR, FOMEMA, airfare, FWCMS, BMET, welfare, medical, training) | Multiple gov sources |
+| A2 | 2-3 lakh BDT all-in leaves sustainable margin | REJECTED: worker-pays dropped; above the BDT 78,990 legal cap and contrary to the Apr 2026 employer-pays agreement | Complete cost breakdown (levy, VDR, FOMEMA, airfare, FWCMS, BMET, welfare, medical, training) | Multiple gov sources |
 | A3 | Corridor reopens with room for new entrants (not just 102 incumbents) | UNVERIFIED | MoU text, Bangladesh MoEWOE circular, TURAP access policy | Bangladesh MoEWOE, KESUMA |
 | A4 | Employers will name us as source partner on TURAP | UNVERIFIED | TURAP employer registration flow, source partner requirements | Bestinet/TURAP docs |
 | A5 | TURAP won't eliminate Bangladesh-side agents entirely | UNVERIFIED | TURAP architecture docs, BMET role in TURAP | Bestinet, BMET |
-| A6 | Workers can/will pay 2-3 lakh BDT (affordability + loan access) | UNVERIFIED | Microfinance/NGO loan products for migration, worker surveys | ILO, BRAC, NGOs |
+| A6 | Workers can/will pay 2-3 lakh BDT (affordability + loan access) | REJECTED: workers pay 0 BDT; employers bear all costs | Microfinance/NGO loan products for migration, worker surveys | ILO, BRAC, NGOs |
 | A7 | Zero-cost digital outreach reaches Malaysian HR decision-makers | UNVERIFIED | LinkedIn/email response rates for MY HR, WhatsApp adoption | Test campaigns |
 | A8 | 102 incumbent agencies won't retaliate violently | UNVERIFIED | BAIRA history, recent incidents, protection strategies | News, police reports |
 | A9 | Can operate legally without own RL (umbrella/consultancy/Malaysia entity) | UNVERIFIED | BMET RL regulations, consultancy license scope, Malaysia entity options | BMET, legal counsel |
