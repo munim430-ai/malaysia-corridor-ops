@@ -91,34 +91,35 @@ NEW → CONTACTED → QUALIFIED → PROPOSAL → NEGOTIATION → WON
 
 ## 📧 Email Sequences by Industry
 
-### Manufacturing/E&E (5-touch + breakup)
+> **Claims policy:** outreach states only what is true today. We are pre-launch: no clients, no worker pool, no recruiting licence of our own, and no reopening date. Never cite unnamed "clients", invented statistics, or worker availability we don't have. Workers pay nothing; our fee is charged to the employer only.
+
+### Manufacturing/E&E (3-touch + breakup)
 
 | Touch | Day | Template | Goal |
 |-------|-----|----------|------|
 | 1 | 0 | `cold_manufacturing_1` | Problem awareness (quota backlog) |
 | 2 | 3 | `cold_manufacturing_2` | Urgency (KESUMA centralization) |
-| 3 | 7 | `cold_manufacturing_3` | Social proof (3 Penang, 2 Johor clients) |
-| 4 | 14 | `cold_manufacturing_4` | Zero-risk offer (reserve now, pay on arrival) |
-| 5 | 21 | `cold_manufacturing_breakup` | Close file, leave door open |
+| 3 | 7 | `cold_manufacturing_3` | Register interest (MoU updates, cost structure) |
+| 4 | 21 | `cold_manufacturing_breakup` | Close file, leave door open |
 
 **Metrics Target:** 25% open, 5% reply, 2% meeting booked
 
-### Construction (4-touch + breakup)
+### Construction (3-touch + breakup)
 
 | Touch | Day | Template | Angle |
 |-------|-----|----------|-------|
-| 1 | 0 | `cold_construction_1` | Project delay cost (LDs = RM400K/mo) |
-| 2 | 4 | `cold_construction_2` | Peer proof (Selangor G7 contractor) |
-| 3 | 7 | `cold_construction_3` | Final push (Q1 2027 window) |
+| 1 | 0 | `cold_construction_1` | Workforce constraint + zero-worker-fee channel |
+| 2 | 4 | `cold_construction_2` | Capture trades and headcount needed |
+| 3 | 7 | `cold_construction_3` | Employer-side readiness checklist (60K, eQuota) |
 | 4 | 14 | `cold_construction_breakup` | Close file |
 
-### Plantation (4-touch + breakup)
+### Plantation (3-touch + breakup)
 
 | Touch | Day | Template | Angle |
 |-------|-----|----------|-------|
 | 1 | 0 | `cold_plantation_1` | RM640 levy advantage + EUDR compliance |
-| 2 | 4 | `cold_plantation_2` | FIFO queue (FGV/Sime/IOI already registered) |
-| 3 | 10 | `cold_plantation_3` | Final window (Jan 2027 deployment) |
+| 2 | 4 | `cold_plantation_2` | Buyer audit pressure; capture roles and headcount |
+| 3 | 10 | `cold_plantation_3` | Employer-side readiness checklist (eQuota) |
 | 4 | 20 | `cold_plantation_breakup` | Close file |
 
 ---
@@ -178,11 +179,11 @@ Track: `Leads added in Month X → Meetings in Month X+1 → Proposals in X+2 �
 
 | Objection | Response | Proof Point |
 |-----------|----------|-------------|
-| **"Corridor closed / no timeline"** | "KESUMA centralized quota July 6. 22,476 applications pending. MoU negotiations active. We position you *before* opening." | Show KESUMA July 6 announcement |
-| **"We use local agencies"** | "Local agencies use same FWCMS quota. We source *direct* from Bangladesh villages — lower cost, pre-screened, faster deployment." | Show village coordinator network |
-| **"Too risky / workers run away"** | "Pre-departure FOMEMA + family consent + village guarantor = <3% absconding vs industry 15%." | Show absconding rate data |
-| **"No budget / freeze"** | "Zero cost to reserve. Standard agency fee (RM5-8k) only on *successful arrival*. Reserve now = priority when quota opens." | Show reservation agreement |
-| **"We'll wait for corridor to open"** | "FIFO processing: 22,476 applications queued. Early registrants deploy Jan 2027. Late registrants deploy Apr+." | Show FWCMS queue data |
+| **"Corridor closed / no timeline"** | "Correct — no labour MoU yet, and we won't promise a date. KESUMA centralized quota on 6 July; getting your 60K and eQuota paperwork ready is what you can do now." | KESUMA 6 July announcement |
+| **"We use local agencies"** | "Keep them if they can prove workers paid nothing. Our difference is an itemised, auditable record showing every cost was paid by the employer." | Sample cost-record format |
+| **"Too risky / workers run away"** | "Debt is the main driver of absconding. Workers who paid nothing to migrate have far less reason to run. We have no track record yet, so we won't quote a rate." | ILO / employer-pays research |
+| **"No budget / freeze"** | "Registering interest costs nothing. Under employer-pays you'll carry the recruitment cost whichever channel you use; we'll quote our fee once corridor terms are known." | Employer-pays cost breakdown |
+| **"We'll wait for corridor to open"** | "That's reasonable. We'll send you the MoU terms when they're public, so you can decide then." | Quarterly corridor update |
 | **"Need board approval"** | "We provide board-ready deck: cost comparison, risk mitigation, compliance checklist. 1-pager for decision makers." | Send board deck template |
 
 ---
@@ -192,7 +193,7 @@ Track: `Leads added in Month X → Meetings in Month X+1 → Proposals in X+2 �
 ### Discovery Call (15 min)
 
 **Opening (2 min):**
-> "Thanks for taking the call. I'm [Name] from Malaysia Corridor Ops. We help Malaysian employers in [industry] secure Bangladesh workforce *before* the corridor reopens. Not selling today — just understanding your manpower plan for 2027."
+> "Thanks for taking the call. I'm [Name] from Malaysia Corridor Ops. We're building a zero-worker-fee channel from Bangladesh for Malaysian employers in [industry]. We're pre-launch and not recruiting yet — not selling today — just understanding your manpower plan for 2027."
 
 **Discovery (8 min):**
 1. "What's your current foreign worker count?"
@@ -203,11 +204,11 @@ Track: `Leads added in Month X → Meetings in Month X+1 → Proposals in X+2 �
 
 **Qualification (3 min):**
 - Need confirmed? → Budget ≥RM10k/yr? → Decision maker identified?
-- If YES → "I'll send a 1-pager with worker profiles matching your roles. Can we review Thursday?"
+- If YES → "I'll send a 1-pager on the employer-pays cost structure and what we'd document for your audits. Can we review Thursday?"
 - If NO → "Fair enough. I'll add you to our quarterly corridor update. Only 4 emails/year."
 
 **Close (2 min):**
-> "Based on what you shared, I think we can help with [specific roles]. I'll send the profile sheet and a 15-min calendar invite for Thursday. Sound good?"
+> "Thanks — I've noted [specific roles and headcount]. I'll send the cost-structure 1-pager and a 15-min invite for Thursday. Sound good?"
 
 ---
 
@@ -293,9 +294,9 @@ Track: `Leads added in Month X → Meetings in Month X+1 → Proposals in X+2 �
 
 | Risk | Probability | Impact | Mitigation |
 |------|-------------|--------|------------|
-| Corridor stays closed >2027 | Medium | High | Build revenue from consulting/visa services |
+| Corridor stays closed >2027 | Medium | High | Build revenue from employer compliance consulting |
 | Email deliverability drops | Medium | High | Warm up domains, rotate IPs, SPF/DKIM/DMARC |
-| Competitor enters with lower price | High | Medium | Differentiate on compliance + village network |
+| Competitor enters with lower price | High | Medium | Differentiate on zero worker fees + auditable cost records |
 | Key team member leaves | Low | High | Document all processes, cross-train |
 | Regulatory change (MoU terms) | Medium | High | Monitor KESUMA/MOHR weekly via news automation |
 
@@ -330,9 +331,9 @@ malaysia-corridor-ops/
 │   │   ├── cold_outreach_manufacturing.json
 │   │   └── cold_outreach_construction_plantation.json
 │   └── email_templates/
-│       ├── cold_manufacturing_1-5.txt
-│       ├── cold_construction_1-4.txt
-│       └── cold_plantation_1-4.txt
+│       ├── cold_manufacturing_1-3.txt
+│       ├── cold_construction_1-3.txt
+│       └── cold_plantation_1-3.txt
 ├── .github/workflows/
 │   ├── scraper_enrichment.yml     # Weekly automation
 │   └── augmented.yml              # Full pipeline

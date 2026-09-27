@@ -47,12 +47,13 @@
 
 ### Script 1: The Cost Shock (15-30 seconds)
 ```
-[Visual: Hand writing numbers on paper — "৬-৭ লক্ষ" crossed out, "২-৩ লক্ষ" circled]
+[Visual: Hand writing numbers on paper — "৬-৭ লক্ষ" crossed out, "০ টাকা" circled]
 
 VOICE: "আপনি কি জানেন মালয়েশিয়া যেতে কত খরচ হয়?"
 "বাজারে চার্জ ৬ থেকে ৭ লক্ষ টাকা।"
 "কিন্তু আসল খরচ কত? আমরা হিসাব করেছি — লেভি, ভিসা, টিকেট, মেডিকেল সব মিলিয়ে।"
-"আমাদের লক্ষ্য: খরচ ২-৩ লক্ষে নামিয়ে আনা।"
+"কিন্তু দুই দেশের সরকার একমত হয়েছে — সব খরচ দেবে মালয়েশিয়ার নিয়োগকর্তা। কর্মীর নিয়োগ খরচ: ০ টাকা।"
+"আইনে সর্বোচ্চ ৭৮,৯৯০ টাকা — এর বেশি কেউ চাইলে তা বেআইনি।"
 "মধ্যস্বত্বভোগী কাটছাঁট — সরাসরি চাকরির সংযোগ।"
 "বিস্তারিত দেখুন আমাদের পেইজে। লিংক বায়োতে।"
 
@@ -123,7 +124,7 @@ VOICE: "মালয়েশিয়া করিডোর নিয়ে আ
 
 ### Profile Optimization
 - Headline: "Bangladesh Manpower Solutions | RBA-Aligned | FWCMS-TURAP Compatible"
-- About: "We connect Malaysian employers with documented, pre-screened Bangladeshi workers. Built for the post-2026 compliance era."
+- About: "We're building a zero-worker-fee, fully documented recruitment channel from Bangladesh for Malaysian employers. Pre-launch until the corridor reopens."
 - Location / Timezone: KL-based profile (change location)
 
 ### Target Titles (Search Terms)
@@ -146,12 +147,12 @@ Hi [Name], thanks for connecting.
 I'm building a transparent Bangladesh manpower channel specifically designed for Malaysian employers who need:
 • RBA-aligned zero-fee recruitment (no worker-paid fees — CBP compliant)
 • FWCMS/TURAP-compatible processing
-• Pre-screened, documented workers — BMET cleared, FOMEMA ready
+• Full documentation for every worker — BMET clearance, medical, training, contract
 • No middlemen, no village dalal markups
 
-The BD-MY corridor is reopening and we're positioning as the clean alternative to the old 6-7 lakh model.
+The BD-MY corridor hasn't reopened yet (no labour MoU signed), so we're pre-launch and not recruiting. We're building the clean, employer-pays alternative to the old model where workers paid 6-7 lakh BDT.
 
-Would you be open to a brief call this week to see if we can support your 2026 hiring plans?
+Would you be open to a brief call this week to understand your 2027 hiring plans?
 
 Best,
 [Name]
@@ -177,7 +178,8 @@ Best,
 
 মালয়েশিয়া করিডোর খোলার আগেই আমরা একটি সরাসরি সংযোগ ব্যবস্থা তৈরি করছি — আপনার জন্য।
 ✅ মধ্যস্বত্বভোগী নেই — সরাসরি কোম্পানির সাথে সংযোগ
-✅ সম্পূর্ণ স্বচ্ছ খরচ (২-৩ লক্ষের মধ্যে)
+✅ কর্মীর নিয়োগ খরচ ০ টাকা — সব খরচ নিয়োগকর্তা দেবে
+⚠️ কেউ ৭৮,৯৯০ টাকার বেশি চাইলে তা বেআইনি — দালালকে টাকা দেবেন না
 ✅ RBA কমপ্লায়েন্ট — আপনার অধিকার সুরক্ষিত
 ✅ বিনামূল্যে নিবন্ধন ও তথ্য
 
@@ -197,7 +199,7 @@ wa.me/880XXXXXXXXXX
 ```
 Hello [Company/Contact Name],
 
-I'm reaching out because the Malaysia-Bangladesh labor corridor is reopening, and we're building a direct-source channel for documented, pre-screened Bangladeshi workers.
+I'm reaching out because the Malaysia-Bangladesh labor corridor is expected to reopen, and we're building a zero-worker-fee, fully documented channel from Bangladesh (pre-launch — not recruiting yet).
 
 Our model:
 • RBA-aligned: zero worker-paid recruitment fees — FULL CBP compliance 

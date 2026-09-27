@@ -1,20 +1,16 @@
-Subject: Re: Partnership opportunity for {{company_name}}
+Subject: Re: Zero-fee Bangladesh recruitment channel for {{company_name}}
 
 Hi {{contact_name}},
 
 Following up on my note from a few days ago — I know you're busy.
 
-The timeline is tightening: KESUMA centralized all quota into FWCMS eQuota on July 6th. 22,476 applications are pending. Companies that have their worker pipeline ready *before* the MoU signs will deploy first.
+One reason this matters now: US CBP Withhold Release Orders have already hit Malaysian manufacturers over recruitment fees paid by workers, and Top Glove's order was lifted only after it repaid those fees. Electronics buyers following the RBA Code require that workers pay no recruitment fees at all.
 
-We've already pre-screened 200+ workers for manufacturing roles (E&E, automotive, precision engineering) with:
-- BMET smart cards: ✓
-- Medical history cleared: ✓
-- Skills verified: ✓
-- Family consent documented: ✓
+When the Bangladesh corridor reopens, we want to be the channel you can show an auditor: every cost paid by the employer, nothing paid by the worker, every step documented.
 
-**The ask is simple:** Reserve your allocation now. Zero cost until deployment. You only pay the standard agency fee *after* workers arrive and pass FOMEMA re-check.
+Honest status: we are pre-launch. We have no worker pool yet and the corridor's reopening date is not set. What we can do today is register your interest and walk through what your compliance team would need to see.
 
-Can we lock in 15 minutes this week? I'll share the exact worker profiles matching your {{industry}} needs.
+Can we find 15 minutes this week?
 
 {{sender_name}}
 {{sender_title}}

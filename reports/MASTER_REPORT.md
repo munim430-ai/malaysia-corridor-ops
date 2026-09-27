@@ -146,19 +146,20 @@ site/
 
 ### Cost Breakdown (per worker)
 
-| Component | Market Rate | Our Target |
+| Component | Paid by | Estimate |
 |-----------|------------|------------|
-| Levy (mfg) | RM 1,850/yr | RM 1,850 |
-| FWCMS processing | RM 215 | RM 215 |
-| VDR visa fee | RM 250 | RM 250 |
-| FOMEMA medical | RM 250 | RM 250 |
-| Insurance | RM 500 | RM 500 |
-| Airfare | RM 1,200 | RM 1,000 |
-| Security bond | RM 500 | RM 500 |
-| BD processing | BDT 80,000 | BDT 60,000 |
-| **TOTAL** | **~RM 9,465 / ~6.5L BDT** | **~RM 8,065 / ~3.0L BDT** |
+| Levy (mfg) | Employer | RM 1,850/yr |
+| FWCMS processing | Employer | RM 215 |
+| VDR visa fee | Employer | RM 250 |
+| FOMEMA medical | Employer | RM 250 |
+| Insurance | Employer | RM 500 |
+| Airfare | Employer | RM 1,000-1,200 |
+| Security bond | Employer | RM 500 |
+| BD processing (BMET, medical, training, passport) | Employer | ~BDT 60,000 (~RM 3,500) |
+| **TOTAL (employer)** | | **~RM 8,065-8,265** |
+| **Worker pays** | | **0 BDT** |
 
-**Savings: ~54% (BDT 3.5 lakh per worker)**
+**Worker cost: 0 BDT** (vs 4.5–7 lakh BDT under the old agent model). The legal maximum any agency may charge a worker is BDT 78,990.
 
 ### Revenue Model
 - **Not yet defined** — corridor must reopen first
